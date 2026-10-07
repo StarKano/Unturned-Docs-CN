@@ -52,3 +52,13 @@ title: 资源
 - [生成表资源](/assets/spawn-asset.html)
 - [载具物理配置](/assets/vehicle-physics-profile-asset.html)
 - [天气资源](/assets/weather-asset.html)
+
+## 载具
+
+- [载具资源（Vehicle Asset）](/assets/vehicle-asset.html)
+- [载具物理配置](/assets/vehicle-physics-profile-asset.html)
+- [载具重定向器](/assets/vehicle-redirector-asset.html)
+
+::: tip Asset 章节进度
+官方 `assets/` 目录的 **35 篇文档已全部完成中文初译**。
+:::

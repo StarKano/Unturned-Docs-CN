@@ -73,6 +73,7 @@ const docsSidebar = [
       { text: '材质调色板', link: '/assets/material-palette-asset.html' },
       { text: '对象资源', link: '/assets/object-asset.html' },
       { text: '生成表资源', link: '/assets/spawn-asset.html' },
+      { text: '载具资源（Vehicle Asset）', link: '/assets/vehicle-asset.html' },
       { text: '载具物理配置', link: '/assets/vehicle-physics-profile-asset.html' },
       { text: '天气资源', link: '/assets/weather-asset.html' },
     ],
