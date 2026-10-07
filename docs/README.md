@@ -60,6 +60,9 @@ config:
 - [服务器配置](/servers/server-configuration/)
 - [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
 - [端口转发](/servers/port-forwarding/)
+- [服务器代码（Server Code）](/servers/server-codes/)
+- [Fake IP](/servers/fake-ip/)
+- [服务器自动重启](/servers/server-auto-restart/)
 
 ## 翻译原则
 
@@ -77,7 +80,7 @@ config:
 
 ## 第一批中文内容
 
-目前已完成首批服务器文档初译：
+目前已完成第一阶段服务器文档初译：
 
 - [搭建服务器](/servers/server-hosting/)
 - [使用 SteamCMD](/servers/steamcmd/)
@@ -89,7 +92,7 @@ config:
 
 ## 翻译状态
 
-- 首批已翻译：**5 篇**
+- 已翻译：**12 篇**
 - 上游基线：`stable`
 - 上游 Commit：`e0e8bb4fd08847edb9173eef498e104bc5d2d4cb`
 
