@@ -88,11 +88,11 @@ config:
 - [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
 - [端口转发](/servers/port-forwarding/)
 
-后续将继续按照官方 `stable` 分支扩展服务器、资源、数据、地图制作等分类。
+服务器顶层文档已完成首轮中文初译。下一阶段将继续扩展资源、数据、地图制作等分类。
 
 ## 翻译状态
 
-- 已翻译：**12 篇**
+- 已翻译：**18 篇**
 - 上游基线：`stable`
 - 上游 Commit：`e0e8bb4fd08847edb9173eef498e104bc5d2d4cb`
 
