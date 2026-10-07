@@ -1,0 +1,17 @@
+{
+  "name": "unturned-docs-cn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "vue": "^3.5.0",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-theme-plume": "latest"
+  }
+}
