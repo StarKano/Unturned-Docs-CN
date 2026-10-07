@@ -403,5 +403,40 @@
     "target": "docs/data/struct/playerspotlightconfig.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/charts.rst": {
+    "target": "docs/mapping/charts.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/curated-maps.rst": {
+    "target": "docs/mapping/curated-maps.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/editor-asset-redirectors.rst": {
+    "target": "docs/mapping/editor-asset-redirectors.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/favorite-searches.rst": {
+    "target": "docs/mapping/favorite-searches.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/level-batching.rst": {
+    "target": "docs/mapping/level-batching.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/level-config.rst": {
+    "target": "docs/mapping/level-config.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "mapping/manual-object-culling.rst": {
+    "target": "docs/mapping/manual-object-culling.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }

@@ -117,6 +117,13 @@ const docsSidebar = [
     collapsed: true,
     items: [
       { text: '地图制作概览', link: '/mapping/' },
+      { text: '地图 Chart 配色', link: '/mapping/charts.html' },
+      { text: '精选地图', link: '/mapping/curated-maps.html' },
+      { text: '编辑器资源重定向', link: '/mapping/editor-asset-redirectors.html' },
+      { text: '收藏搜索', link: '/mapping/favorite-searches.html' },
+      { text: '关卡批处理', link: '/mapping/level-batching.html' },
+      { text: '关卡配置', link: '/mapping/level-config.html' },
+      { text: '手动对象裁剪', link: '/mapping/manual-object-culling.html' },
     ],
   },
   {
