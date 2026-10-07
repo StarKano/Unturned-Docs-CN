@@ -8,7 +8,7 @@ config:
     full: true
     effect: tint-plate
     hero:
-      name: UNBBS · Unturned 中文文档
+      name: Unturned 中文文档
       tagline: 由未转变着中文社区维护的未转变着技术资料库
       text: 从服务器搭建、配置与运维，到 Mod、地图制作、数据与开发资料。同步Unturned官方文档更新，由未转变着中文社区共同翻译、校对与维护。
       actions:
@@ -30,7 +30,7 @@ config:
   -
     type: features
     title: 从这里开始
-    description: 面向玩家、服主、地图作者和开发者的 Unturned 中文资料。
+    description: 面向玩家、服主、地图作者和插件开发者的 Unturned 中文资料。
     features:
       -
         icon: material-symbols:dns-outline
@@ -71,7 +71,7 @@ config:
   -
     type: features
     title: 来自未转变者中文社区
-    description: 文档不是孤立的网站，而是 UNBBS 中文社区知识体系的一部分。
+    description: 文档不是孤立的网站，而是 UNBBS 中文社区体系的一部分。
     features:
       -
         icon: mdi:forum

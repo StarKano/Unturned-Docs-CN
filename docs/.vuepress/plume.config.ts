@@ -87,8 +87,8 @@ export default defineThemeConfig({
   logoDark: 'https://www.unbbs.net/favicon.ico',
 
   navbar: [
-    { text: '文档', link: '/docs/' },
-    { text: '中文社区', link: 'https://www.unbbs.net/', icon: 'mdi:forum-outline' },
+    { text: '中文文档', link: '/docs/' },
+    { text: '未转变着中文社区', link: 'https://www.unbbs.net/', icon: 'mdi:forum-outline' },
   ],
 
   social: [
