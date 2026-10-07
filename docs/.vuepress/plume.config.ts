@@ -226,8 +226,8 @@ const docsSidebar = [
 ]
 
 export default defineThemeConfig({
-  logo: 'https://www.unbbs.net/favicon.ico',
-  logoDark: 'https://www.unbbs.net/favicon.ico',
+  logo: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
+  logoDark: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
 
   navbar: [
     { text: '中文文档', link: '/docs/' },
