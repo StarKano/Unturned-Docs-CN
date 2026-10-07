@@ -10,9 +10,13 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.30",
-    "typescript": "^5.9.0",
+    "typescript": "^5.9.3",
     "vue": "^3.5.0",
     "vuepress": "2.0.0-rc.30",
     "vuepress-theme-plume": "latest"
-  }
+  },
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "packageManager": "pnpm@10"
 }
