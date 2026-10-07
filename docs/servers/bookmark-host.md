@@ -9,9 +9,9 @@ translation:
 
 # Bookmark Host
 
-配置 **Bookmark Host** 并配合 [GSLT](/servers/game-server-login-tokens/) 后，可以启用服务器书签功能，让玩家即使在服务器 IP 或端口变化后，也更容易重新找到服务器。
+配置 **Bookmark Host** 并配合 [GSLT](/servers/game-server-login-tokens.html) 后，可以启用服务器书签功能，让玩家即使在服务器 IP 或端口变化后，也更容易重新找到服务器。
 
-Steam 自带的 Favorites 和 History 会按 IPv4 地址和端口记忆服务器，因此地址变化后原记录可能失效。GSLT 能一定程度上缓解这个问题，但更新并不是实时的，而且 Steam 旧的收藏机制不兼容 [Fake IP](/servers/fake-ip/)。
+Steam 自带的 Favorites 和 History 会按 IPv4 地址和端口记忆服务器，因此地址变化后原记录可能失效。GSLT 能一定程度上缓解这个问题，但更新并不是实时的，而且 Steam 旧的收藏机制不兼容 [Fake IP](/servers/fake-ip.html)。
 
 ## 配置方式
 
