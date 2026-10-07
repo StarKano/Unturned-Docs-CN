@@ -31,6 +31,11 @@ const docsSidebar = [
     collapsed: true,
     items: [
       { text: '资源文档概览', link: '/assets/' },
+      { text: 'Asset Bundles（资源包）', link: '/assets/asset-bundles.html' },
+      { text: '资源定义', link: '/assets/asset-definitions.html' },
+      { text: '数据文件格式', link: '/assets/data-file-format.html' },
+      { text: '资源校验', link: '/assets/asset-validation.html' },
+      { text: 'Asset Bundle Custom Data', link: '/assets/asset-bundle-custom-data.html' },
     ],
   },
   {
