@@ -41,26 +41,14 @@ jobs:
           echo "Build package:"
           ls -lh site.tar.gz version.txt
 
-      - name: Install COSCMD
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install --upgrade coscmd
+      - name: Install Tencent COS SDK
+        run: python -m pip install --upgrade cos-python-sdk-v5
 
-      - name: Configure COSCMD
+      - name: Upload build package to COS
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
           COS_REGION: ${{ secrets.COS_REGION }}
-        run: |
-          coscmd config \
-            -a "$TENCENT_SECRET_ID" \
-            -s "$TENCENT_SECRET_KEY" \
-            -b "$COS_BUCKET" \
-            -r "$COS_REGION"
-
-      - name: Upload build package to COS
-        run: |
-          coscmd upload site.tar.gz unturned-docs/site.tar.gz
-          coscmd upload version.txt unturned-docs/version.txt
-          echo "Uploaded to COS successfully."
+          COS_ENDPOINT: ${{ secrets.COS_ENDPOINT }}
+        run: python .github/scripts/upload_cos.py
