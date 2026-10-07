@@ -11,7 +11,7 @@ export default defineThemeConfig({
     { text: 'NPC', link: '/npcs/' },
     { text: 'U3 SDK', link: '/u3-sdk/' },
     { text: '参与贡献', link: '/contributing/' },
-    { text: 'GitHub', link: 'https://github.com/Aikkes-xk/Unturned-Docs-CN' },
+    { text: 'GitHub', link: 'https://github.com/StarKano/Unturned-Docs-CN' },
   ],
   collections: [
     { type: 'doc', dir: 'servers', title: '服务器', sidebar: 'auto' },
