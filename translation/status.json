@@ -663,5 +663,65 @@
     "target": "docs/items/charge-asset.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/throwable-asset.rst": {
+    "target": "docs/items/throwable-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/melee-asset.rst": {
+    "target": "docs/items/melee-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/farm-asset.rst": {
+    "target": "docs/items/farm-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/blueprints_outputitem.rst": {
+    "target": "docs/items/blueprints_outputitem.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/trap-asset.rst": {
+    "target": "docs/items/trap-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/fishing-catchable-properties.rst": {
+    "target": "docs/items/fishing-catchable-properties.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/fisher-asset.rst": {
+    "target": "docs/items/fisher-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/sentry-asset.rst": {
+    "target": "docs/items/sentry-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/refill-asset.rst": {
+    "target": "docs/items/refill-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/barrel-asset.rst": {
+    "target": "docs/items/barrel-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/consumeable-asset.rst": {
+    "target": "docs/items/consumeable-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/placeable-asset.rst": {
+    "target": "docs/items/placeable-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }

@@ -44,3 +44,18 @@ title: 物品
 - [背包](/items/backpack-asset.html)
 - [物品储物](/items/storage-asset.html)
 - [遥控炸药](/items/charge-asset.html)
+
+## 更多物品类型
+
+- [投掷物](/items/throwable-asset.html)
+- [近战武器](/items/melee-asset.html)
+- [农作物](/items/farm-asset.html)
+- [蓝图输出物品](/items/blueprints_outputitem.html)
+- [陷阱](/items/trap-asset.html)
+- [可钓取物属性](/items/fishing-catchable-properties.html)
+- [钓鱼竿](/items/fisher-asset.html)
+- [哨戒炮](/items/sentry-asset.html)
+- [水容器](/items/refill-asset.html)
+- [枪管配件](/items/barrel-asset.html)
+- [消耗品基类](/items/consumeable-asset.html)
+- [可放置物基类](/items/placeable-asset.html)
