@@ -288,5 +288,50 @@
     "target": "docs/assets/zombie-difficulty-asset.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/crafting-asset.rst": {
+    "target": "docs/assets/crafting-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/effect-asset.rst": {
+    "target": "docs/assets/effect-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/foliage-asset.rst": {
+    "target": "docs/assets/foliage-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/material-palette-asset.rst": {
+    "target": "docs/assets/material-palette-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/spawn-asset.rst": {
+    "target": "docs/assets/spawn-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/vehicle-physics-profile-asset.rst": {
+    "target": "docs/assets/vehicle-physics-profile-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/weather-asset.rst": {
+    "target": "docs/assets/weather-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/level-asset.rst": {
+    "target": "docs/assets/level-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/object-asset.rst": {
+    "target": "docs/assets/object-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }

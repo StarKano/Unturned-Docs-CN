@@ -40,3 +40,15 @@ title: 资源
 - [标签资源](/assets/tag-asset.html)
 - [载具重定向器](/assets/vehicle-redirector-asset.html)
 - [僵尸难度资源](/assets/zombie-difficulty-asset.html)
+
+## 核心 Asset 参考
+
+- [合成资源](/assets/crafting-asset.html)
+- [特效资源](/assets/effect-asset.html)
+- [植被资源](/assets/foliage-asset.html)
+- [关卡资源](/assets/level-asset.html)
+- [材质调色板](/assets/material-palette-asset.html)
+- [对象资源](/assets/object-asset.html)
+- [生成表资源](/assets/spawn-asset.html)
+- [载具物理配置](/assets/vehicle-physics-profile-asset.html)
+- [天气资源](/assets/weather-asset.html)
