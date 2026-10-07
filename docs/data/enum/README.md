@@ -1,5 +1,10 @@
 ---
 title: 枚举类型
+translation:
+  source: data/enum/index.rst
+  branch: stable
+  status: translated
+  upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
 # 枚举类型

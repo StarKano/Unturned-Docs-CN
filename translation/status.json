@@ -260,7 +260,7 @@
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   },
   "data/enum/index.rst": {
-    "target": "docs/data/enum/index.md",
+    "target": "docs/data/enum/README.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   },
@@ -285,7 +285,7 @@
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   },
   "data/struct/index.rst": {
-    "target": "docs/data/struct/index.md",
+    "target": "docs/data/struct/README.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   },
