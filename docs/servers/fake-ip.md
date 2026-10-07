@@ -11,7 +11,7 @@ translation:
 
 Steam 的 **Fake IP** 可以让玩家在不进行端口转发的情况下，通过 IP 地址加入服务器。
 
-与 [Server Code](/servers/server-codes/) 不同，启用了 Fake IP 的服务器在配置了 [GSLT](/servers/game-server-login-tokens/) 后，仍然可以显示在互联网服务器列表中。
+与 [Server Code](/servers/server-codes.html) 不同，启用了 Fake IP 的服务器在配置了 [GSLT](/servers/game-server-login-tokens.html) 后，仍然可以显示在互联网服务器列表中。
 
 ## 启用方法
 
@@ -43,6 +43,6 @@ Fake IP 同样使用 **Steam Datagram Relay（SDR）**。连接流量通过 Stea
 
 ## 收藏服务器
 
-Fake IP 与 Steam 自带的 Favorites 和 History 列表并不兼容。作为替代方案，可以使用 [Bookmark Host](/servers/bookmark-host/)。
+Fake IP 与 Steam 自带的 Favorites 和 History 列表并不兼容。作为替代方案，可以使用 [Bookmark Host](/servers/bookmark-host.html)。
 
 > 上游原文：[servers/fake-ip.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/fake-ip.rst)
