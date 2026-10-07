@@ -1,268 +1,123 @@
+import { readFileSync, readdirSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
 import { defineThemeConfig } from 'vuepress-theme-plume'
 
+const docsRoot = fileURLToPath(new URL('../', import.meta.url))
+
+// Use each page's frontmatter title as its sidebar label.
+function page(path: string) {
+  const file = path.endsWith('/') ? `${path}README.md` : path.replace(/\.html$/, '.md')
+  const source = readFileSync(new URL(`..${file}`, import.meta.url), 'utf8')
+  const title = source.match(/^title:\s*(.+)$/m)?.[1]?.trim()
+  if (!title) throw new Error(`Missing page title: ${path}`)
+  return { text: title, link: path }
+}
+
+function pages(section: string, names: string[]) {
+  return names.map(name => page(`/${section}/${name}.html`))
+}
+
+type SidebarEntry = ReturnType<typeof page> | {
+  text: string
+  link?: string
+  collapsed?: boolean
+  items: SidebarEntry[]
+}
+
+function group(text: string, items: SidebarEntry[], collapsed = true) {
+  return { text, collapsed, items }
+}
+
+function namesIn(directory: string, exclude: string[] = []) {
+  return readdirSync(`${docsRoot}/${directory}`)
+    .filter(name => name.endsWith('.md') && name !== 'README.md' && !exclude.includes(name.slice(0, -3)))
+    .map(name => name.slice(0, -3)).sort()
+}
+
+// Match the toctree in the official stable branch. Its item glob follows these first three pages.
+const itemFirst = ['introduction', 'blueprints', 'actions']
 const docsSidebar = [
-  {
-    text: '入门',
-    collapsed: false,
-    items: [
-      { text: '入门概览', link: '/about/' },
-      { text: '开始使用', link: '/about/getting-started.html' },
-      { text: '启动参数', link: '/about/launch-options.html' },
-      { text: 'Steam 创意工坊', link: '/about/steam-workshop.html' },
-    ],
-  },
-  {
-    text: '资源与 Mod',
-    collapsed: false,
-    items: [
-      { text: '资源文档概览', link: '/assets/' },
-      { text: '空投资源', link: '/assets/airdrop-asset.html' },
-      { text: '动物资源', link: '/assets/animal-asset.html' },
-      { text: '动画', link: '/assets/animation.html' },
-      { text: 'Asset Bundle Custom Data', link: '/assets/asset-bundle-custom-data.html' },
-      { text: 'Asset Bundles（资源包）', link: '/assets/asset-bundles.html' },
-      { text: '资源定义', link: '/assets/asset-definitions.html' },
-      { text: '资源校验', link: '/assets/asset-validation.html' },
-      { text: '角色网格替换', link: '/assets/character-mesh-replacement.html' },
-      { text: '合成资源', link: '/assets/crafting-asset.html' },
-      { text: '合成黑名单资源', link: '/assets/crafting-blacklist-asset.html' },
-      { text: '精选物品', link: '/assets/curated-items.html' },
-      { text: '数据文件格式', link: '/assets/data-file-format.html' },
-      { text: '特效资源', link: '/assets/effect-asset.html' },
-      { text: '植被资源', link: '/assets/foliage-asset.html' },
-      { text: '图层', link: '/assets/layers.html' },
-      { text: '关卡资源', link: '/assets/level-asset.html' },
-      { text: '材质调色板资源', link: '/assets/material-palette-asset.html' },
-      { text: 'Mod Hooks', link: '/assets/mod-hooks.html' },
-      { text: '神话特效资源', link: '/assets/mythical-asset.html' },
-      { text: '对象资源', link: '/assets/object-asset.html' },
-      { text: '套装资源', link: '/assets/outfit-asset.html' },
-      { text: '物理材质资源', link: '/assets/physics-material-asset.html' },
-      { text: '重定向资源', link: '/assets/redirector-asset.html' },
-      { text: '资源节点资源', link: '/assets/resource-asset.html' },
-      { text: '道路资源', link: '/assets/road-asset.html' },
-      { text: '服务器浏览器策展资源', link: '/assets/server-browser-curation-asset.html' },
-      { text: '生成表资源', link: '/assets/spawn-asset.html' },
-      { text: '立体声歌曲资源', link: '/assets/stereo-song-asset.html' },
-      { text: '标签资源', link: '/assets/tag-asset.html' },
-      { text: 'Unity 升级', link: '/assets/unity-upgrade.html' },
-      { text: '载具资源', link: '/assets/vehicle-asset.html' },
-      { text: '载具物理配置资源', link: '/assets/vehicle-physics-profile-asset.html' },
-      { text: '载具重定向资源', link: '/assets/vehicle-redirector-asset.html' },
-      { text: '天气资源', link: '/assets/weather-asset.html' },
-      { text: '僵尸难度资源', link: '/assets/zombie-difficulty-asset.html' },
-    ],
-  },
-  {
-    text: '物品',
-    collapsed: true,
-    items: [
-      { text: '物品文档概览', link: '/items/' },
-      { text: '物品上下文操作', link: '/items/actions.html' },
-      { text: '拘捕 End 资源', link: '/items/arrest-end-asset.html' },
-      { text: '拘捕 Start 资源', link: '/items/arrest-start-asset.html' },
-      { text: 'Backpack 资源', link: '/items/backpack-asset.html' },
-      { text: '背包 资源', link: '/items/bag-asset.html' },
-      { text: '枪管 资源', link: '/items/barrel-asset.html' },
-      { text: '路障资源', link: '/items/barricade-asset.html' },
-      { text: 'Beacon 资源', link: '/items/beacon-asset.html' },
-      { text: '合成蓝图', link: '/items/blueprints.html' },
-      { text: '蓝图输入物品', link: '/items/blueprints_inputitem.html' },
-      { text: 'Blueprints Outputitem', link: '/items/blueprints_outputitem.html' },
-      { text: '箱子 资源', link: '/items/box-asset.html' },
-      { text: '口径基础资源', link: '/items/caliber-asset.html' },
-      { text: 'Charge 资源', link: '/items/charge-asset.html' },
-      { text: '服装基础资源', link: '/items/clothing-asset.html' },
-      { text: '云 资源', link: '/items/cloud-asset.html' },
-      { text: 'Consumeable 资源', link: '/items/consumeable-asset.html' },
-      { text: '引爆器 资源', link: '/items/detonator-asset.html' },
-      { text: '农作物 资源', link: '/items/farm-asset.html' },
-      { text: '滤芯 资源', link: '/items/filter-asset.html' },
-      { text: '钓鱼 资源', link: '/items/fisher-asset.html' },
-      { text: 'Fishing Catchable Properties', link: '/items/fishing-catchable-properties.html' },
-      { text: '食物 资源', link: '/items/food-asset.html' },
-      { text: '燃料 资源', link: '/items/fuel-asset.html' },
-      { text: '装备基础资源', link: '/items/gear-asset.html' },
-      { text: '发电机 资源', link: '/items/generator-asset.html' },
-      { text: '眼镜 资源', link: '/items/glasses-asset.html' },
-      { text: '握把 资源', link: '/items/grip-asset.html' },
-      { text: '生长剂 资源', link: '/items/grower-asset.html' },
-      { text: '枪械资源', link: '/items/gun-asset.html' },
-      { text: '帽子 资源', link: '/items/hat-asset.html' },
-      { text: '入门', link: '/items/introduction.html' },
-      { text: '钥匙 资源', link: '/items/key-asset.html' },
-      { text: 'Library 资源', link: '/items/library-asset.html' },
-      { text: '弹匣资源', link: '/items/magazine-asset.html' },
-      { text: '地图 资源', link: '/items/map-asset.html' },
-      { text: '面具 资源', link: '/items/mask-asset.html' },
-      { text: 'Medical 资源', link: '/items/medical-asset.html' },
-      { text: '近战 资源', link: '/items/melee-asset.html' },
-      { text: 'Oil Pump 资源', link: '/items/oil-pump-asset.html' },
-      { text: 'Optic 资源', link: '/items/optic-asset.html' },
-      { text: '裤子 资源', link: '/items/pants-asset.html' },
-      { text: 'Placeable 资源', link: '/items/placeable-asset.html' },
-      { text: '补充 资源', link: '/items/refill-asset.html' },
-      { text: 'Sentry 资源', link: '/items/sentry-asset.html' },
-      { text: '衬衫 资源', link: '/items/shirt-asset.html' },
-      { text: '瞄具资源', link: '/items/sight-asset.html' },
-      { text: 'Storage 资源', link: '/items/storage-asset.html' },
-      { text: '结构资源', link: '/items/structure-asset.html' },
-      { text: 'Supply 资源', link: '/items/supply-asset.html' },
-      { text: '战术附件资源', link: '/items/tactical-asset.html' },
-      { text: '储液罐 资源', link: '/items/tank-asset.html' },
-      { text: '投掷物 资源', link: '/items/throwable-asset.html' },
-      { text: '轮胎 资源', link: '/items/tire-asset.html' },
-      { text: '工具 资源', link: '/items/tool-asset.html' },
-      { text: '陷阱 资源', link: '/items/trap-asset.html' },
-      { text: '载具 撬锁 工具 资源', link: '/items/vehicle-lockpick-tool-asset.html' },
-      { text: '载具 喷漆 工具 资源', link: '/items/vehicle-paint-tool-asset.html' },
-      { text: '载具 维修 工具 资源', link: '/items/vehicle-repair-tool-asset.html' },
-      { text: '背心 资源', link: '/items/vest-asset.html' },
-      { text: '饮水 资源', link: '/items/water-asset.html' },
-      { text: '武器基础资源', link: '/items/weapon-asset.html' },
-    ],
-  },
-  {
-    text: '地图制作',
-    collapsed: true,
-    items: [
-      { text: '地图制作概览', link: '/mapping/' },
-      { text: '地图 Chart 配色', link: '/mapping/charts.html' },
-      { text: '精选地图', link: '/mapping/curated-maps.html' },
-      { text: '编辑器资源重定向', link: '/mapping/editor-asset-redirectors.html' },
-      { text: '收藏搜索', link: '/mapping/favorite-searches.html' },
-      { text: '关卡批处理', link: '/mapping/level-batching.html' },
-      { text: '关卡配置', link: '/mapping/level-config.html' },
-      { text: '手动物体剔除', link: '/mapping/manual-object-culling.html' },
-    ],
-  },
-  {
-    text: 'NPC',
-    collapsed: true,
-    items: [
-      { text: 'NPC 文档概览', link: '/npcs/' },
-      { text: '条件', link: '/npcs/conditions.html' },
-      { text: '货币资源', link: '/npcs/currency-asset.html' },
-      { text: '对话资源', link: '/npcs/dialogue-asset.html' },
-      { text: '入门', link: '/npcs/introduction.html' },
-      { text: 'NPC 角色资源', link: '/npcs/npc-asset.html' },
-      { text: '任务资源', link: '/npcs/quest-asset.html' },
-      { text: '奖励列表资源', link: '/npcs/rewards-list-asset.html' },
-      { text: '奖励', link: '/npcs/rewards.html' },
-      { text: '商店资源', link: '/npcs/vendor-asset.html' },
-    ],
-  },
-  {
-    text: '数据',
-    collapsed: true,
-    items: [
-      { text: '数据文档概览', link: '/data/' },
-      { text: 'Asset Pointer', link: '/data/asset-ptr.html' },
-      { text: '位掩码', link: '/data/bitmask.html' },
-      { text: 'C# 内置类型', link: '/data/built-in-types.html' },
-      { text: '颜色', link: '/data/color.html' },
-      { text: 'Eassettype', link: '/data/enum/eassettype.html' },
-      { text: 'Ebatterymode', link: '/data/enum/ebatterymode.html' },
-      { text: 'Eitemorigin', link: '/data/enum/eitemorigin.html' },
-      { text: 'Eitemrarity', link: '/data/enum/eitemrarity.html' },
-      { text: 'Eitemtype', link: '/data/enum/eitemtype.html' },
-      { text: 'Elightingvision', link: '/data/enum/elightingvision.html' },
-      { text: 'Enpcholiday', link: '/data/enum/enpcholiday.html' },
-      { text: 'Eobjectchart', link: '/data/enum/eobjectchart.html' },
-      { text: 'Eobjecttype', link: '/data/enum/eobjecttype.html' },
-      { text: 'Eslottype', link: '/data/enum/eslottype.html' },
-      { text: '枚举类型', link: '/data/enum/' },
-      { text: 'Flag 标记', link: '/data/flag.html' },
-      { text: 'GUID', link: '/data/guid.html' },
-      { text: 'Master Bundle Pointer', link: '/data/master-bundle-ptr.html' },
-      { text: '富文本', link: '/data/rich-text.html' },
-      { text: '结构体', link: '/data/struct/' },
-      { text: 'Playerspotlightconfig', link: '/data/struct/playerspotlightconfig.html' },
-      { text: 'Vector3', link: '/data/vector3.html' },
-    ],
-  },
-  {
-    text: '服务器',
-    collapsed: true,
-    items: [
-      { text: '服务器文档概览', link: '/servers/' },
-      { text: 'Bookmark Host', link: '/servers/bookmark-host.html' },
-      { text: 'Command IO', link: '/servers/command-io.html' },
-      { text: '异常调试', link: '/servers/debugging-exceptions.html' },
-      { text: '创意工坊更新监控', link: '/servers/dedicated-workshop-update-monitor.html' },
-      { text: 'Fake IP', link: '/servers/fake-ip.html' },
-      { text: '游戏服务器登录令牌（GSLT）', link: '/servers/game-server-login-tokens.html' },
-      { text: 'Glazier', link: '/servers/glazier.html' },
-      { text: 'OpenMod', link: '/servers/openmod.html' },
-      { text: '端口转发', link: '/servers/port-forwarding.html' },
-      { text: 'Rocket', link: '/servers/rocket.html' },
-      { text: '服务器自动重启', link: '/servers/server-auto-restart.html' },
-      { text: '服务器浏览器策展', link: '/servers/server-browser-curation.html' },
-      { text: '服务器代码', link: '/servers/server-codes.html' },
-      { text: '服务器配置', link: '/servers/server-configuration.html' },
-      { text: '服务器托管规则', link: '/servers/server-hosting-rules.html' },
-      { text: '搭建服务器', link: '/servers/server-hosting.html' },
-      { text: '服务器更新通知', link: '/servers/server-update-notifications.html' },
-      { text: '使用 SteamCMD', link: '/servers/steamcmd.html' },
-    ],
-  },
-  {
-    text: 'U3 SDK',
-    collapsed: true,
-    items: [
-      { text: 'U3 SDK 概览', link: '/u3-sdk/' },
-      { text: '常见问题', link: '/u3-sdk/faq.html' },
-      { text: '旧版 ID 可用性', link: '/u3-sdk/legacy-id-availability.html' },
-      { text: 'Unity 项目', link: '/u3-sdk/unity-project.html' },
-    ],
-  },
-  {
-    text: '参与贡献',
-    collapsed: true,
-    items: [
-      { text: '贡献指南', link: '/contributing/' },
-    ],
-  },
+  group('入门', [page('/about/'), ...pages('about', ['getting-started', 'launch-options', 'steam-workshop'])], false),
+  group('Mod 入门', [page('/assets/'), ...pages('assets', [
+    'asset-bundles', 'asset-definitions', 'data-file-format', 'asset-validation',
+    'asset-bundle-custom-data', 'curated-items', 'animation', 'layers', 'mod-hooks', 'unity-upgrade',
+  ])]),
+  group('物品', [page('/items/'), ...pages('items', [...itemFirst, ...namesIn('items', itemFirst)])]),
+  group('载具', pages('assets', ['vehicle-asset', 'vehicle-physics-profile-asset', 'vehicle-redirector-asset'])),
+  group('对象', pages('assets', ['object-asset', 'material-palette-asset'])),
+  group('NPC 与逻辑', [page('/npcs/'), ...pages('npcs', [
+    'introduction', 'npc-asset', 'dialogue-asset', 'quest-asset', 'vendor-asset',
+    'conditions', 'rewards', 'rewards-list-asset', 'currency-asset',
+  ])]),
+  group('其他资源', pages('assets', [
+    'airdrop-asset', 'animal-asset', 'character-mesh-replacement', 'crafting-asset',
+    'crafting-blacklist-asset', 'effect-asset', 'foliage-asset', 'road-asset',
+    'level-asset', 'mythical-asset', 'outfit-asset', 'physics-material-asset',
+    'redirector-asset', 'resource-asset', 'server-browser-curation-asset',
+    'spawn-asset', 'stereo-song-asset', 'tag-asset', 'weather-asset', 'zombie-difficulty-asset',
+  ])),
+  group('地图制作', [page('/mapping/'), ...pages('mapping', [
+    'charts', 'curated-maps', 'editor-asset-redirectors', 'favorite-searches',
+    'level-batching', 'level-config', 'manual-object-culling',
+  ])]),
+  group('服务器与开发', [page('/servers/'), ...pages('servers', [
+    'server-hosting', 'steamcmd', 'server-hosting-rules', 'bookmark-host',
+    'command-io', 'debugging-exceptions', 'dedicated-workshop-update-monitor',
+    'fake-ip', 'game-server-login-tokens', 'glazier', 'openmod', 'port-forwarding',
+    'rocket', 'server-auto-restart', 'server-browser-curation', 'server-codes',
+    'server-configuration', 'server-update-notifications',
+  ])]),
+  group('数据类型', [
+    page('/data/'), page('/data/built-in-types.html'),
+    ...pages('data', ['asset-ptr', 'bitmask', 'color']),
+    { ...page('/data/enum/'), collapsed: true, items: pages('data/enum', namesIn('data/enum')) },
+    ...pages('data', ['flag', 'guid', 'master-bundle-ptr', 'rich-text']),
+    { ...page('/data/struct/'), collapsed: true, items: pages('data/struct', namesIn('data/struct')) },
+    page('/data/vector3.html'),
+  ]),
+  group('U3 SDK', [page('/u3-sdk/'), ...pages('u3-sdk', ['faq', 'unity-project', 'legacy-id-availability'])]),
+  group('参与贡献', [page('/contributing/')]),
 ]
 
 export default defineThemeConfig({
   logo: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
   logoDark: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
-
   navbar: [
-    { text: '中文文档', link: '/docs/' },
-    { text: '未转变着中文社区', link: 'https://www.unbbs.net/', icon: 'mdi:forum-outline' },
+    { text: '文档总览', link: '/docs/', icon: 'material-symbols:menu-book-outline' },
+    { text: '物品', link: '/items/', icon: 'material-symbols:inventory-2-outline' },
+    { text: '资源与 Mod', link: '/assets/', icon: 'material-symbols:deployed-code-outline' },
+    { text: '地图与 NPC', icon: 'material-symbols:map-outline', items: [
+      { text: '地图制作', link: '/mapping/' },
+      { text: 'NPC 与逻辑', link: '/npcs/' },
+    ] },
+    { text: '服务器', link: '/servers/', icon: 'material-symbols:dns-outline' },
+    { text: '数据与 SDK', icon: 'material-symbols:database-outline', items: [
+      { text: '数据类型', link: '/data/' },
+      { text: 'U3 SDK', link: '/u3-sdk/' },
+    ] },
+    { text: '中文社区', link: 'https://www.unbbs.net/', icon: 'mdi:forum-outline' },
   ],
-
-  social: [
-    { icon: 'github', link: 'https://github.com/StarKano/Unturned-Docs-CN' },
-  ],
+  social: [{ icon: 'github', link: 'https://github.com/StarKano/Unturned-Docs-CN' }],
   navbarSocialInclude: ['github'],
-
   outline: [2, 4],
   prevPage: true,
   nextPage: true,
   createTime: false,
-
   footer: {
     message: '由未转变者中文社区（UNBBS）维护 · Unturned 非官方中文文档',
     copyright: 'UNBBS 未转变者中文社区',
   },
-
   sidebar: {
     '/docs/': docsSidebar,
-    '/servers/': docsSidebar,
     '/about/': docsSidebar,
     '/assets/': docsSidebar,
-    '/data/': docsSidebar,
-    '/data/enum/': docsSidebar,
-    '/data/struct/': docsSidebar,
     '/items/': docsSidebar,
     '/mapping/': docsSidebar,
     '/npcs/': docsSidebar,
+    '/servers/': docsSidebar,
+    '/data/': docsSidebar,
     '/u3-sdk/': docsSidebar,
     '/contributing/': docsSidebar,
   },
-
   sidebarScrollbar: true,
 })

@@ -20,7 +20,7 @@ title: 资源
 - [Unity 版本升级](/assets/unity-upgrade.html)
 
 ::: tip 当前进度
-官方 “Introduction to Modding” 章节已全部完成中文初译。下一阶段继续翻译载具、对象与其他 Asset 类型。
+官方 “Introduction to Modding” 章节已有对应中文页面。各资源类型也已建立译文，但部分长篇仍是提要式初译，使用字段说明时请结合官方原文核对。
 :::
 
 ## 其他 Asset 类型
@@ -60,5 +60,5 @@ title: 资源
 - [载具重定向器](/assets/vehicle-redirector-asset.html)
 
 ::: tip Asset 章节进度
-官方 `assets/` 目录的 **35 篇文档已全部完成中文初译**。
+官方 `assets/` 目录的 **35 篇文档均有对应中文页面**；后续仍需逐段复核内容完整性。
 :::
