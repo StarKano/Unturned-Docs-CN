@@ -12,7 +12,7 @@ config:
         -
           theme: brand
           text: 从服务器搭建开始
-          link: /servers/server-hosting/
+          link: /servers/server-hosting.html
         -
           theme: alt
           text: 浏览全部分类
@@ -55,14 +55,14 @@ config:
 
 当前优先完善最常用的服务器搭建链路：
 
-- [搭建 Unturned 服务器](/servers/server-hosting/)
-- [使用 SteamCMD（高级搭建）](/servers/steamcmd/)
-- [服务器配置](/servers/server-configuration/)
-- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
-- [端口转发](/servers/port-forwarding/)
-- [服务器代码（Server Code）](/servers/server-codes/)
-- [Fake IP](/servers/fake-ip/)
-- [服务器自动重启](/servers/server-auto-restart/)
+- [搭建 Unturned 服务器](/servers/server-hosting.html)
+- [使用 SteamCMD（高级搭建）](/servers/steamcmd.html)
+- [服务器配置](/servers/server-configuration.html)
+- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens.html)
+- [端口转发](/servers/port-forwarding.html)
+- [服务器代码（Server Code）](/servers/server-codes.html)
+- [Fake IP](/servers/fake-ip.html)
+- [服务器自动重启](/servers/server-auto-restart.html)
 
 ## 翻译原则
 
@@ -82,11 +82,11 @@ config:
 
 目前已完成第一阶段服务器文档初译：
 
-- [搭建服务器](/servers/server-hosting/)
-- [使用 SteamCMD](/servers/steamcmd/)
-- [服务器配置](/servers/server-configuration/)
-- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
-- [端口转发](/servers/port-forwarding/)
+- [搭建服务器](/servers/server-hosting.html)
+- [使用 SteamCMD](/servers/steamcmd.html)
+- [服务器配置](/servers/server-configuration.html)
+- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens.html)
+- [端口转发](/servers/port-forwarding.html)
 
 服务器顶层文档已完成首轮中文初译。下一阶段将继续扩展资源、数据、地图制作等分类。
 
