@@ -78,8 +78,12 @@ const docsSidebar = [
 ]
 
 export default defineThemeConfig({
+  logo: 'https://www.unbbs.net/favicon.ico',
+  logoDark: 'https://www.unbbs.net/favicon.ico',
+
   navbar: [
     { text: '文档', link: '/docs/' },
+    { text: '中文社区', link: 'https://www.unbbs.net/', icon: 'mdi:forum-outline' },
   ],
 
   social: [
@@ -91,6 +95,11 @@ export default defineThemeConfig({
   prevPage: true,
   nextPage: true,
   createTime: false,
+
+  footer: {
+    message: '由未转变者中文社区（UNBBS）维护 · Unturned 非官方中文文档',
+    copyright: 'UNBBS 未转变者中文社区',
+  },
 
   sidebar: {
     '/docs/': docsSidebar,
