@@ -74,3 +74,25 @@ config:
 本站是由社区维护的 **Unturned 非官方中文翻译项目**，与 Smartly Dressed Games 无隶属关系。
 
 中文内容以官方 `stable` 文档为翻译基线。若中文内容与官方英文文档存在差异，请以官方英文文档为准。
+
+## 第一批中文内容
+
+目前已完成首批服务器文档初译：
+
+- [搭建服务器](/servers/server-hosting/)
+- [使用 SteamCMD](/servers/steamcmd/)
+- [服务器配置](/servers/server-configuration/)
+- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
+- [端口转发](/servers/port-forwarding/)
+
+后续将继续按照官方 `stable` 分支扩展服务器、资源、数据、地图制作等分类。
+
+## 翻译状态
+
+- 首批已翻译：**5 篇**
+- 上游基线：`stable`
+- 上游 Commit：`e0e8bb4fd08847edb9173eef498e104bc5d2d4cb`
+
+::: tip 参与维护
+发现翻译问题、术语不统一或官方内容已经更新时，欢迎直接提交 Pull Request。
+:::
