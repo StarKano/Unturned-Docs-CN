@@ -131,6 +131,15 @@ const docsSidebar = [
     collapsed: true,
     items: [
       { text: 'NPC 文档概览', link: '/npcs/' },
+      { text: 'NPC 入门', link: '/npcs/introduction.html' },
+      { text: 'NPC 角色资源', link: '/npcs/npc-asset.html' },
+      { text: '对话资源', link: '/npcs/dialogue-asset.html' },
+      { text: '任务资源', link: '/npcs/quest-asset.html' },
+      { text: '商人资源', link: '/npcs/vendor-asset.html' },
+      { text: '条件（Conditions）', link: '/npcs/conditions.html' },
+      { text: '奖励（Rewards）', link: '/npcs/rewards.html' },
+      { text: '奖励列表资源', link: '/npcs/rewards-list-asset.html' },
+      { text: '货币资源', link: '/npcs/currency-asset.html' },
     ],
   },
   {

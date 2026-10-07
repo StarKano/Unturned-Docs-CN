@@ -438,5 +438,50 @@
     "target": "docs/mapping/manual-object-culling.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/introduction.rst": {
+    "target": "docs/npcs/introduction.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/npc-asset.rst": {
+    "target": "docs/npcs/npc-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/dialogue-asset.rst": {
+    "target": "docs/npcs/dialogue-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/quest-asset.rst": {
+    "target": "docs/npcs/quest-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/vendor-asset.rst": {
+    "target": "docs/npcs/vendor-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/conditions.rst": {
+    "target": "docs/npcs/conditions.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/rewards.rst": {
+    "target": "docs/npcs/rewards.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/rewards-list-asset.rst": {
+    "target": "docs/npcs/rewards-list-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "npcs/currency-asset.rst": {
+    "target": "docs/npcs/currency-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
