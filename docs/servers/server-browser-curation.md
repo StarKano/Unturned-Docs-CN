@@ -80,6 +80,8 @@ Labels
 - `IPv4`：使用 IP、CIDR 和端口范围匹配。
 - `ServerID`：按照服务器 Steam ID / Server Code 匹配。
 
+使用 `ServerID` 类型时，填 `Value`（单个 `uint64` Steam ID）或 `Values`（`uint64` 列表）。列表中任意一个 ID 匹配服务器的 Steam ID 即视为命中。
+
 ## Name 正则示例
 
 忽略大小写匹配 `MyNetwork`：
@@ -87,6 +89,8 @@ Labels
 ```text
 Regex (?i)(MyNetwork)
 ```
+
+通用写法 `(?i)(your text here)` 会忽略字母大小写，匹配包含空格的这段文本；不会匹配去掉空格的 `yourtexthere`。
 
 ## IPv4 Filter 示例
 

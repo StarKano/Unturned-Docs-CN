@@ -23,7 +23,7 @@ Buying Entry 可以绑定 [Conditions](/npcs/conditions.html)，字段以 `Buyin
 
 ## Selling：Vendor 向玩家出售
 
-Selling Entry 同样支持 Conditions，字段以 `Selling_#_` 开头。
+Selling Entry 同样支持 Conditions，字段以 `Selling_#_` 开头，例如 `Selling_0_Conditions 1`。
 
 - **`Selling`** `byte`：出售的 Item/Vehicle 总数。
 - **`Selling_#_Type`** enum（`Item`、`Vehicle`）：出售 Asset 类型。

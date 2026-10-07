@@ -16,7 +16,7 @@ Melee Weapon 由 `ItemMeleeAsset` 创建，可作为伤害来源，并且始终�
 - `GUID`
 - `Type Melee`
 - `Useable Melee`
-- `Slot`：[ESlotType](/data/enum/eslottype.html)。绝大多数近战武器（包括 Vanilla）使用 `Secondary`，因此既可放 Primary Slot，也可放 Secondary Slot。
+- `Slot`：[ESlotType](/data/enum/eslottype.html)，可选 `None`、`Primary`、`Secondary`、`Any`。绝大多数近战武器（包括原版物品）使用 `Secondary`，因此既可放主武器槽，也可放副武器槽。
 - `ID`
 
 ## 专属属性

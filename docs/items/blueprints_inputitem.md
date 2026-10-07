@@ -79,12 +79,16 @@ InputItems
 
 - `Amount`：蓝图需要的数量，最小为 1。
 - `AllowEmpty`：是否允许 Amount=0 的物品参与匹配；`CountEmptyAsOne=true` 时默认会启用。
-- `AllowFull`：是否允许已经达到最大 Amount 的物品参与。
-- `AllowMaxQuality`：是否允许 100% 品质物品参与，维修类蓝图常用。
+- `AllowEmpty` 主要供 `FillTargetItem` 操作内部使用。
+- `AllowFull`：控制达到最大 Amount 的物品能否参与匹配，主要供 `FillTargetItem` 内部使用。官方原文在 `true` 时是否忽略该物品的描述与同段的“默认允许”相矛盾，配置时需实际验证。
+- `AllowMaxQuality`：默认允许 100% 品质的物品参与；设为 `false` 时忽略。主要供 `RepairTargetItem` 内部使用。
 - `CountEmptyAsOne`：把 Amount=0 的物品按 1 计算；原版用于拆解空弹匣。
 - `Critical`：缺少该输入物品时，蓝图是否直接从合成菜单隐藏。
+- `CountingMethod`：默认使用 `TotalItems`；当 `Operation` 为 `FillTargetItem` 时，默认改为 `TotalAmount`。
+- `Critical` 常用于 `FillTargetItem` 蓝图的第一个输入物品，避免没有目标物品时显示无关蓝图。
 - `Delete`：合成时是否消耗该物品。设为 `false` 时，它会在合成界面显示为 Tool，例如锯子。
 - `ID`：物品 Asset Pointer，也可以写 `this` 引用拥有该蓝图的资源自身。
 - `Prioritization`：控制有多个候选物品时先使用哪一个。
+- `Prioritization`：默认 `LowestQuality`；当 `Operation` 为 `FillTargetItem` 时，默认 `LowestAmount`。
 
 > 上游原文：[items/blueprints_inputitem.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/blueprints_inputitem.rst)

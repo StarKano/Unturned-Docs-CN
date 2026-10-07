@@ -53,7 +53,7 @@ translation:
 
 - 地图相关饰品放在每张地图自己的目录，并用地图名作为前缀。例如 Arid 的 [Arrowhead](https://unturned.wiki.gg/wiki/Arrowhead) 导出文件位于 `Assets/CoreMasterBundle/Items/Arid/Arid_Arrowhead`，源文件在 `Assets/Game/Sources/Items/Arid`。
 - Outfit 按套装分目录，并用 Outfit 名作为前缀。例如 [Cultist's Mask](https://unturned.wiki.gg/wiki/Cultist%27s_Mask) 导出文件位于 `Assets/CoreMasterBundle/Items/Outfits/Cultist/Cultist_Mask`，源文件在 `Assets/Game/Sources/Items/Outfits/Cultist`。
-- 其他物品放在对应类型目录。例如 [Backpack Turtle](https://unturned.wiki.gg/wiki/Backpack_Turtle) 导出文件位于 `Assets/CoreMasterBundle/Items/Backpacks/Turtle_Backpack`，源文件也放在对应 Backpacks 子目录。
+- 其他物品放在对应类型目录。例如 [Backpack Turtle](https://unturned.wiki.gg/wiki/Backpack_Turtle) 导出文件位于 `Assets/CoreMasterBundle/Items/Backpacks/Turtle_Backpack`，源文件位于 `Assets/Game/Sources/Items/Backpacks/Turtle_Backpack`。
 
 ## 导出 Unity Package
 

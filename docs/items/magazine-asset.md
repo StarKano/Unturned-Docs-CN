@@ -9,59 +9,68 @@ translation:
 
 # 弹匣资源（Magazine Asset）
 
-Magazine 由 `ItemMagazineAsset` 创建，是可安装到远程武器上的弹药/弹匣附件。它继承 [CaliberAsset](/items/caliber-asset.html)。
+弹匣及其他弹药附件由 `ItemMagazineAsset` 创建，可以安装到远程武器上。它继承[口径资源 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。因此，通用字段和口径字段也适用于弹匣。
 
-## 基础配置
+## 数据文件要求
 
-- `GUID`
-- `ID`
-- `Type Magazine`
-- 兼容口径配置（`Calibers` / `Caliber_#`）
+| 继承类 | 必需字段 | 值 |
+| --- | --- | --- |
+| `ItemAsset` | `GUID` | 唯一 GUID |
+| `ItemAsset` | `ID` | 唯一旧版 ID |
+| `ItemAsset` | `Type` | `Magazine` |
 
-## 常用属性
+口径兼容性使用继承自 `CaliberAsset` 的字段；具体设置请参阅[口径资源](/items/caliber-asset.html)。
 
-| 字段 | 说明 |
-| --- | --- |
-| `Amount` | 弹匣最大弹药量 |
-| `Count_Min` / `Count_Max` | 生成时初始弹药范围 |
-| `Speed` | 换弹速度倍率 |
-| `Pellets` | 每次射击产生的弹丸数 |
-| `Tracer` | 曳光 Effect GUID / Legacy ID |
-| `Projectile` | 物理弹丸/Projectile 配置 |
-| `Explosive` | 启用爆炸弹药行为 |
-| `Explosion` | 爆炸 Effect |
-| `Range` | 爆炸/弹丸作用范围相关参数 |
-| `Player_Damage` | 爆炸对玩家伤害 |
-| `Zombie_Damage` | 爆炸对僵尸伤害 |
-| `Animal_Damage` | 爆炸对动物伤害 |
-| `Barricade_Damage` | 爆炸对路障伤害 |
-| `Structure_Damage` | 爆炸对结构伤害 |
-| `Vehicle_Damage` | 爆炸对载具伤害 |
-| `Resource_Damage` | 爆炸对资源节点伤害 |
-| `Object_Damage` | 爆炸对对象伤害 |
-| `Stuck` | 弹丸命中后损失的品质 |
-| `Invulnerable` | 是否能伤害高护甲/Invulnerable 内容 |
+## 弹匣属性
 
-## 弹药与枪械兼容
+| 字段 | 类型 | 默认值 | 说明 |
+| --- | --- | --- | --- |
+| `Animal_Damage` | float32 | `0` | 爆炸对动物的范围伤害 |
+| `Barricade_Damage` | float32 | `0` | 爆炸对路障的范围伤害 |
+| `Delete_Empty` | flag | 未设置 | 弹药耗尽后删除附件 |
+| `Explosion` | GUID / uint16 | `0` | 爆炸特效的 GUID 或旧版 ID |
+| `Explosion_Launch_Speed` | float32 | `Player_Damage * 0.1` | 爆炸中玩家被抛出的速度，米/秒 |
+| `Explosion_Penetrate_Buildables` | bool | `false` | 爆炸伤害穿透可建造物 |
+| `Explosion_Plays_Impact_Effects` | bool | `true` | 爆炸产生血迹等表面命中特效 |
+| `Explosive` | flag | 未设置 | 为弹道弹丸启用范围爆炸 |
+| `Impact` | GUID / uint16 | `0` | 命中时播放的特效 |
+| `Object_Damage` | float32 | `Resource_Damage` | 爆炸对对象的范围伤害 |
+| `Pellets` | uint8 | `1` | 每次射击的弹道射线数 |
+| `Player_Damage` | float32 | `0` | 爆炸对玩家的范围伤害 |
+| `Projectile_Blast_Radius_Multiplier` | float32 | `1` | 物理弹丸爆炸半径倍率 |
+| `Projectile_Damage_Multiplier` | float32 | `1` | 物理弹丸爆炸伤害倍率 |
+| `Projectile_Launch_Force_Multiplier` | float32 | `1` | 物理弹丸发射力倍率 |
+| `Range` | float32 | `0` | 爆炸作用半径，单位为米 |
+| `Resource_Damage` | float32 | `0` | 爆炸对资源节点的范围伤害 |
+| `Should_Fill_After_Detach` | bool | `false` | 从远程武器拆下后补满弹药 |
+| `Spawn_Explosion_On_Dedicated_Server` | flag | 未设置 | 在专用服务器上生成 `Explosion` 特效 |
+| `Speed` | float32 | `1` | 换弹速度倍率 |
+| `Structure_Damage` | float32 | `0` | 爆炸对建筑的范围伤害 |
+| `Stuck` | uint8 | `0` | 弹丸命中后损失的品质 |
+| `Tracer` | GUID / uint16 | `0` | 曳光特效的 GUID 或旧版 ID |
+| `Vehicle_Damage` | float32 | `0` | 爆炸对载具的范围伤害 |
+| `Zombie_Damage` | float32 | `0` | 爆炸对僵尸的范围伤害 |
 
-Magazine 与 Gun 的兼容性主要依赖口径 ID。枪械的 `Magazine_Calibers` / `Magazine_Caliber_#` 与弹匣的口径列表需要匹配。
+## 爆炸与弹丸行为
 
-## 爆炸弹匣
+设置 `Explosive` 后，弹道武器发射的弹丸会造成范围爆炸，通常同时设置 `Range`。各类 `*_Damage` 字段控制爆炸对相应目标造成的伤害。`Explosion` 指定爆炸特效；`Impact` 指定命中特效；`Tracer` 指定曳光特效。这些特效均可填写 GUID 或旧版 ID。
 
-启用 `Explosive` 后，Magazine 可以为弹丸提供范围伤害。玩家、僵尸、动物、路障、结构、载具等伤害分别由对应字段控制。
+`Explosion_Penetrate_Buildables` 允许爆炸伤害穿过可建造物。`Explosion_Plays_Impact_Effects` 默认开启，会产生血迹等按表面类型决定的命中特效；弹丸数量很多的爆炸霰弹可能因此遇到性能问题，可按需关闭。`Spawn_Explosion_On_Dedicated_Server` 控制使用 `Explosion` 时是否在专用服务器上生成特效。
 
-## 物理 Projectile
+`Explosion_Launch_Speed` 指定爆炸影响范围内玩家被抛出的速度，默认按 `Player_Damage * 0.1` 计算。对物理弹丸武器，`Projectile_Blast_Radius_Multiplier`、`Projectile_Damage_Multiplier` 和 `Projectile_Launch_Force_Multiplier` 分别调整爆炸半径、伤害与发射力。
 
-如果枪械发射可见物理弹丸，可以在资源包中提供：
+::: note 官方原文笔误
+官方对 `Object_Damage` 的详解误写为“对玩家的伤害”。此处按字段名称及其默认继承的 `Resource_Damage` 将其解释为对对象的伤害。
+:::
 
-~~~text
-Projectile.prefab
-~~~
+## 弹药数量、换弹与品质
 
-存在时会覆盖枪械射击时实例化的默认 Projectile。
+弹匣最大弹药量、生成时的弹药范围分别由继承的 `Amount`、`Count_Min` 和 `Count_Max` 控制。`Pellets` 设置每次射击发出的弹道射线数；`Speed` 是换弹速度倍率。设置 `Delete_Empty` 可在弹药耗尽时删除弹匣，设置 `Should_Fill_After_Detach` 可在弹匣从远程武器拆下后补满弹药。
 
-## 品质
+`Stuck` 表示弹丸击中目标后损失的品质。大于 `0` 时物品会显示品质；它常用于 `Action String` 类型的弓弩等远程武器。
 
-`Stuck` 大于 0 时，弹匣/弹药会显示品质，并在弹丸命中后损失指定品质。弓弩类 `Action String` 武器常用这一功能。
+## Unity 设置
 
-> 上游原文：[items/magazine-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/magazine-asset.rst)
+发射物理弹丸的枪械可选提供 `Projectile.prefab`。存在时，它会覆盖枪械射击时默认生成的弹丸。
+
+> [官方原文](https://docs.smartlydressedgames.com/en/stable/items/magazine-asset.html)

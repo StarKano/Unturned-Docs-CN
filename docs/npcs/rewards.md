@@ -73,7 +73,7 @@ Type 包括：
 
 ### Effect
 - `Reward_#_GUID`：Effect Asset Pointer。
-- `Reward_#_Spawnpoint`：Spawnpoint Name。
+- `Reward_#_Spawnpoint`：关卡编辑器中设置的 Spawnpoint Name，例如 `Liberator_Jet`。
 - `Reward_#_AtPlayerPosition`：在玩家位置生成。
 - `Reward_#_IsReliable`：Multiplayer 是否保证复制，默认 true。
 - `Reward_#_RelevantDistance`：覆盖默认 128m，默认 -1。
@@ -91,14 +91,15 @@ Type 包括：
 - `Reward_#_ID`：Item ID。
 - `Reward_#_Amount`：数量。
 - `Reward_#_Auto_Equip`：尽量自动装备，默认 false。
-- `Reward_#_Ammo`、`Barrel`、`Grip`、`Magazine`、`Sight`、`Tactical`：覆盖枪械状态/附件。
-- `Reward_#_Origin`：[EItemOrigin](/data/enum/eitemorigin.html)，默认 `Craft`。
+- `Reward_#_Ammo`：覆盖枪械弹药数量。
+- `Reward_#_Barrel`、`Reward_#_Grip`、`Reward_#_Magazine`、`Reward_#_Sight`、`Reward_#_Tactical`：分别覆盖奖励物品上的枪口、握把、弹匣、瞄具与战术附件。
+- `Reward_#_Origin`：[EItemOrigin](/data/enum/eitemorigin.html)，默认 `Craft`；设为 `Admin` 时以满品质生成。
 
 ### Item_Random
 - `Reward_#_ID`：Spawn Table ID。
 - `Reward_#_Amount`
 - `Reward_#_Auto_Equip`
-- `Reward_#_Origin`：默认 `Craft`。
+- `Reward_#_Origin`：默认 `Craft`；设为 `Admin` 时以满品质生成。
 
 ### Hint
 - `Reward_#_Text`：无 Localization 时的 Debug Text。
@@ -143,7 +144,7 @@ Keep_Localization_Loaded true
 ### Vehicle
 - `Reward_#_ID`：Vehicle。
 - `Reward_#_Spawnpoint`：生成位置，未填则在 NPC 上方。
-- `Reward_#_PaintColor`：覆盖 Vehicle Color，并绕过 Redirector/Default Paint。
+- `Reward_#_PaintColor`：覆盖载具颜色，并跳过 Vehicle Redirector 的 `SpawnPaintColor` 和载具资源的 `DefaultPaintColors`。
 
 ### Zombie
 

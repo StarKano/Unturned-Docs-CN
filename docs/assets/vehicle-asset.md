@@ -618,8 +618,12 @@ true 时 Leaning Force 再乘以“归一化速度 ^ `Steering_LeaningForce_Spee
 **`Tires_Invulnerable`**  
 轮胎不可被破坏。
 
+**`Steering_Tire_#`**
+
+把对应的 `Wheel_#` 游戏对象设为会随转向可视旋转的前轮。旧版默认根据 `Num_Steering_Tires` 自动设置，从 `Steering_Tire_0 0`（对应 `Wheel_0`）开始依次递增；该配置已弃用，应优先使用 `WheelConfigurations`。
+
 **`Tire_ID`**  
-手动拆轮胎时给玩家的 Tire Item Legacy ID，默认 `1451`；如果对应 Tire Tool 的 `Mode Add` 兼容，也可用于重新装回。
+使用 `Mode Remove` 的轮胎工具手动拆轮胎时，给玩家的 Tire Item Legacy ID，默认 `1451`；如果该 ID 对应使用 `Mode Add` 的轮胎工具，也可用于重新装回。
 
 ## Physics Profile
 

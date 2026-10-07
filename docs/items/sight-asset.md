@@ -9,7 +9,7 @@ translation:
 
 # 瞄具资源（Sight Asset）
 
-Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具附件。它继承 [CaliberAsset](/items/caliber-asset.html)。
+Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具附件。它继承[口径资源 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。
 
 ## 必需字段
 
@@ -43,18 +43,20 @@ Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具�
 
 `AimAlignment_Path` 指向的 Transform 会用于把第一人称瞄准相机对齐到瞄具。可用 `AimAlignment_LocalOffset` 做额外位置偏移。
 
+`Holographic` 标志使该瞄具使用全息瞄准效果。`AimAlignment_LocalOffset` 的默认值为 `(0, 0, 0)`，偏移位置相对于 `Aim` 或 `AimAlignment_Path` 指定的 Transform。
+
 ## 夜视
 
-- `Vision` 设置视觉模式。
-- `Nightvision_Color` 可覆盖默认夜视颜色；若要使用该字段通常需要 `Vision Military`。
-- `Nightvision_Fog_Intensity` 控制夜视开启时的雾强度。
+- `Vision` 设置[视觉模式](/data/enum/elightingvision.html)，但不支持 `Headlamp`。它也会影响其他夜视字段的默认值。
+- `Nightvision_Color` 可覆盖默认夜视颜色，必须配合 `Vision Military`；支持旧版颜色解析。未覆盖时，颜色默认值由 `Vision` 决定。
+- `Nightvision_Fog_Intensity` 控制夜视开启时的雾强度。未配置时，默认值由 `Vision` 决定。
 
 ## 缩放
 
 - `Zoom`：倍率缩放，必须 >= 1。
 - `ThirdPerson_Zoom`：第三人称缩放倍率，必须 >= 1。
 - `Zoom_Using_Eyes`：直接改变主相机 FOV，而不是显示 Scope Overlay。
-- `Offset_Scope_Overlay_By_One_Texel`：对 2D 瞄镜贴图做一个像素级中心偏移，适合偶数尺寸纹理。
+- `Offset_Scope_Overlay_By_One_Texel`：略微放大 2D 瞄镜贴图，让原本在中心左侧的像素居中。例如 512×512 贴图启用后，坐标 `(255, 255)` 的像素会出现在屏幕中心。
 
 ## DistanceMarkers
 
@@ -70,5 +72,7 @@ Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具�
 | `Color` | `black` | 刻线/文字颜色 |
 
 `LineOffset` 和 `LineWidth` 使用 0~1 的小数表示百分比，例如 `0.25` = 25%。
+
+`Side` 可选 `Left` 或 `Right`：刻线和文字分别从中心向左或向右延伸。`HasLabel` 为 `true` 时，会在横线旁显示 `Distance` 的文字；`Color` 可覆盖横线和文字的颜色。
 
 > 上游原文：[items/sight-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/sight-asset.rst)

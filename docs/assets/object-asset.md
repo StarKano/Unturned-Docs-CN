@@ -59,8 +59,8 @@ translation:
 - **`Exclude_From_Culling_Volumes`** `bool`：true 时不受 Culling Volume 管理。例如 Germany 航天设施被排除，方便手工 Volume 隐藏集装箱等大型物体，而不会误隐藏整个设施。
 - **`LOD`** enum（`None`、`Mesh`、`Area`）：Interior Culling 判断方式。`Mesh` 用 Mesh Bounds；凹形对象可改用 `Area` 并添加多个 Occlusion Area。
 - **`LOD_Bias`** `float`：Interior Culling 阈值距离倍率，需要设置 LOD。
-- **`LOD_Center_X/Y/Z`** `float`：Culling Volume Local Position Offset。
-- **`LOD_Size_X/Y/Z`** `float`：Culling Volume Size。
+- **`LOD_Center_X`、`LOD_Center_Y`、`LOD_Center_Z`** `float`：裁剪体积在对应局部坐标轴上的位置偏移，均要求先设置 `LOD`。
+- **`LOD_Size_X`、`LOD_Size_Y`、`LOD_Size_Z`** `float`：裁剪体积在对应轴上的尺寸，均要求先设置 `LOD`。
 
 ## Interactables
 

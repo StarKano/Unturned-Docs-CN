@@ -41,7 +41,7 @@ translation:
 - **`Action_#_Source`**：从哪个物品 ID 获取操作；默认是当前物品。
 - **`Action_#_Text`**：按钮文字。若物品本地化文件中存在同名键，则优先显示本地化文本。
 - **`Action_#_Tooltip`**：按钮提示文本，同样支持从物品本地化文件读取。
-- **`Action_#_Key`**：使用游戏预置翻译键代替自定义文字和提示。可用值包括 `Attachments`、`Craft_Bandage`、`Craft_Dressing`、`Craft_Rag`、`Craft_Seed`、`Dequip`、`Drop`、`Equip`、`Pickup`、`Refill`、`Repair`、`Salvage`、`Stack`、`Store`、`Take`、`Unstack`。该字段会覆盖自定义 Text/Tooltip。
+- **`Action_#_Key`**：使用游戏预置翻译键代替自定义文字和提示。可用值包括 `Attachments`、`Craft_Bandage`、`Craft_Dressing`、`Craft_Rag`、`Craft_Seed`、`Dequip`、`Drop`、`Equip`、`Pickup`、`Refill`、`Repair`、`Salvage`、`Stack`、`Store`、`Take`、`Unstack`。该字段会覆盖自定义 Text/Tooltip；完整的键及本地化文本见 `PlayerDashboardInventory.dat`。
 - **`Action_#_Blueprints`**：该操作关联的蓝图数量。
 - **`Action_#_Blueprint_#_Index`**：蓝图索引。官方更推荐使用 Name，因为重排蓝图后索引可能变化。
 - **`Action_#_Blueprint_#_Name`**：蓝图名称，需要对应蓝图配置 `Name`。

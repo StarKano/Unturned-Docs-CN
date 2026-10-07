@@ -48,7 +48,7 @@ Shader 可从 `All_Shaders.unitypackage` 导入；官方推荐使用原版 Shade
 点击 `...` 选择导出目录。目标目录必须包含 `MasterBundle.dat`。关键字段：
 
 - **`Asset_Bundle_Name`**：Windows Master Bundle 文件名，例如 `hawaii.masterbundle`。
-- **`Asset_Prefix`**：Unity 中 AssetBundle 目录路径，例如 `Assets/MyModBundles`。
+- **`Asset_Prefix`**：Unity 中 AssetBundle 目录路径，例如 `Assets/MyModBundles`；游戏随后可到 `Assets/MyModBundles/Items/Guns` 等相对目录查找物品资源。
 
 Bundled Asset 还可使用：`Exclude_From_Master_Bundle` 强制使用单独 `.unity3d`；`Master_Bundle_Override` 重定向到指定 Master Bundle；`Bundle_Override_Path` 让多个资源复用 Unity 路径或引用其他 Bundle 的模型。
 

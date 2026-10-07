@@ -13,7 +13,7 @@ translation:
 
 ## 定位步骤
 
-1. 查看 `Player.log`。Unity 会在堆栈中以方括号记录 IL 偏移，例如：
+1. 查看 `Player.log`。Unity 会在堆栈中以方括号记录 IL 偏移；发送给游戏的 `Client.log` 堆栈不会包含该偏移。例如：
 
 ```text
 [0x003db]
@@ -25,7 +25,7 @@ translation:
 Assembly-CSharp.dll
 ```
 
-3. 在 ILSpy 中使用搜索功能找到堆栈中的方法。
+3. 在 ILSpy 中使用 `Search`（`Ctrl+Shift+F`）找到堆栈中的方法。
 4. 将显示模式切换为 **IL with C#**。
 5. 查找与偏移对应的 IL 标签，例如：
 

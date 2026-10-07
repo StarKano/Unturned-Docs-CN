@@ -17,7 +17,7 @@ Conditions 可用于 NPC、Interactable Object 和 Item Blueprint。每一组条
 ConditionPrefix_#_PropertyName
 ```
 
-大多数 Prefix 是 `Condition`，例如 `Condition_#_Type`；Blueprint 等场景会使用自己的前缀。
+大多数 Prefix 是 `Condition`，例如 `Condition_#_Type`；蓝图使用 `Blueprint_#_Conditions` 等自己的前缀。
 
 ## 通用字段
 
@@ -111,7 +111,7 @@ Logic Greater_Than_Or_Equal_To
 
 - `Condition_#_ID`：进度 Flag。
 - `Condition_#_Value`：目标 Zombie Kill 数。
-- `Condition_#_Zombie`：`Acid`、各类 `Boss_*`、`Burner`、`Crawler`、`DL_*_Volatile`、`Flanker_*`、`Mega`、`None`、`Normal`、`Spirit`、`Sprinter`。
+- `Condition_#_Zombie`：可选 `Acid`、`Boss_All`、`Boss_Electric`、`Boss_Elver_Stomper`、`Boss_Fire`、`Boss_Magma`、`Boss_Nuclear`、`Boss_Spirit`、`Boss_Wind`、`Burner`、`Crawler`、`DL_Blue_Volatile`、`DL_Red_Volatile`、`Flanker_Friendly`、`Flanker_Stalk`、`Mega`、`None`、`Normal`、`Spirit`、`Sprinter`。
 - `Condition_#_Spawn_Quantity`：强制生成数量，默认 1。
 - `Condition_#_Nav`：Navmesh Index。
 - `Condition_#_Radius`：玩家周围计入击杀的半径；未指定 Nav 且未填 Radius 时默认 512m。
