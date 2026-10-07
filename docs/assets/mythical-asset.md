@@ -17,6 +17,10 @@ translation:
 截至 2025-02-04，Mythical 特效还不能作为普通 Mod 自定义。本页主要面向参与 Curated Update 的物品作者，也为未来开放源码做准备。
 :::
 
+![Mythical Effect Transform 示例](/img/EffectTransform.png)
+
+*示例：“Effect” Transform 的位置与朝向。*
+
 测试时，建议在 Unity Editor 中把 Mythical 挂到某个物品的 `Effect` Transform，再 Reset Local Transform，方便预览游戏中的效果。
 
 ## Unity Prefabs

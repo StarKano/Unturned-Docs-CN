@@ -13,7 +13,7 @@ translation:
 
 被接受的物品可能上架销售，或通过其他方式解锁。大多数会在 [Stockpile](https://store.steampowered.com/itemstore/304930/) 中出售。
 
-默认创作者分成为 **25%**；与地图关联的物品（例如 Elver Map Bundle）分成为 **50%**。如果物品由多人共同制作，或加入包含多人作品的礼包，你个人获得的比例会进一步拆分。
+默认创作者分成为 **25%**；与地图关联的物品（例如 [Elver Map Bundle](https://store.steampowered.com/itemstore/304930/detail/1103/)）分成为 **50%**。如果物品由多人共同制作，或加入包含多人作品的礼包，你个人获得的比例会进一步拆分。
 
 ## 要求
 
@@ -29,7 +29,7 @@ translation:
 ## 投稿规范
 
 1. 避免高对比颜色，尤其在强光下会刺眼。
-2. 不要暗于 `#1e1e1e` 或亮于 `#f0f0f0`。极端亮度和完全饱和色不适合游戏光照；原版多为中等强度颜色。
+2. 不要暗于 ![#1e1e1e](/img/1e1e1e.png) `#1e1e1e` 或亮于 ![#f0f0f0](/img/f0f0f0.png) `#f0f0f0`。极端亮度和完全饱和色不适合游戏光照；原版多为中等强度颜色。
 3. 服装边缘应有 1 像素宽、略深的描边，例如原版衬衫袖口和下摆。
 4. 不应使用为了完全融入地形的平坦纹理（类似吉利服），可以使用图案迷彩。
 5. 纹理保持合理分辨率。大型物品理想流程是 2048×2048 缩到 1024×1024；小型物品是 1024×1024 缩到 512×512。
@@ -51,9 +51,9 @@ translation:
 
 ### 饰品目录
 
-- 地图相关饰品放在每张地图自己的目录，并用地图名作为前缀。例如 Arid Arrowhead 导出文件位于 `Assets/CoreMasterBundle/Items/Arid/Arid_Arrowhead`，源文件在 `Assets/Game/Sources/Items/Arid`。
-- Outfit 按套装分目录，并用 Outfit 名作为前缀。例如 Cultist Mask 导出文件位于 `Assets/CoreMasterBundle/Items/Outfits/Cultist/Cultist_Mask`，源文件在 `Assets/Game/Sources/Items/Outfits/Cultist`。
-- 其他物品放在对应类型目录。例如 Backpack Turtle 导出文件位于 `Assets/CoreMasterBundle/Items/Backpacks/Turtle_Backpack`，源文件也放在对应 Backpacks 子目录。
+- 地图相关饰品放在每张地图自己的目录，并用地图名作为前缀。例如 Arid 的 [Arrowhead](https://unturned.wiki.gg/wiki/Arrowhead) 导出文件位于 `Assets/CoreMasterBundle/Items/Arid/Arid_Arrowhead`，源文件在 `Assets/Game/Sources/Items/Arid`。
+- Outfit 按套装分目录，并用 Outfit 名作为前缀。例如 [Cultist's Mask](https://unturned.wiki.gg/wiki/Cultist%27s_Mask) 导出文件位于 `Assets/CoreMasterBundle/Items/Outfits/Cultist/Cultist_Mask`，源文件在 `Assets/Game/Sources/Items/Outfits/Cultist`。
+- 其他物品放在对应类型目录。例如 [Backpack Turtle](https://unturned.wiki.gg/wiki/Backpack_Turtle) 导出文件位于 `Assets/CoreMasterBundle/Items/Backpacks/Turtle_Backpack`，源文件也放在对应 Backpacks 子目录。
 
 ## 导出 Unity Package
 
@@ -76,6 +76,10 @@ Unity Package 是常规 `.dat` 和 `English.dat` 的补充，不是替代品。�
 
 ### Mythical 特效位置
 
+![Effect Transform 位置示例](/img/EffectTransform.png)
+
+*“Effect” Transform 的位置与朝向示例。*
+
 要支持 Mythical 特效，在 `Item.prefab` 和对应 Clothing Prefab（`Backpack.prefab`、`Glasses.prefab`、`Hat.prefab`、`Mask.prefab`、`Vest.prefab`）中添加名为 `Effect` 的子 Transform。
 
 方向为：**+Z 是向上，+Y 是向前**。
@@ -86,12 +90,20 @@ Unity Package 是常规 `.dat` 和 `English.dat` 的补充，不是替代品。�
 
 至少需要自定义 Albedo，也可以添加 Metallic 或 Emission Texture。上传 Workshop 时要包含源文件，便于官方补资源或修复小问题。
 
+![Fiesta Augewehr 材质包示例](/img/FiestaAugewehrBundles.png)
+
+*Fiesta Augewehr 皮肤包含四种材质类型。*
+
 如果没有自定义 Mesh，Bundle 中通常不包含 Prefab，而包含以下 Material：
 
 - **Primary**：`Skin_Primary.mat`，物品自身使用，每个皮肤一个。
 - **Secondary**：`Skin_Secondary_#.mat`，`#` 是附件 Legacy ID；可以有多个。狙击枪通常要给瞄准镜准备一个。
 - **Attachment**：`Skin_Attachment.mat`，又叫 Layered Attachments Material；当附件有 Texture Mask 且没有 Secondary 时使用。
 - **Tertiary**：`Skin_Tertiary.mat`，又叫 Fallback Attachments Material；其他 Material 都不适用时使用。提供 Attachment Material 时通常也应提供 Tertiary。
+
+![Fallback 与 Layered 附件材质对比](/img/FallbackLayered.png)
+
+*Layered Attachments 会保留 8x Scope 的部分原始纹理，而 Fallback Attachments 会完整覆盖。*
 
 Layered 与 Fallback 纹理不必完全相同。Bloodsport Calling Card、Bouquet Bluntforce、Vortex Augewehr 都是差异明显的例子。
 

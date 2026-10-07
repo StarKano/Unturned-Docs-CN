@@ -123,6 +123,10 @@ Chess Board 的情况是 UV Unwrap 错误，后来修复；多数情况下，这
 -PreviewLevelBatchingTextureAtlas
 ```
 
+![Level Batching Texture Atlas 预览](/img/TextureAtlasPreview.jpg)
+
+*Texture Atlas 预览示例。*
+
 可以可视化哪些 Renderer 被纳入 Atlas。
 
 显示为白色的 Renderer 会按 Shader 合并到单个 Material。没有被合并并不一定是坏事：如果一组 Object 本来就共享 Material，它们依然可以很好地使用 Static Batching，例如屋顶 HVAC、道路与立交桥。

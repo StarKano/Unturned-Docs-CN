@@ -13,6 +13,10 @@ translation:
 
 减少需要绘制的 Object 通常有利于性能。Culling Volume 可以覆盖内部 Object 的绘制距离，避免它们在实际上不需要时仍被远距离渲染。
 
+![Manual Object Culling Volume 示例](/img/CullingVolumes.jpg)
+
+*关卡中的 Culling Volume 示例。*
+
 例如 Vanilla Chair 默认需要考虑被放在户外，所以可从很远处看到；但如果它位于 Office Building 内，只需玩家靠近建筑时才显示。
 
 代价也很明显：用望远镜放大大多数建筑时，容易看出室内家具没有绘制。官方尝试过“Zoom 时启用视野中心附近 Object”等方案，但效果不理想，最终认为性能收益更值得。

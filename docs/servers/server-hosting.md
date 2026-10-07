@@ -11,12 +11,20 @@ translation:
 
 Unturned 玩家可以使用 **Unturned Dedicated Server（U3DS）** 搭建多人服务器。U3DS 需要单独安装，可从 Steam 库直接安装，也可以通过 [SteamCMD](/servers/steamcmd.html) 部署。Windows 与 Linux 均可用于托管服务器，macOS 不受支持。
 
+![Steam 库中的 Unturned Dedicated Server](/img/U3DS_SteamLibrary.png)
+
+*Steam 库中的 Unturned Dedicated Server（U3DS）。*
+
 ## 快速开始
 
 1. 在 Steam 库中启动 **Unturned Dedicated Server**。
 2. 等待服务器生成配置并完成地图加载。
 3. 当控制台显示地图加载完成后，可以通过 Steam 好友邀请或服务器生成的 **Server Code** 连接。
 4. 服务器运行期间使用 `Save` 手动保存，使用 `Shutdown` 安全保存并关闭。
+
+![U3DS 完成关卡加载](/img/U3DS_LoadingLevel.png)
+
+*控制台完成关卡加载后的 U3DS 示例。*
 
 服务器数据和配置通常位于：
 
@@ -31,5 +39,10 @@ Unturned 玩家可以使用 **Unturned Dedicated Server（U3DS）** 搭建多人
 - `WorkshopDownloadConfig.json`：配置 Steam 创意工坊内容。
 
 如需让服务器显示在互联网服务器列表中，还需要配置 **Game Server Login Token（GSLT）**，并根据需要使用 Fake IP 或端口转发。
+
+## 官方外部参考
+
+- [Unturned Commands](https://unturned.wiki.gg/Commands)
+- [Hawaii Workshop 示例](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636)
 
 > 上游原文：[servers/server-hosting.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-hosting.rst)

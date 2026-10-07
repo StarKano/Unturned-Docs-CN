@@ -1,0 +1,65 @@
+name: Sync Documentation Images
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-doc-images.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download official stable documentation images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs/.vuepress/public/img
+          base='https://raw.githubusercontent.com/SmartlyDressedGames/Unturned-Docs/stable'
+          files=(
+            'img/1e1e1e.png'
+            'img/f0f0f0.png'
+            'img/EffectTransform.png'
+            'img/FiestaAugewehrBundles.png'
+            'img/FallbackLayered.png'
+            'img/VendorCurrency.jpg'
+            'img/U3DS_SteamLibrary.png'
+            'img/U3DS_LoadingLevel.png'
+            'img/UnityExampleGun.png'
+            'img/UnityExampleCrossbow.png'
+            'img/UnityExampleItem.png'
+            'img/ServerInfoScreen.png'
+            'img/FileNameExtensions.jpg'
+            'img/InterfaceU3DS.jpg'
+            'mapping/img/TextureAtlasPreview.jpg'
+            'mapping/img/CullingVolumes.jpg'
+          )
+          for src in "${files[@]}"; do
+            name="${src##*/}"
+            echo "Downloading ${src} -> docs/.vuepress/public/img/${name}"
+            curl -fL --retry 4 --retry-delay 2 "${base}/${src}" -o "docs/.vuepress/public/img/${name}"
+          done
+
+      - name: Commit localized images
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/.vuepress/public/img
+          if git diff --cached --quiet; then
+            echo 'Images are already synchronized.'
+            exit 0
+          fi
+          git commit -m 'docs: localize official documentation images'
+          git pull --rebase origin main
+          git push origin HEAD:main

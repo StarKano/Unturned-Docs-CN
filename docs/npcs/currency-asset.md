@@ -13,6 +13,10 @@ translation:
 
 NPC 可以自动在这些 Item 之间换算，Vendor Menu 也能显示关联 Currency 信息。它不只适合现实货币，也适合“以弹药作为交换媒介”等 Barter System。
 
+![Vendor 货币显示示例](/img/VendorCurrency.jpg)
+
+*Vendor 菜单中使用 Currency Asset 的示例。*
+
 ## Asset 设置
 
 官方示例：`Bundles/Items/Supplies/CanadianCurrency.asset`。

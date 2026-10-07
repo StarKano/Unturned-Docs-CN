@@ -9,9 +9,13 @@ translation:
 
 # 枪械资源（Gun Asset）
 
-`ItemGunAsset` 用于定义远程武器。原版示例包括 Eaglefire、Crossbow 等。它继承 [Weapon Asset](/items/weapon-asset.html)。
+`ItemGunAsset` 用于定义远程武器。原版示例包括 [Eaglefire](https://unturned.wiki.gg/wiki/Eaglefire)、[Crossbow](https://unturned.wiki.gg/wiki/Crossbow) 等。它继承 [Weapon Asset](/items/weapon-asset.html)。
 
 ## Unity Prefab
+
+![Unity 中的枪械配置示例](/img/UnityExampleGun.png)
+
+*在 Unity Editor 中配置枪械的示例。*
 
 在 `Item` Prefab 中，常见枪械会添加这些子 GameObject：
 
@@ -27,6 +31,10 @@ translation:
 如果同一种附件类型需要按口径使用不同位置，可以在 Hook 下增加 `Caliber_#` 子节点。
 
 ### 弓弩
+
+![Unity 中的弩配置示例](/img/UnityExampleCrossbow.png)
+
+*在 Unity Editor 中配置 Crossbow 的示例。*
 
 弓类额外使用 `Rope`（Line Renderer）、`Left` / `Right`（弓弦两端）、可选 `Rest` 和 `Nock`。这些节点用于模拟第一人称弓弦。
 
@@ -143,5 +151,10 @@ translation:
 ::: tip
 Gun 是字段最多的 Item 类型之一。制作新枪时，最稳妥的起点通常是复制一个行为接近的官方示例，再替换模型、动画、口径与数值。
 :::
+
+## 官方外部参考
+
+- [Rocket Launcher（Unturned Wiki）](https://unturned.wiki.gg/wiki/Rocket_Launcher)
+- [Unity Rigidbody.AddForce API](https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html)
 
 > 上游原文：[items/gun-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/gun-asset.rst)

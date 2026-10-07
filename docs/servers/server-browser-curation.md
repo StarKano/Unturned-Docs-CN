@@ -76,7 +76,7 @@ Labels
 
 支持三种匹配来源：
 
-- `Name`：使用正则表达式匹配服务器名称。
+- `Name`：使用[正则表达式](https://en.wikipedia.org/wiki/Regular_expression)匹配服务器名称。
 - `IPv4`：使用 IP、CIDR 和端口范围匹配。
 - `ServerID`：按照服务器 Steam ID / Server Code 匹配。
 
@@ -105,7 +105,7 @@ Filters
 - 指定 IP 的任意端口。
 - 指定单个端口。
 - 指定端口范围。
-- 指定整个 CIDR 网段。
+- 指定整个 [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) 网段。
 
 ## ServerID
 
@@ -118,6 +118,10 @@ CopyServerCode
 获取服务器 ID。
 
 在游戏服务器大厅界面，也可以按默认的 **PageDown** 键复制服务器公开调试信息，其中包括：
+
+![服务器大厅公开信息示例](/img/ServerInfoScreen.png)
+
+*按下 Clipboard Debug 热键时所针对的服务器示例。*
 
 - Name
 - Address
@@ -135,5 +139,15 @@ CopyServerCode
 2. 再用名称正则 `Deny` 所有冒用其品牌名的其他服务器。
 
 这样就能对官方节点和仿冒节点进行区分。
+
+## 官方示例与工具
+
+- [示例 IconURL](https://cdn.smartlydressedgames.com/ShareX/2024/12/ExampleIcon.png)
+- [示例 Curation List](https://cdn.smartlydressedgames.com/ShareX/2024/12/ExampleCurationList.txt)
+- [Case sensitivity](https://en.wikipedia.org/wiki/Case_sensitivity)
+- [regex101](https://regex101.com/)
+- [RegExr](https://regexr.com/)
+- [Regex Generator](https://regex-generator.olafneumann.org/)
+- [Regex Tester](https://www.regextester.com/)
 
 > 上游原文：[servers/server-browser-curation.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-browser-curation.rst)

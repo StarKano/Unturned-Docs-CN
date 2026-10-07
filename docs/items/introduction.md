@@ -18,6 +18,10 @@ translation:
 
 ## Unity Asset Bundle 内容
 
+![Unity 中的物品配置示例](/img/UnityExampleItem.png)
+
+*在 Unity Editor 中配置 Item 的示例。*
+
 ### Item Prefab
 
 1. 为自定义物品创建独立文件夹。
