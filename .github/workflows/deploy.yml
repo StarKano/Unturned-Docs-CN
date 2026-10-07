@@ -34,40 +34,33 @@ jobs:
       - name: Build documentation
         run: pnpm docs:build
 
-      - name: Configure SSH
-        env:
-          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      - name: Package build
         run: |
-          mkdir -p ~/.ssh
-          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -p "${DEPLOY_PORT:-22}" -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          tar -czf site.tar.gz -C docs/.vuepress/dist .
+          git rev-parse HEAD > version.txt
+          echo "Build package:"
+          ls -lh site.tar.gz version.txt
 
-      - name: Upload new build
-        env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      - name: Install COSCMD
         run: |
-          PORT="${DEPLOY_PORT:-22}"
-          ssh -p "$PORT" "$DEPLOY_USER@$DEPLOY_HOST" "rm -rf /www/wwwroot/docs.unbbs.net/public.new && mkdir -p /www/wwwroot/docs.unbbs.net/public.new"
-          rsync -az --delete -e "ssh -p $PORT" docs/.vuepress/dist/ "$DEPLOY_USER@$DEPLOY_HOST:/www/wwwroot/docs.unbbs.net/public.new/"
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade coscmd
 
-      - name: Switch production directory
+      - name: Configure COSCMD
         env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.COS_BUCKET }}
+          COS_REGION: ${{ secrets.COS_REGION }}
         run: |
-          PORT="${DEPLOY_PORT:-22}"
-          ssh -p "$PORT" "$DEPLOY_USER@$DEPLOY_HOST" '
-            set -e
-            BASE=/www/wwwroot/docs.unbbs.net
-            rm -rf "$BASE/public.old"
-            if [ -d "$BASE/public" ]; then
-              mv "$BASE/public" "$BASE/public.old"
-            fi
-            mv "$BASE/public.new" "$BASE/public"
-          '
+          coscmd config \
+            -a "$TENCENT_SECRET_ID" \
+            -s "$TENCENT_SECRET_KEY" \
+            -b "$COS_BUCKET" \
+            -r "$COS_REGION"
+
+      - name: Upload build package to COS
+        run: |
+          coscmd upload site.tar.gz unturned-docs/site.tar.gz
+          coscmd upload version.txt unturned-docs/version.txt
+          echo "Uploaded to COS successfully."
