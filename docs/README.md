@@ -6,13 +6,7 @@ config:
   -
     type: hero
     full: true
-    forceDark: true
-    effect: lightning
-    effectConfig:
-      hue: 190
-      speed: 0.8
-      intensity: 0.9
-      size: 1
+    effect: tint-plate
     hero:
       name: UNBBS · Unturned 中文文档
       tagline: 未转变者中文社区维护的中文技术资料库
