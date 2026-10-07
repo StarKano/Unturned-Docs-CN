@@ -1,0 +1,73 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build documentation
+        run: pnpm docs:build
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p "${DEPLOY_PORT:-22}" -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+
+      - name: Upload new build
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          PORT="${DEPLOY_PORT:-22}"
+          ssh -p "$PORT" "$DEPLOY_USER@$DEPLOY_HOST" "rm -rf /www/wwwroot/docs.unbbs.net/public.new && mkdir -p /www/wwwroot/docs.unbbs.net/public.new"
+          rsync -az --delete -e "ssh -p $PORT" docs/.vuepress/dist/ "$DEPLOY_USER@$DEPLOY_HOST:/www/wwwroot/docs.unbbs.net/public.new/"
+
+      - name: Switch production directory
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          PORT="${DEPLOY_PORT:-22}"
+          ssh -p "$PORT" "$DEPLOY_USER@$DEPLOY_HOST" '
+            set -e
+            BASE=/www/wwwroot/docs.unbbs.net
+            rm -rf "$BASE/public.old"
+            if [ -d "$BASE/public" ]; then
+              mv "$BASE/public" "$BASE/public.old"
+            fi
+            mv "$BASE/public.new" "$BASE/public"
+          '
