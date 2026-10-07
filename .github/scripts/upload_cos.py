@@ -11,7 +11,13 @@ SECRET_ID = os.environ["TENCENT_SECRET_ID"]
 SECRET_KEY = os.environ["TENCENT_SECRET_KEY"]
 BUCKET = os.environ["COS_BUCKET"]
 REGION = os.environ["COS_REGION"]
-ENDPOINT = os.environ.get("COS_ENDPOINT", "").strip() or None
+RAW_ENDPOINT = os.environ.get("COS_ENDPOINT", "").strip()
+if RAW_ENDPOINT:
+    RAW_ENDPOINT = RAW_ENDPOINT.removeprefix("https://").removeprefix("http://").rstrip("/")
+    bucket_prefix = f"{BUCKET}."
+    ENDPOINT = RAW_ENDPOINT[len(bucket_prefix):] if RAW_ENDPOINT.startswith(bucket_prefix) else RAW_ENDPOINT
+else:
+    ENDPOINT = None
 
 PART_SIZE = 1024 * 1024
 MAX_WORKERS = 4
@@ -23,7 +29,7 @@ config = CosConfig(
     SecretKey=SECRET_KEY,
     Endpoint=ENDPOINT,
     Scheme="https",
-    Timeout=30,
+    Timeout=60,
     KeepAlive=True,
     PoolConnections=MAX_WORKERS + 2,
     PoolMaxSize=MAX_WORKERS + 2,
@@ -140,6 +146,7 @@ def upload_multipart(local_path, key):
 
 
 def main():
+    print(f"COS endpoint: {ENDPOINT or f'cos.{REGION}.tencentcos.cn'}")
     upload_multipart("site.tar.gz", "unturned-docs/site.tar.gz")
     upload_small("version.txt", "unturned-docs/version.txt")
     print("COS upload completed successfully.")
