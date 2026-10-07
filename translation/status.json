@@ -213,5 +213,80 @@
     "target": "docs/u3-sdk/legacy-id-availability.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/airdrop-asset.rst": {
+    "target": "docs/assets/airdrop-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/animal-asset.rst": {
+    "target": "docs/assets/animal-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/character-mesh-replacement.rst": {
+    "target": "docs/assets/character-mesh-replacement.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/crafting-blacklist-asset.rst": {
+    "target": "docs/assets/crafting-blacklist-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/physics-material-asset.rst": {
+    "target": "docs/assets/physics-material-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/mythical-asset.rst": {
+    "target": "docs/assets/mythical-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/outfit-asset.rst": {
+    "target": "docs/assets/outfit-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/redirector-asset.rst": {
+    "target": "docs/assets/redirector-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/resource-asset.rst": {
+    "target": "docs/assets/resource-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/road-asset.rst": {
+    "target": "docs/assets/road-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/server-browser-curation-asset.rst": {
+    "target": "docs/assets/server-browser-curation-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/stereo-song-asset.rst": {
+    "target": "docs/assets/stereo-song-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/tag-asset.rst": {
+    "target": "docs/assets/tag-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/vehicle-redirector-asset.rst": {
+    "target": "docs/assets/vehicle-redirector-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/zombie-difficulty-asset.rst": {
+    "target": "docs/assets/zombie-difficulty-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
