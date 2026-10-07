@@ -1,1 +1,27 @@
-{}
+{
+  "servers/server-hosting.rst": {
+    "target": "docs/servers/server-hosting.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/steamcmd.rst": {
+    "target": "docs/servers/steamcmd.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-configuration.rst": {
+    "target": "docs/servers/server-configuration.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/game-server-login-tokens.rst": {
+    "target": "docs/servers/game-server-login-tokens.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/port-forwarding.rst": {
+    "target": "docs/servers/port-forwarding.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  }
+}
