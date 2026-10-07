@@ -9,5 +9,30 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: plumeTheme({
     hostname: 'https://docs.unbbs.net',
+
+    docsRepo: 'https://github.com/StarKano/Unturned-Docs-CN',
+    docsBranch: 'main',
+    docsDir: 'docs',
+
+    editLink: true,
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+        forceLocale: true,
+      },
+    },
+    contributors: true,
+    changelog: true,
+
+    search: {
+      provider: 'local',
+    },
+
+    readingTime: {},
+
+    markdown: {
+      codeTree: true,
+    },
   }),
 })
