@@ -483,5 +483,185 @@
     "target": "docs/npcs/currency-asset.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/optic-asset.rst": {
+    "target": "docs/items/optic-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/cloud-asset.rst": {
+    "target": "docs/items/cloud-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/pants-asset.rst": {
+    "target": "docs/items/pants-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/food-asset.rst": {
+    "target": "docs/items/food-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/vehicle-lockpick-tool-asset.rst": {
+    "target": "docs/items/vehicle-lockpick-tool-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/water-asset.rst": {
+    "target": "docs/items/water-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/filter-asset.rst": {
+    "target": "docs/items/filter-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/key-asset.rst": {
+    "target": "docs/items/key-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/vehicle-paint-tool-asset.rst": {
+    "target": "docs/items/vehicle-paint-tool-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/oil-pump-asset.rst": {
+    "target": "docs/items/oil-pump-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/grower-asset.rst": {
+    "target": "docs/items/grower-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/medical-asset.rst": {
+    "target": "docs/items/medical-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/supply-asset.rst": {
+    "target": "docs/items/supply-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/library-asset.rst": {
+    "target": "docs/items/library-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/detonator-asset.rst": {
+    "target": "docs/items/detonator-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/vehicle-repair-tool-asset.rst": {
+    "target": "docs/items/vehicle-repair-tool-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/mask-asset.rst": {
+    "target": "docs/items/mask-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/tire-asset.rst": {
+    "target": "docs/items/tire-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/map-asset.rst": {
+    "target": "docs/items/map-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/fuel-asset.rst": {
+    "target": "docs/items/fuel-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/generator-asset.rst": {
+    "target": "docs/items/generator-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/bag-asset.rst": {
+    "target": "docs/items/bag-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/tank-asset.rst": {
+    "target": "docs/items/tank-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/hat-asset.rst": {
+    "target": "docs/items/hat-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/vest-asset.rst": {
+    "target": "docs/items/vest-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/shirt-asset.rst": {
+    "target": "docs/items/shirt-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/tool-asset.rst": {
+    "target": "docs/items/tool-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/grip-asset.rst": {
+    "target": "docs/items/grip-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/glasses-asset.rst": {
+    "target": "docs/items/glasses-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/box-asset.rst": {
+    "target": "docs/items/box-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/beacon-asset.rst": {
+    "target": "docs/items/beacon-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/arrest-end-asset.rst": {
+    "target": "docs/items/arrest-end-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/arrest-start-asset.rst": {
+    "target": "docs/items/arrest-start-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/backpack-asset.rst": {
+    "target": "docs/items/backpack-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/storage-asset.rst": {
+    "target": "docs/items/storage-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "items/charge-asset.rst": {
+    "target": "docs/items/charge-asset.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
