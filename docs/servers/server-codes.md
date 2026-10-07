@@ -21,9 +21,9 @@ CopyServerCode
 
 使用 Server Code 连接时，不支持加入服务器前的完整信息页面，例如服务器名称、已安装模组、在线玩家等。这些信息依赖 Steam 的 A2S 查询协议，而 A2S 只能通过 IP 查询。
 
-如果希望保留这些功能，可以考虑启用 [Fake IP](/servers/fake-ip/)。
+如果希望保留这些功能，可以考虑启用 [Fake IP](/servers/fake-ip.html)。
 
-默认情况下，每次服务器重启后 Server Code 都会发生变化。配置 [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/) 后，可以让 Server Code 在不同会话之间保持关联。
+默认情况下，每次服务器重启后 Server Code 都会发生变化。配置 [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens.html) 后，可以让 Server Code 在不同会话之间保持关联。
 
 ## 工作原理
 
