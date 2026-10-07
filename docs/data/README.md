@@ -15,3 +15,13 @@ title: 数据
 - [Master Bundle Pointer](/data/master-bundle-ptr.html)
 - [富文本](/data/rich-text.html)
 - [Vector3](/data/vector3.html)
+
+## 枚举与结构体
+
+- [枚举类型](/data/enum/)
+- [Structs](/data/struct/)
+- [PlayerSpotLightConfig](/data/struct/playerspotlightconfig.html)
+
+::: tip Data 章节进度
+官方 `data/` 目录（包含 `enum/` 与 `struct/`）的 **22 篇文档已全部完成中文初译**。
+:::

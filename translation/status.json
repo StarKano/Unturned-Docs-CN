@@ -338,5 +338,70 @@
     "target": "docs/assets/vehicle-asset.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/index.rst": {
+    "target": "docs/data/enum/README.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eassettype.rst": {
+    "target": "docs/data/enum/eassettype.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/ebatterymode.rst": {
+    "target": "docs/data/enum/ebatterymode.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eitemorigin.rst": {
+    "target": "docs/data/enum/eitemorigin.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eitemrarity.rst": {
+    "target": "docs/data/enum/eitemrarity.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eitemtype.rst": {
+    "target": "docs/data/enum/eitemtype.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/elightingvision.rst": {
+    "target": "docs/data/enum/elightingvision.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/enpcholiday.rst": {
+    "target": "docs/data/enum/enpcholiday.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eobjectchart.rst": {
+    "target": "docs/data/enum/eobjectchart.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eobjecttype.rst": {
+    "target": "docs/data/enum/eobjecttype.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/enum/eslottype.rst": {
+    "target": "docs/data/enum/eslottype.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/struct/index.rst": {
+    "target": "docs/data/struct/README.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/struct/playerspotlightconfig.rst": {
+    "target": "docs/data/struct/playerspotlightconfig.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
