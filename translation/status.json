@@ -113,5 +113,105 @@
     "target": "docs/assets/asset-bundle-custom-data.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "about/getting-started.rst": {
+    "target": "docs/about/getting-started.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "about/launch-options.rst": {
+    "target": "docs/about/launch-options.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "about/steam-workshop.rst": {
+    "target": "docs/about/steam-workshop.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/curated-items.rst": {
+    "target": "docs/assets/curated-items.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/animation.rst": {
+    "target": "docs/assets/animation.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/layers.rst": {
+    "target": "docs/assets/layers.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/mod-hooks.rst": {
+    "target": "docs/assets/mod-hooks.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/unity-upgrade.rst": {
+    "target": "docs/assets/unity-upgrade.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/built-in-types.rst": {
+    "target": "docs/data/built-in-types.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/asset-ptr.rst": {
+    "target": "docs/data/asset-ptr.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/bitmask.rst": {
+    "target": "docs/data/bitmask.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/color.rst": {
+    "target": "docs/data/color.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/flag.rst": {
+    "target": "docs/data/flag.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/guid.rst": {
+    "target": "docs/data/guid.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/master-bundle-ptr.rst": {
+    "target": "docs/data/master-bundle-ptr.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/rich-text.rst": {
+    "target": "docs/data/rich-text.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "data/vector3.rst": {
+    "target": "docs/data/vector3.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "u3-sdk/faq.rst": {
+    "target": "docs/u3-sdk/faq.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "u3-sdk/unity-project.rst": {
+    "target": "docs/u3-sdk/unity-project.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "u3-sdk/legacy-id-availability.rst": {
+    "target": "docs/u3-sdk/legacy-id-availability.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }

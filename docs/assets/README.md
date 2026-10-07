@@ -13,7 +13,12 @@ title: 资源
 - [数据文件格式](/assets/data-file-format.html)
 - [资源校验（Asset Validation）](/assets/asset-validation.html)
 - [Asset Bundle Custom Data](/assets/asset-bundle-custom-data.html)
+- [精选物品（Curated Items）](/assets/curated-items.html)
+- [动画](/assets/animation.html)
+- [Unity Layers](/assets/layers.html)
+- [Mod Hooks](/assets/mod-hooks.html)
+- [Unity 版本升级](/assets/unity-upgrade.html)
 
 ::: tip 当前进度
-已开始翻译官方“Introduction to Modding”章节，优先补齐后续物品、载具、对象等文档都会依赖的基础概念。
+官方 “Introduction to Modding” 章节已全部完成中文初译。下一阶段继续翻译载具、对象与其他 Asset 类型。
 :::

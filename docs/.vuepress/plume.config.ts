@@ -2,6 +2,16 @@ import { defineThemeConfig } from 'vuepress-theme-plume'
 
 const docsSidebar = [
   {
+    text: '入门',
+    collapsed: true,
+    items: [
+      { text: '入门概览', link: '/about/' },
+      { text: '开始使用', link: '/about/getting-started.html' },
+      { text: '启动参数', link: '/about/launch-options.html' },
+      { text: 'Steam Workshop', link: '/about/steam-workshop.html' },
+    ],
+  },
+  {
     text: '服务器',
     collapsed: false,
     items: [
@@ -36,6 +46,11 @@ const docsSidebar = [
       { text: '数据文件格式', link: '/assets/data-file-format.html' },
       { text: '资源校验', link: '/assets/asset-validation.html' },
       { text: 'Asset Bundle Custom Data', link: '/assets/asset-bundle-custom-data.html' },
+      { text: '精选物品', link: '/assets/curated-items.html' },
+      { text: '动画', link: '/assets/animation.html' },
+      { text: 'Unity Layers', link: '/assets/layers.html' },
+      { text: 'Mod Hooks', link: '/assets/mod-hooks.html' },
+      { text: 'Unity 版本升级', link: '/assets/unity-upgrade.html' },
     ],
   },
   {
@@ -43,6 +58,15 @@ const docsSidebar = [
     collapsed: true,
     items: [
       { text: '数据文档概览', link: '/data/' },
+      { text: 'C# 内置类型', link: '/data/built-in-types.html' },
+      { text: 'Asset Pointer', link: '/data/asset-ptr.html' },
+      { text: 'Bitmask', link: '/data/bitmask.html' },
+      { text: 'Color', link: '/data/color.html' },
+      { text: 'Flag', link: '/data/flag.html' },
+      { text: 'GUID', link: '/data/guid.html' },
+      { text: 'Master Bundle Pointer', link: '/data/master-bundle-ptr.html' },
+      { text: '富文本', link: '/data/rich-text.html' },
+      { text: 'Vector3', link: '/data/vector3.html' },
     ],
   },
   {
@@ -71,6 +95,9 @@ const docsSidebar = [
     collapsed: true,
     items: [
       { text: 'U3 SDK 概览', link: '/u3-sdk/' },
+      { text: '常见问题', link: '/u3-sdk/faq.html' },
+      { text: 'Unity 项目概览', link: '/u3-sdk/unity-project.html' },
+      { text: 'Legacy ID 可用性', link: '/u3-sdk/legacy-id-availability.html' },
     ],
   },
   {
@@ -109,6 +136,7 @@ export default defineThemeConfig({
   sidebar: {
     '/docs/': docsSidebar,
     '/servers/': docsSidebar,
+    '/about/': docsSidebar,
     '/assets/': docsSidebar,
     '/data/': docsSidebar,
     '/items/': docsSidebar,
