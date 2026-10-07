@@ -23,5 +23,40 @@
     "target": "docs/servers/port-forwarding.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-codes.rst": {
+    "target": "docs/servers/server-codes.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/fake-ip.rst": {
+    "target": "docs/servers/fake-ip.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-hosting-rules.rst": {
+    "target": "docs/servers/server-hosting-rules.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-auto-restart.rst": {
+    "target": "docs/servers/server-auto-restart.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-update-notifications.rst": {
+    "target": "docs/servers/server-update-notifications.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/bookmark-host.rst": {
+    "target": "docs/servers/bookmark-host.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/dedicated-workshop-update-monitor.rst": {
+    "target": "docs/servers/dedicated-workshop-update-monitor.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
