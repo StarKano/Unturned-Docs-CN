@@ -80,8 +80,17 @@ const docsSidebar = [
 export default defineThemeConfig({
   navbar: [
     { text: '文档', link: '/docs/' },
-    { text: 'GitHub', link: 'https://github.com/StarKano/Unturned-Docs-CN' },
   ],
+
+  social: [
+    { icon: 'github', link: 'https://github.com/StarKano/Unturned-Docs-CN' },
+  ],
+  navbarSocialInclude: ['github'],
+
+  outline: [2, 4],
+  prevPage: true,
+  nextPage: true,
+  createTime: false,
 
   sidebar: {
     '/docs/': docsSidebar,
