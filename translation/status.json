@@ -1,1 +1,92 @@
-{}
+{
+  "servers/server-hosting.rst": {
+    "target": "docs/servers/server-hosting.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/steamcmd.rst": {
+    "target": "docs/servers/steamcmd.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-configuration.rst": {
+    "target": "docs/servers/server-configuration.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/game-server-login-tokens.rst": {
+    "target": "docs/servers/game-server-login-tokens.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/port-forwarding.rst": {
+    "target": "docs/servers/port-forwarding.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-codes.rst": {
+    "target": "docs/servers/server-codes.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/fake-ip.rst": {
+    "target": "docs/servers/fake-ip.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-hosting-rules.rst": {
+    "target": "docs/servers/server-hosting-rules.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-auto-restart.rst": {
+    "target": "docs/servers/server-auto-restart.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-update-notifications.rst": {
+    "target": "docs/servers/server-update-notifications.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/bookmark-host.rst": {
+    "target": "docs/servers/bookmark-host.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/dedicated-workshop-update-monitor.rst": {
+    "target": "docs/servers/dedicated-workshop-update-monitor.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/command-io.rst": {
+    "target": "docs/servers/command-io.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/debugging-exceptions.rst": {
+    "target": "docs/servers/debugging-exceptions.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/glazier.rst": {
+    "target": "docs/servers/glazier.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/openmod.rst": {
+    "target": "docs/servers/openmod.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/rocket.rst": {
+    "target": "docs/servers/rocket.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-browser-curation.rst": {
+    "target": "docs/servers/server-browser-curation.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  }
+}

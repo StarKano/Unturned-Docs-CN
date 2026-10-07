@@ -1,59 +1,101 @@
 ---
 home: true
+pageClass: unturned-home
 config:
   -
     type: doc-hero
     hero:
       name: Unturned 中文文档
-      text: Unturned 开发、服务器与地图制作中文资料库
-      tagline: 由社区共同维护，持续跟踪 Smartly Dressed Games 官方 stable 文档。
+      text: 面向中文社区的 Unturned 技术资料库
+      tagline: 服务器搭建、配置、Mod、地图制作与开发文档。由社区共同维护，并持续跟踪官方 stable 文档。
       actions:
         -
           theme: brand
-          text: 开始阅读
+          text: 从服务器搭建开始
+          link: /servers/server-hosting/
+        -
+          theme: alt
+          text: 浏览全部分类
           link: /servers/
         -
           theme: alt
-          text: 参与贡献
+          text: 参与翻译
           link: /contributing/
-        -
-          theme: alt
-          text: 官方英文文档
-          link: https://docs.smartlydressedgames.com/en/stable/
-          target: _blank
-          rel: noopener noreferrer
   -
     type: features
-    title: 文档分类
+    title: 快速入口
     features:
       -
-        title: 服务器
-        details: 专用服务器搭建、配置与维护。
+        title: 🖥️ 服务器
+        details: 从零搭建 U3DS，配置 Internet Server、GSLT、SteamCMD 与端口转发。
         link: /servers/
       -
-        title: 资源与 Mod
-        details: Asset、Bundle 以及模组开发相关资料。
+        title: 🧩 资源与 Mod
+        details: Asset、Bundle、资源定义以及模组制作相关技术资料。
         link: /assets/
       -
-        title: 地图制作
-        details: 地图编辑器与地图开发资料。
+        title: 🗺️ 地图制作
+        details: 地图编辑器、导航、对象、道路与关卡相关资料。
         link: /mapping/
       -
-        title: 数据与物品
-        details: 数据格式、物品及相关定义。
+        title: 📦 数据与物品
+        details: 数据格式、内置类型、物品及资源字段说明。
         link: /data/
       -
-        title: NPC
-        details: NPC、对话、任务等资料。
+        title: 💬 NPC
+        details: NPC、对话、任务、条件与奖励系统相关资料。
         link: /npcs/
       -
-        title: U3 SDK
-        details: U3 SDK 与开发接口相关资料。
+        title: 🛠️ U3 SDK
+        details: U3 SDK、开发接口和高级开发资料。
         link: /u3-sdk/
 ---
 
-## 项目说明
+## 第一批中文文档
 
-这是一个由社区维护的 **Unturned 非官方中文翻译项目**。
+当前优先完善最常用的服务器搭建链路：
 
-中文内容将尽可能与官方 `stable` 文档保持对应。若中文翻译与官方英文内容存在差异，请以官方英文文档为准。
+- [搭建 Unturned 服务器](/servers/server-hosting/)
+- [使用 SteamCMD（高级搭建）](/servers/steamcmd/)
+- [服务器配置](/servers/server-configuration/)
+- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
+- [端口转发](/servers/port-forwarding/)
+- [服务器代码（Server Code）](/servers/server-codes/)
+- [Fake IP](/servers/fake-ip/)
+- [服务器自动重启](/servers/server-auto-restart/)
+
+## 翻译原则
+
+我们尽量保持官方文档的目录结构与文件名不变，方便持续跟踪上游更新。配置字段、命令、文件名和代码不会被翻译，避免中文化后导致实际配置不可用。
+
+::: tip 参与维护
+发现翻译错误、官方文档已经更新，或者你愿意认领尚未翻译的页面？欢迎前往 GitHub 提交 Pull Request。
+:::
+
+## 项目声明
+
+本站是由社区维护的 **Unturned 非官方中文翻译项目**，与 Smartly Dressed Games 无隶属关系。
+
+中文内容以官方 `stable` 文档为翻译基线。若中文内容与官方英文文档存在差异，请以官方英文文档为准。
+
+## 第一批中文内容
+
+目前已完成第一阶段服务器文档初译：
+
+- [搭建服务器](/servers/server-hosting/)
+- [使用 SteamCMD](/servers/steamcmd/)
+- [服务器配置](/servers/server-configuration/)
+- [游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens/)
+- [端口转发](/servers/port-forwarding/)
+
+服务器顶层文档已完成首轮中文初译。下一阶段将继续扩展资源、数据、地图制作等分类。
+
+## 翻译状态
+
+- 已翻译：**18 篇**
+- 上游基线：`stable`
+- 上游 Commit：`e0e8bb4fd08847edb9173eef498e104bc5d2d4cb`
+
+::: tip 参与维护
+发现翻译问题、术语不统一或官方内容已经更新时，欢迎直接提交 Pull Request。
+:::

@@ -4,7 +4,11 @@
 
 - 官方英文文档：https://docs.smartlydressedgames.com/en/stable/
 - 官方源码：https://github.com/SmartlyDressedGames/Unturned-Docs
-- 中文仓库：https://github.com/Aikkes-xk/Unturned-Docs-CN
+- 中文仓库：https://github.com/StarKano/Unturned-Docs-CN
+
+## 当前进度
+
+项目已完成 VuePress + Theme Plume 基础结构，第一批优先翻译服务器搭建相关文档。
 
 ## 技术栈
 
