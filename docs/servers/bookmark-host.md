@@ -54,4 +54,10 @@ myunturnedserver.example.com:27015
 
 这样可以由自己的后端动态返回当前服务器地址和端口，更适合使用 Fake IP 或地址经常变化的环境。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://github.com/PandahutMushy/BookmarkHostPlugin>
+
 > 上游原文：[servers/bookmark-host.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/bookmark-host.rst)

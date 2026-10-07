@@ -27,4 +27,13 @@ Rocket 原社区维护团队于 2019 年停止维护，并以 MIT License 发布
 
 之后 SDG Fork 了项目继续维护，并在 2020 年根据原作者要求重新命名，以与原 Rocket 项目区分。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://github.com/SmartlyDressedGames/Legally-Distinct-Missile>
+- <https://www.reddit.com/r/rocketmod/comments/ek4i7b/>
+- <https://github.com/RocketMod>
+- <https://github.com/RocketMod/Rocket/blob/master/Farewell.md>
+
 > 上游原文：[servers/rocket.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/rocket.rst)

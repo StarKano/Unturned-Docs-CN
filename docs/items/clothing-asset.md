@@ -50,4 +50,10 @@ translation:
 - `Visible_On_Ragdoll`：尸体布娃娃是否显示该服装。
 - `WearAudio`：穿戴音效。背包和背心默认使用 Zipper，其余通常使用 Sleeve。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Conflicting_Conscience>
+
 > 上游原文：[items/clothing-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/clothing-asset.rst)

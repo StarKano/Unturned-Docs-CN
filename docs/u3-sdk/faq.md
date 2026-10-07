@@ -133,4 +133,10 @@ Windows、macOS、Linux（包括 Steam Deck）。
 
 Fork 维护者也可以自行制定服务器规则。为某个 Fork 托管服务器时，还需遵守该项目自己的规定。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://opensource.org/>
+
 > 上游原文：[u3-sdk/faq.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/u3-sdk/faq.rst)

@@ -178,4 +178,10 @@ Logic Greater_Than_Or_Equal_To
 
 **`Condition_#`**：UI 中 Condition Name。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Clock>
+
 > 上游原文：[npcs/conditions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/conditions.rst)

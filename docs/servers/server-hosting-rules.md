@@ -52,4 +52,16 @@ translation:
 “管理员滥权”或“服务器存在付费获胜内容”本身通常不属于官方服务器规则举报范围。遇到此类情况，官方建议优先选择其他服务器，或者自行搭建服务器。
 :::
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189991924500>
+- <https://support.smartlydressedgames.com/hc/en-us/requests/new?ticket_form_id=12189992633364>
+- <https://smartlydressedgames.com/UnturnedHostBans/index.html>
+- <https://support.smartlydressedgames.com/hc/en-us/articles/34633581382676>
+- <https://store.steampowered.com/online_conduct>
+- <https://support.smartlydressedgames.com/hc/en-us/requests/new>
+- <https://steamcommunity.com/dmca/create/>
+
 > 上游原文：[servers/server-hosting-rules.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-hosting-rules.rst)

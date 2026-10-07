@@ -38,4 +38,10 @@ Trap 由 `ItemTrapAsset` 创建，是可放置的伤害来源。继承 [Barricad
 - **`Trap_Setup_Delay`** `float`：放置后开始工作的延迟，默认 0.25 秒。
 - **`Vehicle_Damage`** `float`。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Broken_Bones>
+
 > 上游原文：[items/trap-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/trap-asset.rst)

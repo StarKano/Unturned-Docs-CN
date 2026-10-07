@@ -42,4 +42,15 @@ translation:
 
 OpenMod 可以和 RocketMod 同时安装，并不是必须替代 RocketMod。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://github.com/openmod/openmod>
+- <https://github.com/openmod/OpenMod.Installer.RocketMod/releases/latest>
+- <https://openmod.github.io/openmod-docs/userdoc/concepts/plugins.html>
+- <https://github.com/openmod/OpenMod/releases/latest>
+- <http://openmod.github.io/openmod-plugins>
+- <https://openmod.github.io/openmod-docs/>
+
 > 上游原文：[servers/openmod.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/openmod.rst)

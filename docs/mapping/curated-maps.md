@@ -160,4 +160,10 @@ Payment Split 通过一个隐藏的 Curated Workshop Item 管理。新 Contribut
 
 可能，但需要一起发布在设计上有意义。例如一张 Arena Map 与一张偏 PvE 的 Survival Map。官方仍在探索这种形式。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://en.wikipedia.org/wiki/555_(telephone_number)>
+
 > 上游原文：[mapping/curated-maps.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/curated-maps.rst)

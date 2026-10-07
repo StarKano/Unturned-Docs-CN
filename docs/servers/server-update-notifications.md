@@ -29,4 +29,11 @@ https://smartlydressedgames.com/rss/unturned-steam-dedicated-server-updates.xml
 
 可以把这个 RSS 接入自己的监控程序、机器人或自动运维系统。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://store.steampowered.com/news/app/304930>
+- <https://discord.gg/unturned>
+
 > 上游原文：[servers/server-update-notifications.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-update-notifications.rst)

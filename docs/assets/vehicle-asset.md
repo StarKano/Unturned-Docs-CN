@@ -1077,4 +1077,14 @@ WheelConfigurations
 
 **`Name`** `string`：UI 中显示的载具名称。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/Carjack>
+- <https://unturned.wiki.gg/Vehicle_Battery>
+- <https://unturned.wiki.gg/Rally_Car>
+- <https://unturned.wiki.gg/Fighter_Jet>
+- <https://unturned.wiki.gg/Ambulance>
+
 > 上游原文：[assets/vehicle-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/vehicle-asset.rst)

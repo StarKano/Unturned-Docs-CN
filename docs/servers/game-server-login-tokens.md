@@ -41,4 +41,12 @@ Login_Token
 
 也可以通过启动阶段的 `GSLT` 命令配置，并写入 `Commands.dat`。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/3980>
+- <https://forums.alliedmods.net/showthread.php?p=2529549#post2529549>
+- <https://partner.steamgames.com/doc/webapi/IGameServersService>
+
 > 上游原文：[servers/game-server-login-tokens.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/game-server-login-tokens.rst)

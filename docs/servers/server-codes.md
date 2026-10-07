@@ -29,4 +29,10 @@ CopyServerCode
 
 Server Code 使用 **Steam Datagram Relay（SDR）** 进行连接。SDR 会通过 Steam 的中继网络转发流量，不直接暴露服务器和玩家的真实 IP，并提供认证、加密和速率限制。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay>
+
 > 上游原文：[servers/server-codes.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-codes.rst)

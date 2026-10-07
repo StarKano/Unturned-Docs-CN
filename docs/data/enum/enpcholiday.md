@@ -35,4 +35,15 @@ translation:
 这些日期是上游文档在当前翻译基线中的示例，并不是永久固定值；实际活动时间应以当前游戏 `Client.log` / `Status.json` 为准。
 :::
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://en.wikipedia.org/wiki/Halloween>
+- <https://en.wikipedia.org/wiki/Christmas>
+- <https://en.wikipedia.org/wiki/April_Fools%27_Day>
+- <https://en.wikipedia.org/wiki/Valentine%27s_Day>
+- <https://en.wikipedia.org/wiki/Pride_Month>
+- <https://en.wikipedia.org/wiki/Lunar_New_Year>
+
 > 上游原文：[data/enum/enpcholiday.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/enpcholiday.rst)

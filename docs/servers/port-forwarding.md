@@ -44,4 +44,10 @@ ipconfig
 
 在路由器后台新增规则，将对应端口以 **UDP** 协议转发到运行 U3DS 的局域网 IP。部分路由器需要为两个端口分别建立规则。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://portforward.com/router.htm>
+
 > 上游原文：[servers/port-forwarding.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/port-forwarding.rst)

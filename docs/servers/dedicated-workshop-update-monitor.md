@@ -27,4 +27,10 @@ translation:
 
 这一部分主要面向插件和服务器框架开发者。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://steamcommunity.com/app/304930/workshop/>
+
 > 上游原文：[servers/dedicated-workshop-update-monitor.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/dedicated-workshop-update-monitor.rst)

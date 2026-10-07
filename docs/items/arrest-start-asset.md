@@ -22,4 +22,11 @@ translation:
 
 - **`Strength`** `uint16`：被束缚玩家需要 Lean 多少次才能挣脱，默认 0。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Handcuffs>
+- <https://unturned.wiki.gg/wiki/Cable_Tie>
+
 > 上游原文：[items/arrest-start-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/arrest-start-asset.rst)

@@ -22,4 +22,10 @@ translation:
 
 - **`Recover`** `uint16`：该 Item 能解开的 Catcher Item Legacy ID，默认 0。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Handcuffs_Key>
+
 > 上游原文：[items/arrest-end-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/arrest-end-asset.rst)

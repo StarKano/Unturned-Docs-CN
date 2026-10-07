@@ -45,4 +45,10 @@ Fake IP 同样使用 **Steam Datagram Relay（SDR）**。连接流量通过 Stea
 
 Fake IP 与 Steam 自带的 Favorites 和 History 列表并不兼容。作为替代方案，可以使用 [Bookmark Host](/servers/bookmark-host.html)。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay>
+
 > 上游原文：[servers/fake-ip.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/fake-ip.rst)

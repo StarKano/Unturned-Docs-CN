@@ -35,4 +35,10 @@ IL_03db
 
 这样通常可以比普通异常堆栈更精确地定位到问题代码。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/3979#issuecomment-1620788082>
+
 > 上游原文：[servers/debugging-exceptions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/debugging-exceptions.rst)

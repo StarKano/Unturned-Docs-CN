@@ -72,4 +72,11 @@ Pipeline 脚本为 `Build_Scripts/Jenkinsfile.txt`；Unity 版本由 `Build_Scri
 
 目前开发和构建流程仍明显偏向 Windows。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://en.wikipedia.org/wiki/Version_control>
+- <https://learn.unity.com/tutorial/unity-tips#64622ce0edbc2a32a219b25e>
+
 > 上游原文：[u3-sdk/unity-project.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/u3-sdk/unity-project.rst)

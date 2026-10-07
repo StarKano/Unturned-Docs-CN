@@ -64,4 +64,13 @@ Barricade 由 `ItemBarricadeAsset` 创建，可以由玩家放置，也可以在
 `Allow_Collision_While_Animating` 可能引入基于物理的漏洞，例如门体推动/夹人问题，启用前应充分测试。
 :::
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Gameplay_config>
+- <https://unturned.wiki.gg/wiki/Horde_Beacon>
+- <https://unturned.wiki.gg/wiki/Blowtorch>
+- <https://unturned.wiki.gg/wiki/Small_Glass_Plate>
+
 > 上游原文：[items/barricade-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/barricade-asset.rst)

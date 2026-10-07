@@ -57,4 +57,11 @@ Structure 由 `ItemStructureAsset` 创建，可由玩家放置。部分结构件
 
 具体倍率可由服务器 Gameplay Config 修改。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Gameplay_config>
+- <https://unturned.wiki.gg/wiki/Blowtorch>
+
 > 上游原文：[items/structure-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/structure-asset.rst)

@@ -83,4 +83,11 @@ Unity 自带的命令行参数优先级高于 Unturned 的同类参数。完整�
 - **`-force-vulkan`**：强制 Vulkan。
 - **`-nographics`**：批处理模式下不初始化图形设备。
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://partner.steamgames.com/doc/api/ISteamNetworkingSockets>
+- <https://partner.steamgames.com/doc/api/ISteamNetworking>
+
 > 上游原文：[about/launch-options.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/about/launch-options.rst)

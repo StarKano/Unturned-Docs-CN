@@ -35,4 +35,10 @@ Farm / Plant 由 `ItemFarmAsset` 创建，是可放置、会成长并可收获�
 父类 ItemAsset 的 `Health` 可用于让作物可多次收获：最大次数等于 `Health / 2`。例如 Health=10 可收获 5 次。
 :::
 
+## 官方原文外部链接
+
+以下链接来自官方 stable 文档，保持原地址跳转：
+
+- <https://unturned.wiki.gg/wiki/Skills>
+
 > 上游原文：[items/farm-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/farm-asset.rst)
