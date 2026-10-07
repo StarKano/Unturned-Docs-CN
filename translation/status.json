@@ -58,5 +58,35 @@
     "target": "docs/servers/dedicated-workshop-update-monitor.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/command-io.rst": {
+    "target": "docs/servers/command-io.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/debugging-exceptions.rst": {
+    "target": "docs/servers/debugging-exceptions.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/glazier.rst": {
+    "target": "docs/servers/glazier.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/openmod.rst": {
+    "target": "docs/servers/openmod.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/rocket.rst": {
+    "target": "docs/servers/rocket.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "servers/server-browser-curation.rst": {
+    "target": "docs/servers/server-browser-curation.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
