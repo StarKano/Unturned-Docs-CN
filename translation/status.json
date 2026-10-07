@@ -88,5 +88,30 @@
     "target": "docs/servers/server-browser-curation.md",
     "status": "translated",
     "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/asset-bundles.rst": {
+    "target": "docs/assets/asset-bundles.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/asset-definitions.rst": {
+    "target": "docs/assets/asset-definitions.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/data-file-format.rst": {
+    "target": "docs/assets/data-file-format.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/asset-validation.rst": {
+    "target": "docs/assets/asset-validation.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
+  },
+  "assets/asset-bundle-custom-data.rst": {
+    "target": "docs/assets/asset-bundle-custom-data.md",
+    "status": "translated",
+    "upstreamCommit": "e0e8bb4fd08847edb9173eef498e104bc5d2d4cb"
   }
 }
