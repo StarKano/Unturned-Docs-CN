@@ -9,8 +9,8 @@ config:
     effect: tint-plate
     hero:
       name: UNBBS · Unturned 中文文档
-      tagline: 未转变者中文社区维护的中文技术资料库
-      text: 从服务器搭建、配置与运维，到 Mod、地图制作、数据与开发资料。持续跟踪 Smartly Dressed Games 官方 stable 文档，由中文社区共同翻译、校对与维护。
+      tagline: 由未转变着中文社区维护的未转变着技术资料库
+      text: 从服务器搭建、配置与运维，到 Mod、地图制作、数据与开发资料。同步Unturned官方文档更新，由未转变着中文社区共同翻译、校对与维护。
       actions:
         -
           theme: brand
