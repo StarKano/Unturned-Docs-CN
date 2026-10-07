@@ -13,15 +13,18 @@
     "typescript": "^5.9.3",
     "vue": "^3.5.0",
     "vuepress": "2.0.0-rc.30",
-    "vuepress-theme-plume": "latest"
+    "vuepress-theme-plume": "1.0.0-rc.212"
   },
   "engines": {
     "node": ">=22 <23"
   },
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm@10.34.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "tokenx": "2.1.0"
+    }
   }
 }
