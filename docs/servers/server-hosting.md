@@ -9,7 +9,7 @@ translation:
 
 # 搭建服务器
 
-Unturned 玩家可以使用 **Unturned Dedicated Server（U3DS）** 搭建多人服务器。U3DS 需要单独安装，可从 Steam 库直接安装，也可以通过 [SteamCMD](/servers/steamcmd/) 部署。Windows 与 Linux 均可用于托管服务器，macOS 不受支持。
+Unturned 玩家可以使用 **Unturned Dedicated Server（U3DS）** 搭建多人服务器。U3DS 需要单独安装，可从 Steam 库直接安装，也可以通过 [SteamCMD](/servers/steamcmd.html) 部署。Windows 与 Linux 均可用于托管服务器，macOS 不受支持。
 
 ## 快速开始
 
