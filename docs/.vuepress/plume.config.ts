@@ -3,9 +3,9 @@ import { defineThemeConfig } from 'vuepress-theme-plume'
 const docsSidebar = [
   {
     text: '服务器',
-    link: '/servers/',
     collapsed: false,
     items: [
+      { text: '服务器文档概览', link: '/servers/' },
       { text: '搭建服务器', link: '/servers/server-hosting/' },
       { text: '使用 SteamCMD', link: '/servers/steamcmd/' },
       { text: '服务器配置', link: '/servers/server-configuration/' },
@@ -28,7 +28,6 @@ const docsSidebar = [
   },
   {
     text: '资源与 Mod',
-    link: '/assets/',
     collapsed: true,
     items: [
       { text: '资源文档概览', link: '/assets/' },
@@ -36,7 +35,6 @@ const docsSidebar = [
   },
   {
     text: '数据',
-    link: '/data/',
     collapsed: true,
     items: [
       { text: '数据文档概览', link: '/data/' },
@@ -44,7 +42,6 @@ const docsSidebar = [
   },
   {
     text: '物品',
-    link: '/items/',
     collapsed: true,
     items: [
       { text: '物品文档概览', link: '/items/' },
@@ -52,7 +49,6 @@ const docsSidebar = [
   },
   {
     text: '地图制作',
-    link: '/mapping/',
     collapsed: true,
     items: [
       { text: '地图制作概览', link: '/mapping/' },
@@ -60,7 +56,6 @@ const docsSidebar = [
   },
   {
     text: 'NPC',
-    link: '/npcs/',
     collapsed: true,
     items: [
       { text: 'NPC 文档概览', link: '/npcs/' },
@@ -68,7 +63,6 @@ const docsSidebar = [
   },
   {
     text: 'U3 SDK',
-    link: '/u3-sdk/',
     collapsed: true,
     items: [
       { text: 'U3 SDK 概览', link: '/u3-sdk/' },
@@ -76,7 +70,6 @@ const docsSidebar = [
   },
   {
     text: '参与贡献',
-    link: '/contributing/',
     collapsed: true,
     items: [
       { text: '贡献指南', link: '/contributing/' },
@@ -86,11 +79,12 @@ const docsSidebar = [
 
 export default defineThemeConfig({
   navbar: [
+    { text: '文档', link: '/docs/' },
     { text: 'GitHub', link: 'https://github.com/StarKano/Unturned-Docs-CN' },
   ],
 
   sidebar: {
-    '/': docsSidebar,
+    '/docs/': docsSidebar,
     '/servers/': docsSidebar,
     '/assets/': docsSidebar,
     '/data/': docsSidebar,
