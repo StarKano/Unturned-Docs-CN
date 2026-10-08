@@ -5,6 +5,7 @@
 - 官方英文文档：https://docs.smartlydressedgames.com/en/stable/
 - 官方源码：https://github.com/SmartlyDressedGames/Unturned-Docs
 - 中文仓库：https://github.com/StarKano/Unturned-Docs-CN
+- 主站：https://docs.unbbs.net/
 
 - 未转变着中文社区：https://www.unbbs.net/
 
