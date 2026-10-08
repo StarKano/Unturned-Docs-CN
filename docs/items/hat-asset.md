@@ -1,5 +1,5 @@
 ---
-title: 帽子资源（Hat Asset）
+title: 帽子类（Hat Asset）
 translation:
   source: items/hat-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 帽子资源（Hat Asset）
+# 帽子类（Hat Asset）
 
 `ItemHatAsset` 用于占据 Hat Slot 的 Clothing。玩家和 Zombie 可穿戴，用于覆盖头部。继承 [GearAsset](/items/gear-asset.html)。
 

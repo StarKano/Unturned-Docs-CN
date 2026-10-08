@@ -1,5 +1,5 @@
 ---
-title: 天气资源（Weather Asset）
+title: 天气类（Weather Asset）
 translation:
   source: assets/weather-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 天气资源（Weather Asset）
+# 天气类（Weather Asset）
 
 Weather Asset 用自定义事件覆盖内置 Rain / Snow。该功能仍在持续开发。
 

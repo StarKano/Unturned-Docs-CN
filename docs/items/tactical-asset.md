@@ -1,5 +1,5 @@
 ---
-title: 战术附件资源（Tactical Asset）
+title: 战术附件类（Tactical Asset）
 translation:
   source: items/tactical-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 战术附件资源（Tactical Asset）
+# 战术附件类（Tactical Asset）
 
 Tactical 由 `ItemTacticalAsset` 创建，是可安装到远程武器上的战术附件。它继承 [CaliberAsset](/items/caliber-asset.html)。
 

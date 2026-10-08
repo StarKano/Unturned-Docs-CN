@@ -1,5 +1,5 @@
 ---
-title: 尸潮信标资源（Beacon Asset）
+title: 尸潮信标类（Beacon Asset）
 translation:
   source: items/beacon-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 尸潮信标资源（Beacon Asset）
+# 尸潮信标类（Beacon Asset）
 
 Beacon 由 `ItemBeaconAsset` 创建。放置后启动 Zombie Horde Event；玩家需要在 Beacon 被摧毁前击杀指定数量 Zombie。继承 BarricadeAsset。
 

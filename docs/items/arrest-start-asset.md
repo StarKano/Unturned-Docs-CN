@@ -1,5 +1,5 @@
 ---
-title: 拘捕资源（Arrest Start Asset）
+title: 拘捕类（Arrest Start Asset）
 translation:
   source: items/arrest-start-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 拘捕资源（Arrest Start Asset）
+# 拘捕类（Arrest Start Asset）
 
 `ItemArrestStartAsset` 用于“Catcher”物品，可束缚玩家；对应的 Releaser 可解除束缚。Vanilla 示例包括 Handcuffs、Cable Tie。
 

@@ -1,5 +1,5 @@
 ---
-title: 结构资源（Structure Asset）
+title: 结构类（Structure Asset）
 translation:
   source: items/structure-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 结构资源（Structure Asset）
+# 结构类（Structure Asset）
 
 Structure 由 `ItemStructureAsset` 创建，可由玩家放置。部分结构件必须依附其他结构件才能放置。它继承 [PlaceableAsset](/items/placeable-asset.html)。
 

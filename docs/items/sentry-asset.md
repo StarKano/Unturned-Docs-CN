@@ -1,5 +1,5 @@
 ---
-title: 哨戒炮资源（Sentry Asset）
+title: 哨戒炮类（Sentry Asset）
 translation:
   source: items/sentry-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 哨戒炮资源（Sentry Asset）
+# 哨戒炮类（Sentry Asset）
 
 Sentry（Robotic Turret）由 `ItemSentryAsset` 创建，可自动侦测、追踪并攻击符合条件的目标。把 Ranged Weapon 放入 Sentry 后，它会使用该 Weapon。继承 [StorageAsset](/items/storage-asset.html)。
 

@@ -1,5 +1,5 @@
 ---
-title: 武器基础资源（Weapon Asset）
+title: 武器基础类（Weapon Asset）
 translation:
   source: items/weapon-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 武器基础资源（Weapon Asset）
+# 武器基础类（Weapon Asset）
 
 `ItemWeaponAsset` 是武器资源的基础类。本身的具体行为由子类决定，例如 Gun、Melee 等。它继承 [ItemAsset](/items/introduction.html)。
 

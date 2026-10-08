@@ -1,5 +1,5 @@
 ---
-title: 载具开锁工具资源
+title: 载具开锁工具类
 translation:
   source: items/vehicle-lockpick-tool-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具开锁工具资源
+# 载具开锁工具类
 
 由 `ItemVehicleLockpickToolAsset` 创建，用于解锁 Vehicle。继承 [ToolAsset](/items/tool-asset.html)。
 

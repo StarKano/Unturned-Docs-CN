@@ -1,5 +1,5 @@
 ---
-title: 载具维修工具资源
+title: 载具维修工具类
 translation:
   source: items/vehicle-repair-tool-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具维修工具资源
+# 载具维修工具类
 
 Vehicle Repair Tool（本地化为“Tool”）由 `ItemVehicleRepairTool` 创建，用于更换 Vehicle Battery。继承 [ToolAsset](/items/tool-asset.html)。
 

@@ -18,6 +18,9 @@
 - 页面标题与正文翻译为中文。
 - 配置字段、JSON 键名、命令、文件名和代码不得擅自翻译。
 - 首次出现的专业术语可以使用“中文（English）”形式。
+- 资源类型页的标题统一使用「Xxx 类（Xxx Asset）」形式：`BoxAsset` 写作「箱子类（Box Asset）」，
+  `ResourceAsset` 写作「资源节点类（Resource Asset）」。泛指资产时仍用「资源」，
+  `Asset Bundle` 仍用「资源包」。
 - 优先遵循 `translation/glossary.json` 中的统一术语。
 - 不确定的内容不要猜测，应在 PR 中注明需要复核。
 

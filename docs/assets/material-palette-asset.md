@@ -1,5 +1,5 @@
 ---
-title: 材质调色板资源
+title: 材质调色板类
 translation:
   source: assets/material-palette-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 材质调色板资源
+# 材质调色板类
 
 `MaterialPaletteAsset` 允许一个 Object 从多个候选 Material 中选择。每次在 Level Editor 生成 Object 时，会从 Material Palette 随机选择一个材质；编辑器中也可以给已选择的 Object 手动指定 Palette。
 

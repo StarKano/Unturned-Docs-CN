@@ -1,5 +1,5 @@
 ---
-title: 载具喷漆工具资源
+title: 载具喷漆工具类
 translation:
   source: items/vehicle-paint-tool-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具喷漆工具资源
+# 载具喷漆工具类
 
 由 `ItemVehiclePaintToolAsset` 创建，用于修改 Vehicle Paint Color。继承 [ToolAsset](/items/tool-asset.html)。
 

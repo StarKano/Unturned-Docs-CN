@@ -1,5 +1,5 @@
 ---
-title: 遥控炸药资源（Charge Asset）
+title: 遥控炸药类（Charge Asset）
 translation:
   source: items/charge-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 遥控炸药资源（Charge Asset）
+# 遥控炸药类（Charge Asset）
 
 Charge / Remote Explosive 由 `ItemChargeAsset` 创建，可放置后用 [Detonator](/items/detonator-asset.html) 遥控引爆。继承 BarricadeAsset。
 

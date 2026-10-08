@@ -1,5 +1,5 @@
 ---
-title: 背心资源（Vest Asset）
+title: 背心类（Vest Asset）
 translation:
   source: items/vest-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 背心资源（Vest Asset）
+# 背心类（Vest Asset）
 
 `ItemVestAsset` 用于 Vest Slot，可由玩家和 Zombie 穿戴并覆盖 Torso。继承 [BagAsset](/items/bag-asset.html)。
 

@@ -1,5 +1,5 @@
 ---
-title: 饮品资源（Water Asset）
+title: 饮品类（Water Asset）
 translation:
   source: items/water-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 饮品资源（Water Asset）
+# 饮品类（Water Asset）
 
 Drink 由 `ItemWaterAsset` 创建，使用后会被玩家消耗，并直接修改 Water、Stamina 等状态。继承 [ConsumeableAsset](/items/consumeable-asset.html)。
 

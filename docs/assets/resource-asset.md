@@ -1,5 +1,5 @@
 ---
-title: 资源节点（Resource Asset）
+title: 资源节点类（Resource Asset）
 translation:
   source: assets/resource-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 资源节点（Resource Asset）
+# 资源节点类（Resource Asset）
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`Resource`。

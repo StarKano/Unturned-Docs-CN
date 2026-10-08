@@ -1,5 +1,5 @@
 ---
-title: 合成黑名单资源
+title: 合成黑名单类
 translation:
   source: assets/crafting-blacklist-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 合成黑名单资源
+# 合成黑名单类
 
 用于禁止特定物品或蓝图参与合成。被禁止的内容不会显示在物品快捷操作菜单和配方列表中。
 

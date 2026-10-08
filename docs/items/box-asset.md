@@ -1,5 +1,5 @@
 ---
-title: Economy 箱子资源（Box Asset）
+title: Economy 箱子类（Box Asset）
 translation:
   source: items/box-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# Economy 箱子资源（Box Asset）
+# Economy 箱子类（Box Asset）
 
 Box 由 `ItemBoxAsset` 创建，用于显示 Steam Economy Integration 的特定信息。该类型对普通 Mod 作者基本没有用途，文档仅为完整性保留。继承 ItemAsset。
 

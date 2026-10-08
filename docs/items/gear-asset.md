@@ -1,5 +1,5 @@
 ---
-title: 装备基础资源（Gear Asset）
+title: 装备基础类（Gear Asset）
 translation:
   source: items/gear-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 装备基础资源（Gear Asset）
+# 装备基础类（Gear Asset）
 
 `ItemGearAsset` 是帽子、面具、眼镜等装备类服装的基础类，本身不可直接使用。它继承 [Clothing Asset](/items/clothing-asset.html)。
 

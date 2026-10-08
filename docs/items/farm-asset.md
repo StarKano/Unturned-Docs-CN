@@ -1,5 +1,5 @@
 ---
-title: 农作物资源（Farm Asset）
+title: 农作物类（Farm Asset）
 translation:
   source: items/farm-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 农作物资源（Farm Asset）
+# 农作物类（Farm Asset）
 
 Farm / Plant 由 `ItemFarmAsset` 创建，是可放置、会成长并可收获的 Seed。种下后会随时间成熟；Rain 或 [Growth Supplement](/items/grower-asset.html) 可以立即完成生长。成熟作物每次收获会受到 2 点伤害，直到 Health 归零。继承 [BarricadeAsset](/items/barricade-asset.html)。
 

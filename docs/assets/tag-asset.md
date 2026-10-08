@@ -1,5 +1,5 @@
 ---
-title: 标签资源（Tag Asset）
+title: 标签类（Tag Asset）
 translation:
   source: assets/tag-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 标签资源（Tag Asset）
+# 标签类（Tag Asset）
 
 Tag 虽然也有显示属性，但主要用途是充当多个资源共享的唯一标识，因此特别适合跨 Mod 兼容。
 

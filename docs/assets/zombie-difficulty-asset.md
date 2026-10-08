@@ -1,5 +1,5 @@
 ---
-title: 僵尸难度资源
+title: 僵尸难度类
 translation:
   source: assets/zombie-difficulty-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 僵尸难度资源
+# 僵尸难度类
 
 用于覆盖某个 Navmesh 内僵尸的难度设置。官方 `ZombieDifficulty.asset` 可在：
 

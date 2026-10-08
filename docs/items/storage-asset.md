@@ -1,5 +1,5 @@
 ---
-title: 物品储物资源（Storage Asset）
+title: 物品储物类（Storage Asset）
 translation:
   source: items/storage-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 物品储物资源（Storage Asset）
+# 物品储物类（Storage Asset）
 
 Storage 由 `ItemStorageAsset` 创建，是用于存放 Item 的可放置容器。继承 BarricadeAsset。
 

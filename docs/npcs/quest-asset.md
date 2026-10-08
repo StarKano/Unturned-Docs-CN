@@ -1,5 +1,5 @@
 ---
-title: 任务资源（Quest Asset）
+title: 任务类（Quest Asset）
 translation:
   source: npcs/quest-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 任务资源（Quest Asset）
+# 任务类（Quest Asset）
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`Quest`。

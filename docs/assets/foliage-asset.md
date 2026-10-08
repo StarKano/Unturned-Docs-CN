@@ -1,5 +1,5 @@
 ---
-title: 植被资源（Foliage Asset）
+title: 植被类（Foliage Asset）
 translation:
   source: assets/foliage-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 植被资源（Foliage Asset）
+# 植被类（Foliage Asset）
 
 Foliage Asset 有不同子类型，最常见的是 Instanced Mesh（草、小石子）和 Resource（树木）。
 

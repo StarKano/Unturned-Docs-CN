@@ -1,5 +1,5 @@
 ---
-title: 投掷物资源（Throwable Asset）
+title: 投掷物类（Throwable Asset）
 translation:
   source: items/throwable-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 投掷物资源（Throwable Asset）
+# 投掷物类（Throwable Asset）
 
 Throwable 由 `ItemThrowableAsset` 创建，可由玩家投掷。在禁止武器的 Safezone 中不能使用。继承 [WeaponAsset](/items/weapon-asset.html)。
 

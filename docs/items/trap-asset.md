@@ -1,5 +1,5 @@
 ---
-title: 陷阱资源（Trap Asset）
+title: 陷阱类（Trap Asset）
 translation:
   source: items/trap-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 陷阱资源（Trap Asset）
+# 陷阱类（Trap Asset）
 
 Trap 由 `ItemTrapAsset` 创建，是可放置的伤害来源。继承 [BarricadeAsset](/items/barricade-asset.html)。
 

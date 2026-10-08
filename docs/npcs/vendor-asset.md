@@ -1,5 +1,5 @@
 ---
-title: 商人资源（Vendor Asset）
+title: 商人类（Vendor Asset）
 translation:
   source: npcs/vendor-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 商人资源（Vendor Asset）
+# 商人类（Vendor Asset）
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`Vendor`。

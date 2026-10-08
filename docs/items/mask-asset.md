@@ -1,5 +1,5 @@
 ---
-title: 面具资源（Mask Asset）
+title: 面具类（Mask Asset）
 translation:
   source: items/mask-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 面具资源（Mask Asset）
+# 面具类（Mask Asset）
 
 Mask 由 `ItemMaskAsset` 创建，可由玩家和 Zombie 穿戴。继承 [GearAsset](/items/gear-asset.html)。
 

@@ -1,5 +1,5 @@
 ---
-title: 握把配件资源（Grip Asset）
+title: 握把配件类（Grip Asset）
 translation:
   source: items/grip-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 握把配件资源（Grip Asset）
+# 握把配件类（Grip Asset）
 
 Grip 由 `ItemGripAsset` 创建，是可安装到 Ranged Weapon 的 Inventory Item。继承 [CaliberAsset](/items/caliber-asset.html)，而 CaliberAsset 再继承 ItemAsset。
 

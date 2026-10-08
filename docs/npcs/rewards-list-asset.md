@@ -1,5 +1,5 @@
 ---
-title: 奖励列表资源
+title: 奖励列表类
 translation:
   source: npcs/rewards-list-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 奖励列表资源
+# 奖励列表类
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`RewardsList`。

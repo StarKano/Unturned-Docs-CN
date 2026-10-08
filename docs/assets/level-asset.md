@@ -1,5 +1,5 @@
 ---
-title: 关卡资源（Level Asset）
+title: 关卡类（Level Asset）
 translation:
   source: assets/level-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 关卡资源（Level Asset）
+# 关卡类（Level Asset）
 
 每张地图都可以关联一个 **Level Asset**，用来存储主菜单阶段不需要的玩法信息。地图如何绑定 Level Asset 请参阅后续 Level Config 文档。官方示例位于 `Assets/Levels`。
 
