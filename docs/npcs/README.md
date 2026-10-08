@@ -8,13 +8,13 @@ title: NPC
 
 - [NPC 入门](/npcs/introduction.html)
 - [NPC 角色类](/npcs/npc-asset.html)
-- [对话类](/npcs/dialogue-asset.html)
-- [任务类](/npcs/quest-asset.html)
-- [商人类](/npcs/vendor-asset.html)
+- [对话类（Dialogue Asset）](/npcs/dialogue-asset.html)
+- [任务类（Quest Asset）](/npcs/quest-asset.html)
+- [商人类（Vendor Asset）](/npcs/vendor-asset.html)
 - [条件（Conditions）](/npcs/conditions.html)
 - [奖励（Rewards）](/npcs/rewards.html)
 - [奖励列表类](/npcs/rewards-list-asset.html)
-- [货币类](/npcs/currency-asset.html)
+- [货币类（Currency Asset）](/npcs/currency-asset.html)
 
 ::: tip 当前进度
 官方 `npcs/` 目录的 **9 篇文档已全部完成中文初译**。

@@ -10,7 +10,7 @@ config:
     hero:
       name: Unturned 中文文档
       tagline: 由未转变者中文社区维护的未转变者技术资料库
-      text: 从服务器搭建、配置与运维，到 Mod、地图制作、数据与开发资料。同步Unturned官方文档更新，由未转变着中文社区共同翻译、校对与维护。
+      text: 从服务器搭建、配置与运维，到 Mod、地图制作、数据与开发资料。同步 Unturned 官方文档更新，由未转变者中文社区共同翻译、校对与维护。
       actions:
         -
           theme: brand
@@ -51,9 +51,15 @@ config:
         link: /mapping/
         linkText: 浏览地图文档
       -
+        icon: material-symbols:inventory-2-outline
+        title: 物品
+        details: 物品制作、蓝图、附件，以及各类物品资源字段。
+        link: /items/
+        linkText: 浏览物品文档
+      -
         icon: material-symbols:database-outline
-        title: 数据与物品
-        details: 数据格式、内置类型、物品以及各种资源字段说明。
+        title: 数据类型
+        details: 内置类型、枚举、结构体和资源字段中使用的数据格式。
         link: /data/
         linkText: 浏览数据文档
       -
@@ -92,6 +98,10 @@ config:
         link: https://github.com/StarKano/Unturned-Docs-CN
         linkText: 前往 GitHub
 ---
+
+## 完整目录
+
+[文档总览](/docs/)按左侧目录列出全部 159 篇正文，包含入门、Mod 入门、物品、载具、对象、NPC、其他资源、地图制作、服务器、数据类型和 U3 SDK。
 
 ## 当前进度
 
