@@ -4,10 +4,10 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'UNBBS · Unturned 中文文档',
+  title: 'UNBBS 未转变者中文文档',
   description: '由未转变者中文社区（UNBBS）维护的 Unturned 非官方中文文档。',
   head: [
-    ['link', { rel: 'icon', href: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png' }],
+    ['link', { rel: 'icon', href: '/img/unturnedlogo.png' }],
   ],
   bundler: viteBundler(),
   theme: plumeTheme({

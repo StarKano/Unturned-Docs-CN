@@ -1,0 +1,11 @@
+packages:
+  - .
+
+onlyBuiltDependencies:
+  - esbuild
+
+allowBuilds:
+  esbuild: true
+
+overrides:
+  tokenx: 2.1.0

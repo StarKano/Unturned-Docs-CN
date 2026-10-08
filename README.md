@@ -18,12 +18,21 @@
 
 ## 本地开发
 
+需要 Node.js 22.12+ 或 24，以及 pnpm。仓库指定的 pnpm 版本为 10.34.1；pnpm 11 也可以使用。先检查版本：
+
 ```bash
-pnpm install
+node --version
+pnpm --version
+```
+
+在仓库根目录安装依赖并启动本地预览：
+
+```bash
+pnpm install --frozen-lockfile
 pnpm docs:dev
 ```
 
-构建：
+打开命令行显示的本地地址。若需要验证静态构建，可运行：
 
 ```bash
 pnpm docs:build

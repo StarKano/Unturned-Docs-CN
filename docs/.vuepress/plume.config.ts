@@ -80,18 +80,18 @@ const docsSidebar = [
 ]
 
 export default defineThemeConfig({
-  logo: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
-  logoDark: 'https://www.unbbs.net/wp-content/uploads/2020/08/unturnedlogo.png',
+  logo: '/img/unturnedlogo.png',
+  logoDark: '/img/unturnedlogo.png',
   navbar: [
     { text: '文档总览', link: '/docs/', icon: 'material-symbols:menu-book-outline' },
-    { text: '物品', link: '/items/', icon: 'material-symbols:inventory-2-outline' },
+    { text: '物品类', link: '/items/', icon: 'material-symbols:inventory-2-outline' },
     { text: '资源与 Mod', link: '/assets/', icon: 'material-symbols:deployed-code-outline' },
     { text: '地图与 NPC', icon: 'material-symbols:map-outline', items: [
       { text: '地图制作', link: '/mapping/' },
-      { text: 'NPC 与逻辑', link: '/npcs/' },
+      { text: 'NPC制作', link: '/npcs/' },
     ] },
     { text: '服务器', link: '/servers/', icon: 'material-symbols:dns-outline' },
-    { text: '数据与 SDK', icon: 'material-symbols:database-outline', items: [
+    { text: '数据公开', icon: 'material-symbols:database-outline', items: [
       { text: '数据类型', link: '/data/' },
       { text: 'U3 SDK', link: '/u3-sdk/' },
     ] },

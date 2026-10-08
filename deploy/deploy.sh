@@ -23,7 +23,7 @@ git fetch origin
 git reset --hard origin/main
 
 echo "[2/5] 安装依赖"
-pnpm install --no-frozen-lockfile
+pnpm install --frozen-lockfile
 
 echo "[3/5] 构建 VuePress"
 pnpm docs:build
