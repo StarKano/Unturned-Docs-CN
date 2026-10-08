@@ -1,5 +1,5 @@
 ---
-title: 弹匣资源（Magazine Asset）
+title: 弹匣类（Magazine Asset）
 translation:
   source: items/magazine-asset.rst
   branch: stable
@@ -7,9 +7,9 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 弹匣资源（Magazine Asset）
+# 弹匣类（Magazine Asset）
 
-弹匣及其他弹药附件由 `ItemMagazineAsset` 创建，可以安装到远程武器上。它继承[口径资源 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。因此，通用字段和口径字段也适用于弹匣。
+弹匣及其他弹药附件由 `ItemMagazineAsset` 创建，可以安装到远程武器上。它继承[口径类 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。因此，通用字段和口径字段也适用于弹匣。
 
 ## 数据文件要求
 
@@ -19,7 +19,7 @@ translation:
 | `ItemAsset` | `ID` | 唯一旧版 ID |
 | `ItemAsset` | `Type` | `Magazine` |
 
-口径兼容性使用继承自 `CaliberAsset` 的字段；具体设置请参阅[口径资源](/items/caliber-asset.html)。
+口径兼容性使用继承自 `CaliberAsset` 的字段；具体设置请参阅[口径类](/items/caliber-asset.html)。
 
 ## 弹匣属性
 

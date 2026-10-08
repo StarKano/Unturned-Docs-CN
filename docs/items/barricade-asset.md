@@ -1,5 +1,5 @@
 ---
-title: 路障资源（Barricade Asset）
+title: 路障类（Barricade Asset）
 translation:
   source: items/barricade-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 路障资源（Barricade Asset）
+# 路障类（Barricade Asset）
 
 Barricade 由 `ItemBarricadeAsset` 创建，可以由玩家放置，也可以在关卡编辑器中放置。
 

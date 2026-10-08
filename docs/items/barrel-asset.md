@@ -1,5 +1,5 @@
 ---
-title: 枪管配件资源（Barrel Asset）
+title: 枪管配件类（Barrel Asset）
 translation:
   source: items/barrel-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 枪管配件资源（Barrel Asset）
+# 枪管配件类（Barrel Asset）
 
 Barrel Attachment 由 `ItemBarrelAsset` 创建，可安装到 Ranged Weapon。继承 [CaliberAsset](/items/caliber-asset.html)，再继承 ItemAsset。
 

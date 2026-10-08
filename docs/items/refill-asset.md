@@ -1,5 +1,5 @@
 ---
-title: 水容器资源（Refill Asset）
+title: 水容器类（Refill Asset）
 translation:
   source: items/refill-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 水容器资源（Refill Asset）
+# 水容器类（Refill Asset）
 
 Refill / Water Canister 由 `ItemRefillAsset` 创建，可抽取、储存和倒出 Water，也可以直接饮用恢复状态。Water Canister 有四种状态：Empty、Salty、Dirty、Clean。继承 ItemAsset。
 

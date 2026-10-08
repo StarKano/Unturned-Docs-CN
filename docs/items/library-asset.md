@@ -1,5 +1,5 @@
 ---
-title: 经验存储资源（Library Asset）
+title: 经验存储类（Library Asset）
 translation:
   source: items/library-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 经验存储资源（Library Asset）
+# 经验存储类（Library Asset）
 
 Library 由 `ItemLibraryAsset` 创建，是可放置的 Experience Point Storage。继承 [BarricadeAsset](/items/barricade-asset.html)。
 

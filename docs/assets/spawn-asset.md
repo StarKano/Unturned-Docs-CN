@@ -1,5 +1,5 @@
 ---
-title: 生成表资源（Spawn Asset）
+title: 生成表类（Spawn Asset）
 translation:
   source: assets/spawn-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 生成表资源（Spawn Asset）
+# 生成表类（Spawn Asset）
 
 Spawn Asset 表示某个 Spawn Point 生成单个 Item、Vehicle 或 Animal 的加权概率。自定义 Spawn Table 可用于自定义地图、Curated Map 和官方地图。
 

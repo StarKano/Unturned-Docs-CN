@@ -1,5 +1,5 @@
 ---
-title: 上衣资源（Shirt Asset）
+title: 上衣类（Shirt Asset）
 translation:
   source: items/shirt-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 上衣资源（Shirt Asset）
+# 上衣类（Shirt Asset）
 
 Shirt 由 `ItemShirtAsset` 创建，可由玩家和 Zombie 穿戴。继承 [BagAsset](/items/bag-asset.html)。
 

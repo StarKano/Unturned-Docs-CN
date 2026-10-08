@@ -1,5 +1,5 @@
 ---
-title: 瞄具资源（Sight Asset）
+title: 瞄具类（Sight Asset）
 translation:
   source: items/sight-asset.rst
   branch: stable
@@ -7,9 +7,9 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 瞄具资源（Sight Asset）
+# 瞄具类（Sight Asset）
 
-Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具附件。它继承[口径资源 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。
+Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具附件。它继承[口径类 `CaliberAsset`](/items/caliber-asset.html)，后者又继承[基础物品资源](/items/introduction.html)。
 
 ## 必需字段
 

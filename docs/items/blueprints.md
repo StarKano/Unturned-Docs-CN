@@ -147,7 +147,7 @@ RequiresNearbyCraftingTags
 ]
 ```
 
-`RequiresStaticTags` 与之类似，但只在地图启动时检查一次。它可检查[关卡资源](/assets/level-asset.html)的 `Tags`；与其通过地图名称限定蓝图，地图可以通过标签声明自己支持的蓝图。原版提供的标签包括：
+`RequiresStaticTags` 与之类似，但只在地图启动时检查一次。它可检查[关卡类](/assets/level-asset.html)的 `Tags`；与其通过地图名称限定蓝图，地图可以通过标签声明自己支持的蓝图。原版提供的标签包括：
 
 ```text
 73eb818d1aa044c7bb4e61b8f9b37a3c // 允许在安全区建造

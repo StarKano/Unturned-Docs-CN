@@ -1,5 +1,5 @@
 ---
-title: 对话资源（Dialogue Asset）
+title: 对话类（Dialogue Asset）
 translation:
   source: npcs/dialogue-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 对话资源（Dialogue Asset）
+# 对话类（Dialogue Asset）
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`Dialogue`。

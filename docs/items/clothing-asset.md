@@ -1,5 +1,5 @@
 ---
-title: 服装基础资源（Clothing Asset）
+title: 服装基础类（Clothing Asset）
 translation:
   source: items/clothing-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 服装基础资源（Clothing Asset）
+# 服装基础类（Clothing Asset）
 
 `ItemClothingAsset` 是服装类资源的基础类，本身不能直接使用。继承它的物品可被玩家和僵尸穿戴。它继承 [ItemAsset](/items/introduction.html)，服装始终会显示品质值。
 

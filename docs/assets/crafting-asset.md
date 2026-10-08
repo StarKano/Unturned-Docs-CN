@@ -1,5 +1,5 @@
 ---
-title: 合成资源（Crafting Asset）
+title: 合成类（Crafting Asset）
 translation:
   source: assets/crafting-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 合成资源（Crafting Asset）
+# 合成类（Crafting Asset）
 
 Crafting Asset 用于在 Item Asset 之外定义蓝图。这样可以更方便地整理没有明确“所属物品”的配方，例如一个蓝图有多个输入和多个输出时，就不一定适合放在某一个具体 Item Asset 中。
 

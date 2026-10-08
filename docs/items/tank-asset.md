@@ -1,5 +1,5 @@
 ---
-title: 液体储罐资源（Tank Asset）
+title: 液体储罐类（Tank Asset）
 translation:
   source: items/tank-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 液体储罐资源（Tank Asset）
+# 液体储罐类（Tank Asset）
 
 Tank（Liquid Storage）由 `ItemTankAsset` 创建，是可放置的 Water/Fuel 容器。玩家可用 Fuel Canister 或 Water Canister 抽取/注入。继承 BarricadeAsset。
 

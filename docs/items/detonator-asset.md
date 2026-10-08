@@ -1,5 +1,5 @@
 ---
-title: 遥控引爆器资源（Detonator Asset）
+title: 遥控引爆器类（Detonator Asset）
 translation:
   source: items/detonator-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 遥控引爆器资源（Detonator Asset）
+# 遥控引爆器类（Detonator Asset）
 
 Detonator / Remote Trigger 由 `ItemDetonatorAsset` 创建，可以引爆[遥控炸药](/items/charge-asset.html)。继承 ItemAsset。
 

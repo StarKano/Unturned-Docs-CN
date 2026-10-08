@@ -1,5 +1,5 @@
 ---
-title: 对象资源（Object Asset）
+title: 对象类（Object Asset）
 translation:
   source: assets/object-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 对象资源（Object Asset）
+# 对象类（Object Asset）
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`** EObjectType：决定排序、寻路、碰撞和裁剪。Small 主要用于杂物/装饰，Medium 填充场景布局，Large 构成主要关卡结构。`NPC` 类型还应配合 NPC Object 文档。

@@ -1,5 +1,5 @@
 ---
-title: 枪械资源（Gun Asset）
+title: 枪械类（Gun Asset）
 translation:
   source: items/gun-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 枪械资源（Gun Asset）
+# 枪械类（Gun Asset）
 
 `ItemGunAsset` 用于定义远程武器。原版示例包括 [Eaglefire](https://unturned.wiki.gg/wiki/Eaglefire)、[Crossbow](https://unturned.wiki.gg/wiki/Crossbow) 等。它继承 [Weapon Asset](/items/weapon-asset.html)。
 

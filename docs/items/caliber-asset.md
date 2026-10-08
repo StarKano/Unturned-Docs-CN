@@ -1,5 +1,5 @@
 ---
-title: 口径基础资源（Caliber Asset）
+title: 口径基础类（Caliber Asset）
 translation:
   source: items/caliber-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 口径基础资源（Caliber Asset）
+# 口径基础类（Caliber Asset）
 
 `ItemCaliberAsset` 是枪械附件等资源的基础类，本身不能单独作为可用物品。它继承 [ItemAsset](/items/introduction.html)。
 

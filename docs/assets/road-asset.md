@@ -1,5 +1,5 @@
 ---
-title: 道路资源（Road Asset）
+title: 道路类（Road Asset）
 translation:
   source: assets/road-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 道路资源（Road Asset）
+# 道路类（Road Asset）
 
 Road Asset 让道路配置可以在不同关卡间复用，并开放过去无法配置的一些属性。
 

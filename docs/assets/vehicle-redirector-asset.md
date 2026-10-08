@@ -1,5 +1,5 @@
 ---
-title: 载具重定向器资源
+title: 载具重定向器类
 translation:
   source: assets/vehicle-redirector-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具重定向器资源
+# 载具重定向器类
 
 Vehicle Redirector Asset 用于把旧版“仅颜色不同”的多个载具变体合并到一个可喷漆 Vehicle Asset，同时保持旧存档和旧内容兼容。
 

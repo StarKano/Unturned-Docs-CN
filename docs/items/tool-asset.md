@@ -1,5 +1,5 @@
 ---
-title: 工具资源（Tool Asset）
+title: 工具类（Tool Asset）
 translation:
   source: items/tool-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 工具资源（Tool Asset）
+# 工具类（Tool Asset）
 
 Tool 由 `ItemToolAsset` 创建，具体功能取决于 `Useable`。继承 ItemAsset。
 

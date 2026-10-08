@@ -1,5 +1,5 @@
 ---
-title: 载具资源（Vehicle Asset）
+title: 载具类（Vehicle Asset）
 translation:
   source: assets/vehicle-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具资源（Vehicle Asset）
+# 载具类（Vehicle Asset）
 
 **VehicleAsset** 类用于定义载具。载具可以由玩家驾驶，支持枪塔、储物空间、可喷漆部件、不同发动机类型、车轮物理、燃料/电池系统等。
 

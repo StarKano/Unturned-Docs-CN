@@ -1,5 +1,5 @@
 ---
-title: 载具物理配置资源
+title: 载具物理配置类
 translation:
   source: assets/vehicle-physics-profile-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 载具物理配置资源
+# 载具物理配置类
 
 Vehicle Physics Profile 用于批量调节载具物理，而不必重新构建 Asset Bundle，同时提供比单独 Vehicle Asset 更多的控制项。
 

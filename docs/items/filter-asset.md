@@ -1,5 +1,5 @@
 ---
-title: 过滤器资源（Filter Asset）
+title: 过滤器类（Filter Asset）
 translation:
   source: items/filter-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 过滤器资源（Filter Asset）
+# 过滤器类（Filter Asset）
 
 Filter（辐射过滤器）由 `ItemFilterAsset` 创建，用于恢复防辐射 [Mask](/items/mask-asset.html) 的 Quality。继承 ItemAsset。
 

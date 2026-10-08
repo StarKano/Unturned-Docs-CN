@@ -1,5 +1,5 @@
 ---
-title: 背包资源（Backpack Asset）
+title: 背包类（Backpack Asset）
 translation:
   source: items/backpack-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 背包资源（Backpack Asset）
+# 背包类（Backpack Asset）
 
 `ItemBackpackAsset` 用于 Backpack Slot，可由玩家和 Zombie 穿戴。继承 [ItemBagAsset](/items/bag-asset.html)。
 

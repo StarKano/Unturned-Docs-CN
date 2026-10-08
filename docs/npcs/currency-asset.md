@@ -1,5 +1,5 @@
 ---
-title: 货币资源（Currency Asset）
+title: 货币类（Currency Asset）
 translation:
   source: npcs/currency-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 货币资源（Currency Asset）
+# 货币类（Currency Asset）
 
 一组拥有不同数值的 Item 可以关联为一个 **Currency Asset**。
 

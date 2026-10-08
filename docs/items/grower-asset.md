@@ -1,5 +1,5 @@
 ---
-title: 生长促进剂资源（Grower Asset）
+title: 生长促进剂类（Grower Asset）
 translation:
   source: items/grower-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 生长促进剂资源（Grower Asset）
+# 生长促进剂类（Grower Asset）
 
 Grower（Growth Supplement）由 `ItemGrowerAsset` 创建，可立即完成 [Farm Plant](/items/farm-asset.html) 的生长。继承 ItemAsset。
 

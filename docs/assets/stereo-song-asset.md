@@ -1,5 +1,5 @@
 ---
-title: 立体声歌曲资源
+title: 立体声歌曲类
 translation:
   source: assets/stereo-song-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 立体声歌曲资源
+# 立体声歌曲类
 
 定义可在游戏内 Stereo（或自定义音乐播放器物品）播放的音乐。可参考 Songs 目录中的 `Unturned_Theme.asset`。
 

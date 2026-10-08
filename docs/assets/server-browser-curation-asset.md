@@ -1,5 +1,5 @@
 ---
-title: 服务器浏览器策展资源
+title: 服务器浏览器策展类
 translation:
   source: assets/server-browser-curation-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 服务器浏览器策展资源
+# 服务器浏览器策展类
 
 大部分信息参阅[服务器浏览器筛选规则](/servers/server-browser-curation.html)。
 

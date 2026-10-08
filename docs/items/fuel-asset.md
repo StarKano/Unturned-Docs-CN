@@ -1,5 +1,5 @@
 ---
-title: 燃料容器资源（Fuel Asset）
+title: 燃料容器类（Fuel Asset）
 translation:
   source: items/fuel-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 燃料容器资源（Fuel Asset）
+# 燃料容器类（Fuel Asset）
 
 Fuel Canister 由 `ItemFuelAsset` 创建，可以抽取、存储和注入 Fuel。继承 ItemAsset。
 

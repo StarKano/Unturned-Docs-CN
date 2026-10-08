@@ -1,5 +1,5 @@
 ---
-title: 资源重定向器（Redirector Asset）
+title: 资源重定向器类（Redirector Asset）
 translation:
   source: assets/redirector-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 资源重定向器（Redirector Asset）
+# 资源重定向器类（Redirector Asset）
 
 **Redirector Asset** 是只在解析资源引用（GUID 和 Legacy ID）时使用的特殊资源。当某个引用指向 Redirector 时，资源系统会返回 Redirector 的目标资源。
 

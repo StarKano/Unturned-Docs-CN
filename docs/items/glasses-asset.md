@@ -1,5 +1,5 @@
 ---
-title: 眼镜资源（Glasses Asset）
+title: 眼镜类（Glasses Asset）
 translation:
   source: items/glasses-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 眼镜资源（Glasses Asset）
+# 眼镜类（Glasses Asset）
 
 Glasses 由 `ItemGlassesAsset` 创建，可由玩家和 Zombie 穿戴。继承 [GearAsset](/items/gear-asset.html)。
 

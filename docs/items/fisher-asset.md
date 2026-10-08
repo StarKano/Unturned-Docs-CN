@@ -1,5 +1,5 @@
 ---
-title: 钓鱼竿资源（Fisher Asset）
+title: 钓鱼竿类（Fisher Asset）
 translation:
   source: items/fisher-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 钓鱼竿资源（Fisher Asset）
+# 钓鱼竿类（Fisher Asset）
 
 Fisher / Fishing Pole 由 `ItemFisherAsset` 创建，可用于钓鱼。继承 ItemAsset。
 

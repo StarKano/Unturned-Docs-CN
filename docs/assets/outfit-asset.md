@@ -1,5 +1,5 @@
 ---
-title: Outfit 资源
+title: Outfit 类
 translation:
   source: assets/outfit-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# Outfit 资源
+# Outfit 类
 
 `OutfitAsset` 用于定义一组应一起穿戴的服装物品，从而生成整套 Outfit 的预览图。可以在主菜单 Workshop 页按 `F1` 打开工具生成 Outfit Preview。
 

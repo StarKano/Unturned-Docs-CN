@@ -1,5 +1,5 @@
 ---
-title: 近战武器资源（Melee Asset）
+title: 近战武器类（Melee Asset）
 translation:
   source: items/melee-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 近战武器资源（Melee Asset）
+# 近战武器类（Melee Asset）
 
 Melee Weapon 由 `ItemMeleeAsset` 创建，可作为伤害来源，并且始终显示 Quality。继承 [WeaponAsset](/items/weapon-asset.html)。
 

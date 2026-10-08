@@ -1,5 +1,5 @@
 ---
-title: 光学设备资源（Optic Asset）
+title: 光学设备类（Optic Asset）
 translation:
   source: items/optic-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 光学设备资源（Optic Asset）
+# 光学设备类（Optic Asset）
 
 Optic 由 `ItemOpticAsset` 创建，可以修改玩家视野。继承 [ItemAsset](/items/introduction.html)。
 

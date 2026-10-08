@@ -1,5 +1,5 @@
 ---
-title: 发电机资源（Generator Asset）
+title: 发电机类（Generator Asset）
 translation:
   source: items/generator-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 发电机资源（Generator Asset）
+# 发电机类（Generator Asset）
 
 Generator 由 `ItemGeneratorAsset` 创建，是可放置电源。玩家可用 [Fuel Canister](/items/fuel-asset.html) 加油。继承 [BarricadeAsset](/items/barricade-asset.html)。
 

@@ -1,5 +1,5 @@
 ---
-title: 物理材质资源
+title: 物理材质类
 translation:
   source: assets/physics-material-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 物理材质资源
+# 物理材质类
 
 这是一个仍在开发中的功能，用于把物理表面效果从硬编码改为可配置资源。
 

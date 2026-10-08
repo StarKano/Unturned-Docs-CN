@@ -1,5 +1,5 @@
 ---
-title: Mythical 特效资源
+title: Mythical 特效类
 translation:
   source: assets/mythical-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# Mythical 特效资源
+# Mythical 特效类
 
 - **`GUID`**：参阅 [GUID](/data/guid.html)。
 - **`Type`**：`Mythic`。

@@ -1,5 +1,5 @@
 ---
-title: 裤子资源（Pants Asset）
+title: 裤子类（Pants Asset）
 translation:
   source: items/pants-asset.rst
   branch: stable
@@ -7,7 +7,7 @@ translation:
   upstreamCommit: e0e8bb4fd08847edb9173eef498e104bc5d2d4cb
 ---
 
-# 裤子资源（Pants Asset）
+# 裤子类（Pants Asset）
 
 Pants 由 `ItemPantsAsset` 创建，可由玩家和 Zombie 穿戴。继承 [BagAsset](/items/bag-asset.html)。
 
