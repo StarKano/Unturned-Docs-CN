@@ -37,4 +37,4 @@ Tunnel mb:core
 
 会搜索 Vanilla Objects 中的 Tunnel。
 
-> 上游原文：[mapping/favorite-searches.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/favorite-searches.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/favorite-searches.html)

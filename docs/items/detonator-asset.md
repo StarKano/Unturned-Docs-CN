@@ -18,4 +18,4 @@ Detonator / Remote Trigger 由 `ItemDetonatorAsset` 创建，可以引爆[遥控
 
 没有独有字段。
 
-> 上游原文：[items/detonator-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/detonator-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/detonator-asset.html)

@@ -15,4 +15,4 @@ translation:
 
 旧 Legacy ID 为 16 位，范围 `[0, 65535]`；GUID 为 128 位，空间极大，因此开发者之间无需协调或注册即可生成。
 
-> 上游原文：[data/guid.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/guid.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/guid.html)

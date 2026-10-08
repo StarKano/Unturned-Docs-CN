@@ -18,4 +18,4 @@ Vehicle Repair Tool（本地化为“Tool”）由 `ItemVehicleRepairTool` 创�
 
 没有独有字段。
 
-> 上游原文：[items/vehicle-repair-tool-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/vehicle-repair-tool-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/vehicle-repair-tool-asset.html)

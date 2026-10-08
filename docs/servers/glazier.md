@@ -61,4 +61,4 @@ UIToolkit 集成目前仍属于实验性质。
 
 设置方法与 IMGUI 相同，把参数填入 Steam 的启动选项。目前滚动区域内容尺寸计算可能错误，部分被裁剪的内容会越过边框，例如地图地点标签；文字阴影和轮廓也不如 uGUI，因此暂不适合作为默认方案。
 
-> 上游原文：[servers/glazier.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/glazier.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/glazier.html)

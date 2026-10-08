@@ -98,4 +98,4 @@ done
 生产服务器更推荐使用独立的进程管理方案，并先测试更新与自动重启脚本，避免因为脚本错误进入无限失败循环。
 :::
 
-> 上游原文：[servers/server-auto-restart.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-auto-restart.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/server-auto-restart.html)

@@ -43,4 +43,4 @@ V2 改为把每个 Region 的 Pointer 存在单一文件中，代价是 Level Ed
 
 旧 V1 文件仍会保留在地图 `Foliage` 目录作为备份。确认转换成功后可以手动删除来释放空间。
 
-> 上游原文：[assets/foliage-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/foliage-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/foliage-asset.html)

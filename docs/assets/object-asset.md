@@ -156,4 +156,4 @@ Interactability 可以做可破坏 Object，但更推荐 Rubble，因为 Rubble 
 - **`Interactability_Text_Line_#`** Rich Text：Note 模式的每一行文本，与 `Interactability_Text_Lines` 配合。
 - **`Dialogue_Name`** `string`：Dialogue 中角色名，默认 Object Name。
 
-> 上游原文：[assets/object-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/object-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/object-asset.html)

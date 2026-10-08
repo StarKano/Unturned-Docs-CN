@@ -160,4 +160,4 @@ Skillset_Loadouts
 - **`Loop`**：加载完成前循环播放的 Audio Clip。
 - **`Outro`**：加载完成时播放一次的 Audio Clip。
 
-> 上游原文：[assets/level-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/level-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/level-asset.html)

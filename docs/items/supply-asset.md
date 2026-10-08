@@ -17,4 +17,4 @@ Supply 由 `ItemSupplyAsset` 创建，主要作为 Blueprint 合成材料。它�
 
 没有独有字段。
 
-> 上游原文：[items/supply-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/supply-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/supply-asset.html)

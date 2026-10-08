@@ -37,4 +37,4 @@ Fisher / Fishing Pole 由 `ItemFisherAsset` 创建，可用于钓鱼。继承 It
 - **`CatchChallenge_CaptureSpeed`** `float`：Item 位于 Cursor 内时捕获速度倍率，默认 1。
 - **`CatchChallenge_EscapeSpeed`** `float`：Item 位于 Cursor 外时失败速度倍率，默认 1。
 
-> 上游原文：[items/fisher-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/fisher-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/fisher-asset.html)

@@ -52,4 +52,4 @@ Steam Workshop 提供多个标签页和筛选条件，帮助玩家找到想要�
 
 最后在界面底部已发布内容列表中选中要更新的条目，即可开始上传更新。
 
-> 上游原文：[about/steam-workshop.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/about/steam-workshop.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/about/steam-workshop.html)

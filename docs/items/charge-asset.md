@@ -31,4 +31,4 @@ Charge / Remote Explosive 由 `ItemChargeAsset` 创建，可放置后用 [Detona
 - **`Range2`** `float`：伤害 AoE 半径。
 - **`Zombie_Damage`** `float`：对 Zombie 伤害。
 
-> 上游原文：[items/charge-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/charge-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/charge-asset.html)

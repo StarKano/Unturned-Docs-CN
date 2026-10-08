@@ -183,4 +183,4 @@ translation:
 字段名、枚举值、Prefab 名称和 GameObject 名称都应保持英文原样。只翻译说明文字。
 :::
 
-> 上游原文：[items/introduction.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/introduction.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/introduction.html)

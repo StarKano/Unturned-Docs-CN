@@ -17,4 +17,4 @@ translation:
 | `Burn` | 电量随时间减少。 |
 | `Charge` | 电量随时间恢复。 |
 
-> 上游原文：[data/enum/ebatterymode.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/ebatterymode.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/ebatterymode.html)

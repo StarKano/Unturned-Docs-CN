@@ -26,4 +26,4 @@ translation:
 
 更多信息见 Microsoft [Built-in types (C# reference)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)。
 
-> 上游原文：[data/built-in-types.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/built-in-types.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/built-in-types.html)

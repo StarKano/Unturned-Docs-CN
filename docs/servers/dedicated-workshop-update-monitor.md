@@ -33,4 +33,4 @@ translation:
 
 - <https://steamcommunity.com/app/304930/workshop/>
 
-> 上游原文：[servers/dedicated-workshop-update-monitor.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/dedicated-workshop-update-monitor.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/dedicated-workshop-update-monitor.html)

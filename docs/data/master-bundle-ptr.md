@@ -34,4 +34,4 @@ translation:
 "MyMasterBundlePtr" "core.masterbundle:path/to/file.extension"
 ```
 
-> 上游原文：[data/master-bundle-ptr.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/master-bundle-ptr.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/master-bundle-ptr.html)

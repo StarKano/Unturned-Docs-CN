@@ -106,4 +106,4 @@ Root Table 名会带地图名前缀，转换出的 Tier 会带原 Table 名前�
 
 转换时还会生成 `IDs.csv`，方便追踪每个 Spawn Asset 的 ID。
 
-> 上游原文：[assets/spawn-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/spawn-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/spawn-asset.html)

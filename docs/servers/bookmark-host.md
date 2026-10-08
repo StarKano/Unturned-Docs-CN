@@ -13,6 +13,8 @@ translation:
 
 Steam 自带的 Favorites 和 History 会按 IPv4 地址和端口记忆服务器，因此地址变化后原记录可能失效。GSLT 能一定程度上缓解这个问题，但更新并不是实时的，而且 Steam 旧的收藏机制不兼容 [Fake IP](/servers/fake-ip.html)。
 
+GSLT 提供稳定的服务器标识，因此客户端可以保存每台服务器自己的书签地址。官方希望它逐步取代旧版收藏与历史列表，并在未来支持 IPv6。原文写作时（2024-05-24），客户端尚未通过 Bookmark Host 保存历史记录。
+
 ## 配置方式
 
 在服务器配置中设置：
@@ -25,7 +27,7 @@ BookmarkHost
 
 ### DNS 主机名
 
-可以填写一个解析到服务器公网 IP 的域名，例如：
+可以填写一个通过 DNS `A` 记录解析到服务器公网 IP 的域名，例如：
 
 ```text
 myunturnedserver.example.com
@@ -54,10 +56,6 @@ myunturnedserver.example.com:27015
 
 这样可以由自己的后端动态返回当前服务器地址和端口，更适合使用 Fake IP 或地址经常变化的环境。
 
-## 官方原文外部链接
+Pandahut 分享了一个[示例插件和后端实现](https://github.com/PandahutMushy/BookmarkHostPlugin)，用于更新并返回最新地址。官方只把它作为示例，并未建议直接照搬部署。
 
-以下链接来自官方 stable 文档，保持原地址跳转：
-
-- <https://github.com/PandahutMushy/BookmarkHostPlugin>
-
-> 上游原文：[servers/bookmark-host.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/bookmark-host.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/bookmark-host.html)

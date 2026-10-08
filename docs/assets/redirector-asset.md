@@ -32,4 +32,4 @@ translation:
 
 实际目标资源的 [GUID](/data/guid.html)。当引用指向 Redirector 时，最终使用这个资源。
 
-> 上游原文：[assets/redirector-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/redirector-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/redirector-asset.html)

@@ -18,4 +18,4 @@ Pants 由 `ItemPantsAsset` 创建，可由玩家和 Zombie 穿戴。继承 [BagA
 
 没有 Pants 独有字段，请参阅父类属性。
 
-> 上游原文：[items/pants-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/pants-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/pants-asset.html)

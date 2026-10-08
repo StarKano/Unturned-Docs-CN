@@ -41,4 +41,4 @@ IL_03db
 
 - <https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/3979#issuecomment-1620788082>
 
-> 上游原文：[servers/debugging-exceptions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/debugging-exceptions.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/debugging-exceptions.html)

@@ -28,4 +28,4 @@ translation:
 
 - <https://unturned.wiki.gg/wiki/Handcuffs_Key>
 
-> 上游原文：[items/arrest-end-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/arrest-end-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/arrest-end-asset.html)

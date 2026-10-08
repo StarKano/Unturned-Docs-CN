@@ -33,4 +33,4 @@ Vehicle Redirector Asset 用于把旧版“仅颜色不同”的多个载具变�
 
 如果设置，生成新载具时覆盖默认随机 Paint Color，可用于在 Spawn Table 中保留旧颜色。
 
-> 上游原文：[assets/vehicle-redirector-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/vehicle-redirector-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/vehicle-redirector-asset.html)

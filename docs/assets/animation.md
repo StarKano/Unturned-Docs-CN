@@ -24,4 +24,4 @@ Unturned 的角色骨架并不好处理，因此官方建议尽量复用已有�
 
 Unity 中的 `Item.prefab` 会挂到左手或右手 Hook 上，本地旋转为 `(0, 0, 90)`。
 
-> 上游原文：[assets/animation.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/animation.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/animation.html)

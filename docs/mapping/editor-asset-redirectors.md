@@ -35,4 +35,4 @@ EditorAssetRedirectors.txt
 63cb368c94b14000aabc5325b048cfa3 -> 011d1369cd56497488827b44509b0b4b
 ```
 
-> 上游原文：[mapping/editor-asset-redirectors.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/editor-asset-redirectors.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/editor-asset-redirectors.html)

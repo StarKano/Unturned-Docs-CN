@@ -40,4 +40,4 @@ translation:
 }
 ```
 
-> 上游原文：[assets/outfit-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/outfit-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/outfit-asset.html)

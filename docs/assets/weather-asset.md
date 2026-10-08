@@ -78,4 +78,4 @@ Weather Asset 用自定义事件覆盖内置 Rain / Snow。该功能仍在持续
 
 NPC Condition 可以检查全局天气状态以及当前 Weather Intensity Blend。详见后续 NPC Conditions 文档。
 
-> 上游原文：[assets/weather-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/weather-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/weather-asset.html)

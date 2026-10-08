@@ -18,4 +18,4 @@ translation:
 | `Civilian` | 民用 Nightvision。支持时颜色为 `#666666`，Fog Intensity 为 `0.5`。 |
 | `Headlamp` | 头灯 Lighting。支持时会启用可切换 Light Source，并可使用 [PlayerSpotLightConfig](/data/struct/playerspotlightconfig.html)。 |
 
-> 上游原文：[data/enum/elightingvision.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/elightingvision.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/elightingvision.html)

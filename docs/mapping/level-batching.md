@@ -143,4 +143,4 @@ Chess Board 的情况是 UV Unwrap 错误，后来修复；多数情况下，这
 
 每个 Unique Material 会获得随机 Hue；使用次数越多颜色越亮，使用次数越少越暗。
 
-> 上游原文：[mapping/level-batching.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/level-batching.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/level-batching.html)

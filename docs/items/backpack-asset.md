@@ -24,4 +24,4 @@ translation:
    - 任一小于 6：`Sounds/Inventory/MediumMetalEquipment.asset`
    - 否则：`Sounds/Inventory/HeavyMetalEquipment.asset`。
 
-> 上游原文：[items/backpack-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/backpack-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/backpack-asset.html)

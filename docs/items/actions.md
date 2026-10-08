@@ -55,4 +55,4 @@ translation:
 - 蓝图类型是 `Repair`：生成 `Repair`。
 - 蓝图类型是 `Refill`：生成 `Refill`。
 
-> 上游原文：[items/actions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/actions.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/actions.html)

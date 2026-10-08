@@ -36,4 +36,4 @@ translation:
 
 - **`Particle_Tag_Name`** `string`：当带该特效的 Mythical Item 被合成后，库存中显示的特效名称。
 
-> 上游原文：[assets/mythical-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/mythical-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/mythical-asset.html)

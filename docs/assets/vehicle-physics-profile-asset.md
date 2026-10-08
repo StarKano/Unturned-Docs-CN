@@ -65,4 +65,4 @@ Bundles/Assets/VehiclePhysicsProfiles/DefaultProfile.asset
 - **`Wheel_Drive_Model`**：`Front`、`Rear`、`All`。默认所有原版车都是后驱，这是 2014 年加入载具时对汽车理解不足留下的历史问题。
 - **`Wheel_Brake_Model`**：`Front`、`Rear`、`All`。现代汽车通常四轮制动，因此默认 All。
 
-> 上游原文：[assets/vehicle-physics-profile-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/vehicle-physics-profile-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/vehicle-physics-profile-asset.html)

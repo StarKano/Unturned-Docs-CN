@@ -26,4 +26,4 @@ Beacon 由 `ItemBeaconAsset` 创建。放置后启动 Zombie Horde Event；玩�
   - Zombie Health 线性缩放：约 `Initial Participants × 1.5`。
   - Reward 有递减收益：约 `7 × sqrt(Initial Participants)`。
 
-> 上游原文：[items/beacon-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/beacon-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/beacon-asset.html)

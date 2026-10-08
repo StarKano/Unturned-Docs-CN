@@ -58,4 +58,4 @@ Servers/ExampleServer/Config_NormalDifficulty.txt
 
 如果仍需沿用 `Config.json`，添加 `-UseLegacyJsonGameplayConfig`。
 
-> [官方原文](https://docs.smartlydressedgames.com/en/stable/servers/server-configuration.html)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/server-configuration.html)

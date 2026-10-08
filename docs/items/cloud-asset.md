@@ -20,4 +20,4 @@ Cloud（本地化通常称“降落伞”）由 `ItemCloudAsset` 创建。玩家
 
 - **`Gravity`** `float`：重力影响倍率。
 
-> 上游原文：[items/cloud-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/cloud-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/cloud-asset.html)

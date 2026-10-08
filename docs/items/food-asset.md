@@ -18,4 +18,4 @@ Food 由 `ItemFoodAsset` 创建，玩家可以食用。继承 [ConsumeableAsset]
 
 没有 Food 独有字段，请参阅父类属性。
 
-> 上游原文：[items/food-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/food-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/food-asset.html)

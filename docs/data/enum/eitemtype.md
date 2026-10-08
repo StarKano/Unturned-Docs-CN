@@ -63,4 +63,4 @@ translation:
 | `Oil_Pump` | 47 | 油泵 |
 | `Vehicle_Paint_Tool` | 48 | 载具喷漆工具 |
 
-> 上游原文：[data/enum/eitemtype.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eitemtype.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eitemtype.html)

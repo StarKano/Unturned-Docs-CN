@@ -52,4 +52,4 @@ Fishing_Catchable
 }
 ```
 
-> 上游原文：[items/fishing-catchable-properties.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/fishing-catchable-properties.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/fishing-catchable-properties.html)

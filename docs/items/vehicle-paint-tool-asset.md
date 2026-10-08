@@ -20,4 +20,4 @@ translation:
 
 - **`PaintColor`** [Color](/data/color.html)：使用后 Vehicle 颜色替换为该颜色。
 
-> 上游原文：[items/vehicle-paint-tool-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/vehicle-paint-tool-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/vehicle-paint-tool-asset.html)

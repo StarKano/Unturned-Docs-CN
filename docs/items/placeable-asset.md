@@ -42,4 +42,4 @@ PlaceableProvidesCraftingTags
 - **`SalvageItem`** Asset Pointer：Placeable 低于 100% Health 时 Salvage 获得的 Item / Spawn Table。默认会从该 Placeable Blueprint 使用的 Item 中随机选择。
 - **`SalvageItem_FullHealth`** Asset Pointer：满 Health Salvage/拾取时获得的 Item / Spawn Table，默认自身；可写 `this`。
 
-> 上游原文：[items/placeable-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/placeable-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/placeable-asset.html)

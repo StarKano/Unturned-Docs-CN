@@ -166,4 +166,4 @@ Payment Split 通过一个隐藏的 Curated Workshop Item 管理。新 Contribut
 
 - <https://en.wikipedia.org/wiki/555_(telephone_number)>
 
-> 上游原文：[mapping/curated-maps.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/curated-maps.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/curated-maps.html)

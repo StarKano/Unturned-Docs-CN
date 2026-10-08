@@ -63,4 +63,4 @@ Blueprints
 
 - **`Allow_Core_Blueprints`** `bool`：默认 true。设为 false 时，原版/内置物品的蓝图也不允许使用。
 
-> 上游原文：[assets/crafting-blacklist-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/crafting-blacklist-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/crafting-blacklist-asset.html)

@@ -18,4 +18,4 @@ Drink 由 `ItemWaterAsset` 创建，使用后会被玩家消耗，并直接修�
 
 没有独有字段，请参阅父类属性。
 
-> 上游原文：[items/water-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/water-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/water-asset.html)

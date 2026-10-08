@@ -12,3 +12,5 @@ translation:
 这里收录文档使用的结构体类型。
 
 - [PlayerSpotLightConfig](/data/struct/playerspotlightconfig.html)
+
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/struct/index.html)

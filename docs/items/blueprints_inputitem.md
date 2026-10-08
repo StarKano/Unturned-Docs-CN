@@ -91,4 +91,4 @@ InputItems
 - `Prioritization`：控制有多个候选物品时先使用哪一个。
 - `Prioritization`：默认 `LowestQuality`；当 `Operation` 为 `FillTargetItem` 时，默认 `LowestAmount`。
 
-> 上游原文：[items/blueprints_inputitem.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/blueprints_inputitem.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/blueprints_inputitem.html)

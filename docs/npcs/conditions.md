@@ -184,4 +184,4 @@ Logic Greater_Than_Or_Equal_To
 
 - <https://unturned.wiki.gg/wiki/Clock>
 
-> 上游原文：[npcs/conditions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/conditions.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/conditions.html)

@@ -1091,4 +1091,4 @@ WheelConfigurations
 - <https://unturned.wiki.gg/Fighter_Jet>
 - <https://unturned.wiki.gg/Ambulance>
 
-> 上游原文：[assets/vehicle-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/vehicle-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/vehicle-asset.html)

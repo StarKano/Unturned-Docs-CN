@@ -63,4 +63,4 @@ Vendor 的 **`Currency`** 填该 Asset GUID 即可关联。Vendor 会按 Value �
 /give 5150ca8f765d4a68bfe54912146da410/1000
 ```
 
-> 上游原文：[npcs/currency-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/currency-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/currency-asset.html)

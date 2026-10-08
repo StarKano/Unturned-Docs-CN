@@ -19,4 +19,4 @@ Flag2
 Flag3
 ```
 
-> 上游原文：[data/flag.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/flag.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/flag.html)

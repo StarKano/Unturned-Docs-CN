@@ -67,4 +67,4 @@ OutputItems
 - **`ID`**：目标 Item Asset Pointer。也可以填 `this`，表示使用 Owner Asset 自身 ID，适合“Blueprint 生产自己”的情况，可避免误填 ID。
 - **`Origin`**：覆盖部分生成属性。例如设为 `Admin` 会以满 Quality 生成。
 
-> 上游原文：[items/blueprints_outputitem.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/blueprints_outputitem.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/blueprints_outputitem.html)

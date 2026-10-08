@@ -22,4 +22,4 @@ Optic 由 `ItemOpticAsset` 创建，可以修改玩家视野。继承 [ItemAsset
 
 - **`Zoom`** `float`：缩放倍率，默认 `1`。
 
-> 上游原文：[items/optic-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/optic-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/optic-asset.html)

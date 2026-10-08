@@ -30,4 +30,4 @@ Storage 由 `ItemStorageAsset` 创建，是用于存放 Item 的可放置容器�
   - `Amount` `int`：授予次数，默认 1。
   - `Origin` [EItemOrigin](/data/enum/eitemorigin.html)：初始状态，默认 `World`。
 
-> 上游原文：[items/storage-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/storage-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/storage-asset.html)

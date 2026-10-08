@@ -15,7 +15,7 @@ Unturned 专用服务器可以使用 **Game Server Login Token（GSLT）** 登�
 
 - Server Code 可以在多次启动之间保持关联。
 - 没有 GSLT 的服务器会被视为匿名服务器，不会显示在互联网服务器列表中。
-- Steam 可以更稳定地跟踪服务器收藏和历史记录。
+- Steam 默认按地址和端口记录收藏与历史服务器。配置 GSLT 后，即使服务器信息变更，Steam 也可以自动迁移这些记录；迁移通常会在约 24 小时内完成（参见[问题 #3980](https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/3980)和 [AlliedModders 讨论](https://forums.alliedmods.net/showthread.php?p=2529549#post2529549)）。
 
 ## 创建 GSLT
 
@@ -39,14 +39,10 @@ Unturned 的 App ID：
 Login_Token
 ```
 
-也可以通过启动阶段的 `GSLT` 命令配置，并写入 `Commands.dat`。
+也可以在服务器启动时使用 `GSLT` 命令，写入 `Commands.dat` 或在命令行指定。
 
-## 官方原文外部链接
+## 自动管理 GSLT
 
-以下链接来自官方 stable 文档，保持原地址跳转：
+Valve 提供 [IGameServersService Web API](https://partner.steamgames.com/doc/webapi/IGameServersService)，可用于自动管理 GSLT。
 
-- <https://github.com/SmartlyDressedGames/Unturned-3.x-Community/issues/3980>
-- <https://forums.alliedmods.net/showthread.php?p=2529549#post2529549>
-- <https://partner.steamgames.com/doc/webapi/IGameServersService>
-
-> 上游原文：[servers/game-server-login-tokens.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/game-server-login-tokens.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/game-server-login-tokens.html)

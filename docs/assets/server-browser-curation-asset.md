@@ -19,4 +19,4 @@ translation:
 玩家订阅后该 Asset **不会默认启用**，需要在 Server Browser 的 Curation 菜单中手动开启。
 :::
 
-> 上游原文：[assets/server-browser-curation-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/server-browser-curation-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/server-browser-curation-asset.html)

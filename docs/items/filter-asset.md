@@ -18,4 +18,4 @@ Filter（辐射过滤器）由 `ItemFilterAsset` 创建，用于恢复防辐射 
 
 没有独有字段。
 
-> 上游原文：[items/filter-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/filter-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/filter-asset.html)

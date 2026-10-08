@@ -19,7 +19,7 @@ CopyServerCode
 
 ## 限制
 
-使用 Server Code 连接时，不支持加入服务器前的完整信息页面，例如服务器名称、已安装模组、在线玩家等。这些信息依赖 Steam 的 A2S 查询协议，而 A2S 只能通过 IP 查询。
+使用 Server Code 连接时，不支持加入服务器前的完整信息页面，例如服务器名称、已安装模组、在线玩家等。这些信息依赖 Steam 的 A2S 查询协议，而 A2S 只能通过 IP 查询。因此，使用 Server Code 时会直接进入服务器。
 
 如果希望保留这些功能，可以考虑启用 [Fake IP](/servers/fake-ip.html)。
 
@@ -35,4 +35,4 @@ Server Code 使用 **Steam Datagram Relay（SDR）** 进行连接。SDR 会通�
 
 - <https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay>
 
-> 上游原文：[servers/server-codes.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-codes.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/server-codes.html)

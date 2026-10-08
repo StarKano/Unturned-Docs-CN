@@ -27,4 +27,4 @@ translation:
 - **`SpotLight_Intensity`**：光照强度。
 - **`SpotLight_Color`**：光束颜色。
 
-> 上游原文：[data/struct/playerspotlightconfig.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/struct/playerspotlightconfig.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/struct/playerspotlightconfig.html)

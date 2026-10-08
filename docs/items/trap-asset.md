@@ -44,4 +44,4 @@ Trap 由 `ItemTrapAsset` 创建，是可放置的伤害来源。继承 [Barricad
 
 - <https://unturned.wiki.gg/wiki/Broken_Bones>
 
-> 上游原文：[items/trap-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/trap-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/trap-asset.html)

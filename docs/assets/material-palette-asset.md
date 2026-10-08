@@ -37,4 +37,4 @@ translation:
 }
 ```
 
-> 上游原文：[assets/material-palette-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/material-palette-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/material-palette-asset.html)

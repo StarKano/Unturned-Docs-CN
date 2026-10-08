@@ -38,4 +38,4 @@ Sentry（Robotic Turret）由 `ItemSentryAsset` 创建，可自动侦测、追�
 - **`Sweep_Yaw`** `float`：闲置扫描左右 Yaw 范围，默认 120°。
 - **`Sweep_Period`** `float`：从左扫到右再返回所需秒数，默认 6.3。
 
-> 上游原文：[items/sentry-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/sentry-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/sentry-asset.html)

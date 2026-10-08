@@ -62,4 +62,4 @@ Response 是玩家可以选择的对话选项。
 - **`Message_#_Page_#`** [Rich Text](/data/rich-text.html)：对应 Message Page 的文字。
 - **`Response_#`** Rich Text：对应 Response Option 的文字。
 
-> 上游原文：[npcs/dialogue-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/dialogue-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/dialogue-asset.html)

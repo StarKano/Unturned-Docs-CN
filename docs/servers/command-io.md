@@ -26,4 +26,4 @@ translation:
 
 这部分主要面向插件、模块或远程管理工具开发者。
 
-> 上游原文：[servers/command-io.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/command-io.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/command-io.html)

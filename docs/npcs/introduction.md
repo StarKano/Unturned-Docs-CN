@@ -28,4 +28,4 @@ NPC Localization 额外支持：
 - **`<br>`**：换行。
 - **`<pause>`**：暂停 0.5 秒后继续 Dialogue。
 
-> 上游原文：[npcs/introduction.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/introduction.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/introduction.html)

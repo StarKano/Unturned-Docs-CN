@@ -75,4 +75,4 @@ Sight 由 `ItemSightAsset` 创建，是可以安装到远程武器上的瞄具�
 
 `Side` 可选 `Left` 或 `Right`：刻线和文字分别从中心向左或向右延伸。`HasLabel` 为 `true` 时，会在横线旁显示 `Distance` 的文字；`Color` 可覆盖横线和文字的颜色。
 
-> 上游原文：[items/sight-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/sight-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/sight-asset.html)

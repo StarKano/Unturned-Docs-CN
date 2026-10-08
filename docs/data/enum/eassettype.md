@@ -25,4 +25,4 @@ translation:
 | `Spawn` | 9 | Spawn Table。 |
 | `NPC` | 10 | NPC 相关 Asset，例如 Quest、Vendor、Dialogue。 |
 
-> 上游原文：[data/enum/eassettype.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eassettype.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eassettype.html)

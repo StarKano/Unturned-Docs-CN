@@ -47,4 +47,4 @@ translation:
 
 - **`Name`** `string`：UI 中显示的动物名称。
 
-> 上游原文：[assets/animal-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/animal-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/animal-asset.html)

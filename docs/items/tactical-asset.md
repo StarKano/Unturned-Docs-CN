@@ -49,4 +49,4 @@ Tactical 由 `ItemTacticalAsset` 创建，是可安装到远程武器上的战�
 - `Melee_Stun_Zombie_Always` / `Melee_Stun_Zombie_Never`。
 - `Melee_Animal_Damage`、`Melee_Animal_Leg_Multiplier`、`Melee_Animal_Spine_Multiplier`、`Melee_Animal_Skull_Multiplier`：动物基础伤害及肢体倍率。
 
-> 上游原文：[items/tactical-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/tactical-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/tactical-asset.html)

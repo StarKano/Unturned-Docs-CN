@@ -29,4 +29,4 @@ Barrel Attachment 由 `ItemBarrelAsset` 创建，可安装到 Ranged Weapon。�
 旧 `Ballistic_Drop` 已移动到 [CaliberAsset](/items/caliber-asset.html)。
 :::
 
-> 上游原文：[items/barrel-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/barrel-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/barrel-asset.html)

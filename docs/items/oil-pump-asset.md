@@ -21,4 +21,4 @@ Oil Pump 由 `ItemOilPumpAsset` 创建，是可放置且能生产 Fuel 的设备
 
 - **`Fuel_Capacity`** `uint16`：最多可存储多少单位 Fuel，默认 0。
 
-> 上游原文：[items/oil-pump-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/oil-pump-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/oil-pump-asset.html)

@@ -24,4 +24,4 @@ Glasses 由 `ItemGlassesAsset` 创建，可由玩家和 Zombie 穿戴。继承 [
 - **`Nightvision_Fog_Intensity`** `float32`：Nightvision 激活时的 Fog Intensity。
 - **`Vision`** [ELightingVision](/data/enum/elightingvision.html)：Lighting Vision 类型。自定义 Nightvision Color 应使用 `Military`；`Headlamp` 还可以使用 [PlayerSpotLightConfig](/data/struct/playerspotlightconfig.html) 字段。默认 `None`。
 
-> 上游原文：[items/glasses-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/glasses-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/glasses-asset.html)

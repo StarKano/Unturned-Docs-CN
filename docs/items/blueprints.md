@@ -167,4 +167,4 @@ d7bd989414644b19b3299be0c6fab5f0 // 单人模式
 如果蓝图会被物品右键菜单引用，建议为蓝图设置稳定的 `Name`，并让 Action 按名称引用，而不是按索引引用。
 :::
 
-> 上游原文：[items/blueprints.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/blueprints.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/blueprints.html)

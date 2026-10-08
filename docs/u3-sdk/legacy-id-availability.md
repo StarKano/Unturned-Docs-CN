@@ -20,4 +20,4 @@ translation:
 3. 打开 `Extras/AssetIDs/All Assets/Grouped by Legacy Category`。
 4. 每个 Legacy 分类（例如 Items）都有 `Legacy ID Availability.csv`，列出 ID 以及是否被 Core Content 保留。
 
-> 上游原文：[u3-sdk/legacy-id-availability.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/u3-sdk/legacy-id-availability.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/u3-sdk/legacy-id-availability.html)

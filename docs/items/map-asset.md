@@ -21,4 +21,4 @@ Map / Compass 由 `ItemMapAsset` 创建。只要位于玩家 Inventory 中就提
 - **`Enables_Chart`** Flag：启用 Chart Map Display。
 - **`Enables_Compass`** Flag：启用 Compass HUD，并允许在地图上设置可见 Waypoint。
 
-> 上游原文：[items/map-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/map-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/map-asset.html)

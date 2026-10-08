@@ -23,9 +23,9 @@ U3DS 已经包含最新版本，不需要额外下载。
 
 ## 历史
 
-Rocket 原社区维护团队于 2019 年停止维护，并以 MIT License 发布源代码。
+Rocket 原社区维护团队于 2019 年 12 月 20 日停止维护，并以 MIT License 发布源代码。
 
-之后 SDG Fork 了项目继续维护，并在 2020 年根据原作者要求重新命名，以与原 Rocket 项目区分。
+之后 SDG Fork 了项目继续维护，并于 2020 年 6 月 2 日应原作者要求重新命名，以与原 Rocket 项目区分。
 
 ## 官方原文外部链接
 
@@ -36,4 +36,4 @@ Rocket 原社区维护团队于 2019 年停止维护，并以 MIT License 发布
 - <https://github.com/RocketMod>
 - <https://github.com/RocketMod/Rocket/blob/master/Farewell.md>
 
-> 上游原文：[servers/rocket.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/rocket.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/rocket.html)

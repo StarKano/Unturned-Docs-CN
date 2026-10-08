@@ -29,4 +29,4 @@ translation:
 - <https://unturned.wiki.gg/wiki/Handcuffs>
 - <https://unturned.wiki.gg/wiki/Cable_Tie>
 
-> 上游原文：[items/arrest-start-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/arrest-start-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/arrest-start-asset.html)

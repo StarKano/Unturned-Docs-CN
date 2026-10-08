@@ -22,4 +22,4 @@ Tire Tool 由 `ItemTireAsset` 创建，可以给 Vehicle 安装或拆卸 Tire。
   - `Add`：消耗此 Item，给 Vehicle 安装 Tire。
   - `Remove`：从 Vehicle 拆下 Tire，并把对应 Item 加到玩家 Inventory。
 
-> 上游原文：[items/tire-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/tire-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/tire-asset.html)

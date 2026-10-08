@@ -15,7 +15,7 @@ translation:
 
 通过 RocketMod Installer Plugin 安装：
 
-1. 下载最新的 OpenMod Installer Plugin。
+1. 从 [OpenMod.Installer.RocketMod 发布页](https://github.com/openmod/OpenMod.Installer.RocketMod/releases/latest)下载最新的 OpenMod Installer Plugin。
 2. 将插件放入：
 
 ```text
@@ -31,26 +31,21 @@ translation:
 
 5. 按提示完成安装。
 
+安装完成后，可以按照[插件安装文档](https://openmod.github.io/openmod-docs/userdoc/concepts/plugins.html)添加插件。
+
 ## 手动安装
 
-1. 下载最新的 `OpenMod.Unturned.Module-vX.X.X.zip`。
+1. 从 [OpenMod 发布页](https://github.com/openmod/OpenMod/releases/latest)下载最新的 `OpenMod.Unturned.Module-vX.X.X.zip`。
 2. 将其中的 `OpenMod.Unturned` 文件夹复制到 Unturned 安装目录的 `Modules`。
 3. 启动服务器。
-4. 首次启动时 OpenMod 会自动下载核心组件。
+4. 首次启动时 OpenMod 会自动下载核心组件，因此可能需要等待一段时间。之后可以按照[插件安装文档](https://openmod.github.io/openmod-docs/userdoc/concepts/plugins.html)添加插件。
+
+## 插件与资料
+
+可以在[开源插件列表](http://openmod.github.io/openmod-plugins)中查找 OpenMod 插件。项目源码和使用说明分别见 [GitHub 仓库](https://github.com/openmod/openmod)与[官方文档](https://openmod.github.io/openmod-docs/)。
 
 ## 与 RocketMod 共存
 
 OpenMod 可以和 RocketMod 同时安装，并不是必须替代 RocketMod。
 
-## 官方原文外部链接
-
-以下链接来自官方 stable 文档，保持原地址跳转：
-
-- <https://github.com/openmod/openmod>
-- <https://github.com/openmod/OpenMod.Installer.RocketMod/releases/latest>
-- <https://openmod.github.io/openmod-docs/userdoc/concepts/plugins.html>
-- <https://github.com/openmod/OpenMod/releases/latest>
-- <http://openmod.github.io/openmod-plugins>
-- <https://openmod.github.io/openmod-docs/>
-
-> 上游原文：[servers/openmod.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/openmod.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/openmod.html)

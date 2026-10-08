@@ -18,4 +18,4 @@ Medical Item 由 `ItemMedicalAsset` 创建，使用后不可逆地被消耗，�
 
 没有独有字段。
 
-> 上游原文：[items/medical-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/medical-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/medical-asset.html)

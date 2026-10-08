@@ -51,4 +51,4 @@ Selling Entry 同样支持 Conditions，字段以 `Selling_#_` 开头，例如 `
 - **`Buying_#_Description`** Rich Text：覆盖 Vendor Menu 中 Item 的描述，即“Vendor 如何描述物品”。
 - **`Selling_#_Description`** Rich Text：同 Buying Description。
 
-> 上游原文：[npcs/vendor-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/vendor-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/vendor-asset.html)

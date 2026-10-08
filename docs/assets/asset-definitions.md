@@ -87,4 +87,4 @@ Key2 Value
 3. 是否存在 `Asset.dat`。
 4. 如果以上都没有，则加载目录中所有 `.asset` 文件。
 
-> 上游原文：[assets/asset-definitions.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/asset-definitions.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/asset-definitions.html)

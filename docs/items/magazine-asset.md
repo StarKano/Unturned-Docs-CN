@@ -73,4 +73,4 @@ translation:
 
 发射物理弹丸的枪械可选提供 `Projectile.prefab`。存在时，它会覆盖枪械射击时默认生成的弹丸。
 
-> [官方原文](https://docs.smartlydressedgames.com/en/stable/items/magazine-asset.html)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/magazine-asset.html)

@@ -79,4 +79,4 @@ Pipeline 脚本为 `Build_Scripts/Jenkinsfile.txt`；Unity 版本由 `Build_Scri
 - <https://en.wikipedia.org/wiki/Version_control>
 - <https://learn.unity.com/tutorial/unity-tips#64622ce0edbc2a32a219b25e>
 
-> 上游原文：[u3-sdk/unity-project.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/u3-sdk/unity-project.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/u3-sdk/unity-project.html)

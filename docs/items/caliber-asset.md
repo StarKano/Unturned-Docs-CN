@@ -53,4 +53,4 @@ translation:
 - `Spread`：子弹散布倍率。
 - `Sway`：瞄准镜摇晃倍率。
 
-> 上游原文：[items/caliber-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/caliber-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/caliber-asset.html)

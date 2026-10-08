@@ -34,4 +34,4 @@ translation:
 Gear 类会改变父类 `Beard_Visible` 和 `Hair_Visible` 的默认行为，应优先使用本页的 `Beard` / `Hair`。
 :::
 
-> 上游原文：[items/gear-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/gear-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/gear-asset.html)

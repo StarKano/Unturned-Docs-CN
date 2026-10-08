@@ -28,4 +28,4 @@ Shirt 由 `ItemShirtAsset` 创建，可由玩家和 Zombie 穿戴。继承 [BagA
 - **`Character_Mesh_3P_Override_LODs`** `uint16`：按每个 LOD Index 加载多少 Prefab，默认 0。
 - **`Has_Character_Material_Override`** `bool`：加载 `Character_Material_Override` Material，替换 1P/3P Mesh Material，默认 false。
 
-> 上游原文：[items/shirt-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/shirt-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/shirt-asset.html)

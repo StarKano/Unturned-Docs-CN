@@ -16,4 +16,4 @@ translation:
 - **`FailureProbability`** `float`：开锁失败的归一化概率，默认 0。失败时播放 `Use_Failure` 动画，而不是 `Use`。
 - **`FailureEffect`** [Asset Pointer](/data/asset-ptr.html)：开锁失败时播放的 Effect。
 
-> 上游原文：[items/vehicle-lockpick-tool-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/vehicle-lockpick-tool-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/vehicle-lockpick-tool-asset.html)

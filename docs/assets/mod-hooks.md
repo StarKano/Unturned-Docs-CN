@@ -61,4 +61,4 @@ translation:
 - **Music Audio Source**：把同级 Audio Source 输出切到原版 Music Mixer，并遵守玩家音乐音量设置。
 - **Repeat**：固定或随机次数重复触发事件，本质上相当于 Unity Event 的 for 循环。
 
-> 上游原文：[assets/mod-hooks.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/mod-hooks.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/mod-hooks.html)

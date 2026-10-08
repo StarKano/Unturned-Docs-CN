@@ -185,4 +185,4 @@ translation:
 - **`Use_Legacy_Fog_Height`**：是否使用默认 Terrain Height 计算 Fog Falloff。false 时使用 Devkit Landscape Tile Limit。默认 true。
 - **`Use_Legacy_Objects`**：过去控制是否从 `Objects.dat` 加载 Object。Devkit Object 已迁移进该文件，因此目前无效果。
 
-> 上游原文：[mapping/level-config.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/level-config.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/level-config.html)

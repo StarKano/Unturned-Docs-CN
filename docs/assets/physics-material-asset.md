@@ -49,4 +49,4 @@ translation:
 - **`Character_Deceleration_Multiplier`** `float`：默认减速度为 2 m/s²。
 - **`Character_Max_Speed_Multiplier`** `float`：允许最高速度达到目标移动速度乘以该倍率。
 
-> 上游原文：[assets/physics-material-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/physics-material-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/physics-material-asset.html)

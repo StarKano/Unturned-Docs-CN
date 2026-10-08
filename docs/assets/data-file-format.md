@@ -180,4 +180,4 @@ v1 只支持键值对；v2 加入了字典和列表，并且要求键和值都�
 
 这也是为什么 `{` 与 `[` 必须单独放在新的一行：已有 v1 资源可能本来就把 `{` 或 `[` 当作值的第一个字符。
 
-> 上游原文：[assets/data-file-format.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/data-file-format.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/data-file-format.html)

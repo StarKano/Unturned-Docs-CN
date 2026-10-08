@@ -53,4 +53,4 @@ Salty Water 默认：
 `Water` `byte` 自 3.20.9.0 起弃用，改用 `Clean_Water`。旧字段会被赋值到 `Clean_Water`。
 :::
 
-> 上游原文：[items/refill-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/refill-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/refill-asset.html)

@@ -13,15 +13,19 @@ translation:
 
 ![Steam 库中的 Unturned Dedicated Server](/img/U3DS_SteamLibrary.png)
 
+*在 Steam 库中查找并安装 Unturned Dedicated Server。*
+
 ## 快速搭建 {#simple-setup}
 
-下面的步骤适合只与几位好友游玩的私人服务器。服务器运行后，再按需配置端口转发等高级功能。
+下面的步骤适合只与几位好友游玩的私人服务器。本节暂不涉及端口转发等可选设置；服务器正常运行后可继续阅读后面的高级配置。
 
 ### 1. 启动 U3DS
 
 从 Steam 库启动 **Unturned Dedicated Server**。服务器控制台会在新窗口打开；首次生成文件和加载地图可能需要几分钟。
 
 ![U3DS 加载地图](/img/U3DS_LoadingLevel.png)
+
+*服务器控制台完成地图加载后会显示服务器代码。*
 
 当控制台显示 `Loading level: 100%` 和[服务器代码](/servers/server-codes.html)时，服务器已完成启动。
 
@@ -33,41 +37,57 @@ translation:
 
 ## 保存并关闭
 
-服务器没有内置自动保存。运行时使用 `Save` 手动保存，或使用 `Shutdown` 安全保存并关闭。存档和配置文件位于 `.../U3DS/Servers/`，每个服务器各有一个文件夹。
+服务器没有内置自动保存。运行时使用 `Save` 手动保存，或使用 `Shutdown` 安全保存并关闭。存档和配置文件位于 `...\U3DS\Servers\`，每个服务器各有一个文件夹。
 
 ## 配置服务器设置 {#configuration}
 
-配置文件在相应服务器文件夹内，多数设置无法在服务器运行期间修改。按快速搭建步骤创建的服务器位于 `.../U3DS/Servers/Default/`。
+配置文件在相应服务器文件夹内，多数设置无法在服务器运行期间修改。按快速搭建步骤创建的服务器位于 `...\U3DS\Servers\Default\`。
 
 常用文件包括：
 
 | 文件 | 用途 |
 | --- | --- |
-| `Server/Commands.dat` | 地图、密码、最大玩家数等基本设置 |
-| `Config.txt` | 难度、物品生成概率、游戏服务器登录令牌等高级设置，详见[服务器配置](/servers/server-configuration.html) |
-| `WorkshopDownloadConfig.json` | 从 Steam 创意工坊下载 Mod |
+| `\Server\Commands.dat` | 地图、密码、最大玩家数等基本设置 |
+| `\Config.txt` | 难度、物品生成概率、游戏服务器登录令牌等高级设置，详见[服务器配置](/servers/server-configuration.html) |
+| `\WorkshopDownloadConfig.json` | 从 Steam 创意工坊下载 Mod |
 
 ### 命令
 
 控制台命令可调整设置或生成物品。多数命令写在 `Commands.dat` 中，每行一条。下例包含常用设置；`//` 开头的行是注释，不会被执行。更多命令可查阅 [Unturned Wiki 的命令列表](https://unturned.wiki.gg/Commands)。
 
 ```text
+// [[ 服务器配置 ]]
+// 以 // 开头的行是注释，启动服务器时不会读取。
+// 命令说明：https://unturned.wiki.gg/Commands
+
 // 服务器列表中的名称
 Name My Unturned Server
+
 // 地图名称；官方地图包括 PEI、Washington、Yukon、Russia 和 Germany
+// 创意工坊地图须通过 WorkshopDownloadConfig.json 下载。
 Map PEI
+
 // 最大玩家数
 MaxPlayers 24
+
 // 将指定 SteamID64 设为服主，赋予管理员权限
 // Owner YourSteamID
+
 // 允许管理员使用生成物品或载具等作弊命令
 Cheats
+
 // 加入密码
 // Password ExamplePassword1234
+
 // 关闭玩家之间的战斗
 // PvE
-// 视角：First、Third、Both 或 Vehicle
+
+// 限制玩家视角；默认可使用第一人称和第三人称。
+// Perspective First
+// Perspective Third
 Perspective Both
+// Perspective Vehicle
+
 // 端口转发使用的端口
 // Port 27015
 ```
@@ -84,13 +104,26 @@ Perspective Both
 
 1. 打开 `WorkshopDownloadConfig.json`。
 2. 从创意工坊页面 URL 取得文件 ID。例如 [Hawaii 地图](https://steamcommunity.com/sharedfiles/filedetails/?id=1753134636) 的 ID 为 `1753134636`。
-3. 把 ID 加入 `File_IDs` 列表；多个 ID 用逗号分隔：
+3. 把 ID 加入 `File_IDs` 列表。例如，只加入 Hawaii：
 
 ```json
-"File_IDs": [1753134636, 1702240229],
+"File_IDs":
+[
+    1753134636
+],
 ```
 
-4. 重启服务器，让它下载并更新这些文件。
+   要加入多个 Mod，用逗号分隔各个文件 ID：
+
+```json
+"File_IDs":
+[
+    1753134636,
+    1702240229
+],
+```
+
+4. 服务器启动时会下载并更新指定 Mod 及其依赖；玩家连接时也会自动开始下载这些 Mod。
 
 精选地图和部分官方竞技地图也必须从创意工坊下载。以下 ID 与[官方地图清单](https://docs.smartlydressedgames.com/en/stable/servers/server-hosting.html#steam-workshop-mods)一致：
 
@@ -114,11 +147,15 @@ Perspective Both
 
 服务器默认按局域网服务器运行：玩家可通过 Steam 好友邀请或随机 Server Code 加入，但服务器不会出现在互联网服务器列表。
 
-要公开服务器，先配置[游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens.html)。设置后，Server Code 在每次启动时也不再变化。随后在 [Fake IP](/servers/fake-ip.html) 与[端口转发](/servers/port-forwarding.html)中选择一种连接方式即可，无需同时配置；Fake IP 通常更容易启用。公开服务器应遵守[服务器托管规则](/servers/server-hosting-rules.html)。
+::: warning
+互联网服务器应遵守[服务器托管规则](/servers/server-hosting-rules.html)。
+:::
+
+要公开服务器，先配置[游戏服务器登录令牌（GSLT）](/servers/game-server-login-tokens.html)。设置后，Server Code 在每次启动时也不再变化。随后在 [Fake IP](/servers/fake-ip.html) 与[端口转发](/servers/port-forwarding.html)中选择一种连接方式即可，无需同时配置；Fake IP 通常更容易启用。
 
 ## 相关主题
 
 - 使用 [SteamCMD](/servers/steamcmd.html) 同时托管多个服务器。
 - 通过 [Rocket（LDM）](/servers/rocket.html) 或 [OpenMod](/servers/openmod.html) 等框架安装插件。
 
-> [官方原文](https://docs.smartlydressedgames.com/en/stable/servers/server-hosting.html)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/server-hosting.html)

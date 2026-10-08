@@ -22,4 +22,4 @@ Tool 由 `ItemToolAsset` 创建，具体功能取决于 `Useable`。继承 ItemA
 
 Tool 本身没有其他独有属性，主要通过 `Useable` 决定行为。
 
-> 上游原文：[items/tool-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/tool-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/tool-asset.html)

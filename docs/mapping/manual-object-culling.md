@@ -68,4 +68,4 @@ Object `.dat` 可使用这些历史较久、命名不够理想的字段自动创
 
 可以完全禁用 Culling Volume，用来对比性能差异。Seattle 这类密集区域通常最容易观察到收益。
 
-> 上游原文：[mapping/manual-object-culling.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/manual-object-culling.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/manual-object-culling.html)

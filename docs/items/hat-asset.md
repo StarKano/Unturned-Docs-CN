@@ -20,4 +20,4 @@ translation:
 
 Hat 没有独有属性，请参阅父类。
 
-> 上游原文：[items/hat-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/hat-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/hat-asset.html)

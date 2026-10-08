@@ -98,4 +98,4 @@ Unity 默认不再支持从单个 `.blend` 导入多个动画，推荐导出为 
 
 更多细节见 Unity Issue Tracker [case #1186253](https://issuetracker.unity3d.com/issues/using-multiple-animation-clips-in-blender-not-all-animation-clips-are-imported-using-a-blend-file)。
 
-> 上游原文：[assets/unity-upgrade.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/unity-upgrade.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/unity-upgrade.html)

@@ -32,4 +32,4 @@ Laser_Color_G 1
 Laser_Color_B 0
 ```
 
-> 上游原文：[data/color.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/color.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/color.html)

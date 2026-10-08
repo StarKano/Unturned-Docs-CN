@@ -36,4 +36,4 @@ https://smartlydressedgames.com/rss/unturned-steam-dedicated-server-updates.xml
 - <https://store.steampowered.com/news/app/304930>
 - <https://discord.gg/unturned>
 
-> 上游原文：[servers/server-update-notifications.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/server-update-notifications.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/server-update-notifications.html)

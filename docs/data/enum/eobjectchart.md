@@ -25,4 +25,4 @@ translation:
 | `Water` | 使用 Height_Strip 的 (0, 0)。 |
 | `Cliff` | 使用 Layer_Strip 的 (4, 0)。 |
 
-> 上游原文：[data/enum/eobjectchart.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eobjectchart.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eobjectchart.html)

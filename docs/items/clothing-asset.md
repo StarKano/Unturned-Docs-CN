@@ -56,4 +56,4 @@ translation:
 
 - <https://unturned.wiki.gg/wiki/Conflicting_Conscience>
 
-> 上游原文：[items/clothing-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/clothing-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/clothing-asset.html)

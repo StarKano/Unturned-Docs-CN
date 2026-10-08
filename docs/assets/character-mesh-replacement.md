@@ -30,4 +30,4 @@ translation:
 
 如果 `Has_Character_Material_Override` 为 true，游戏会加载 `Character_Material_Override` Material，替换 1P/3P Mesh 材质。若未设置，则默认使用当前装备 Shirt 和 Pants 的纹理。
 
-> 上游原文：[assets/character-mesh-replacement.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/character-mesh-replacement.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/character-mesh-replacement.html)

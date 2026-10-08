@@ -241,4 +241,4 @@ Gun 是字段最多的 Item 类型之一。制作新枪时，最稳妥的起点�
 - [Rocket Launcher（Unturned Wiki）](https://unturned.wiki.gg/wiki/Rocket_Launcher)
 - [Unity Rigidbody.AddForce API](https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html)
 
-> 上游原文：[items/gun-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/gun-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/gun-asset.html)

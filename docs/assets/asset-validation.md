@@ -29,4 +29,4 @@ translation:
 - **Texture NPOT**：绝大多数纹理应使用 2 的幂次尺寸，例如 `1×2`、`4×4`、`64×32`。GPU 更适合处理这些分辨率。Unity 的导入设置可以自动缩放到最接近的 2 的幂次尺寸。
 - **Audio Samples**：会查找并记录采样频率较高、时长较长的音频片段。一般来说，这类音频文件本身体积仍然较小。
 
-> 上游原文：[assets/asset-validation.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/asset-validation.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/asset-validation.html)

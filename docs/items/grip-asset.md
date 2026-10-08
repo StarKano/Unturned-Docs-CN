@@ -21,4 +21,4 @@ Grip 由 `ItemGripAsset` 创建，是可安装到 Ranged Weapon 的 Inventory It
 
 - **`Bipod`** Flag：配置后，所有改变 Stat 的属性只在玩家 Prone 时生效。
 
-> 上游原文：[items/grip-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/grip-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/grip-asset.html)

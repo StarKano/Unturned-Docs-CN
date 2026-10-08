@@ -18,4 +18,4 @@ translation:
 | `Craft` | 来源于合成。 |
 | `Nature` | 来源于自然/环境。 |
 
-> 上游原文：[data/enum/eitemorigin.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eitemorigin.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eitemorigin.html)

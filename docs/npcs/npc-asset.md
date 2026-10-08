@@ -90,4 +90,4 @@ NPC Character 可以绑定[条件](/npcs/conditions.html)，只在玩家满足�
 - **`Name`** `string`：Level Editor 中的 Object Name。
 - **`Character`** `string`：交互界面显示的 Character Name。
 
-> 上游原文：[npcs/npc-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/npc-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/npc-asset.html)

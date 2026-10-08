@@ -119,4 +119,4 @@ Collection 可以把多个投稿组合起来，便于用户发现和评价相似
 
 把版本拆成多个投稿可以让玩家分别投票；Outfit 拆件后，官方也能只接受其中一部分。还可以使用 OutfitAsset 生成整套预览图，用于 Collection 或相关物品的 Workshop 页面。
 
-> 上游原文：[assets/curated-items.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/curated-items.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/curated-items.html)

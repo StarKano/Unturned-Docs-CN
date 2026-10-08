@@ -31,4 +31,4 @@ Throwable 由 `ItemThrowableAsset` 创建，可由玩家投掷。在禁止武器
 - **`Strong_Throw_Force`** `float`：Strong Throw 力，单位 Newton，默认 1100。
 - **`Weak_Throw_Force`** `float`：Weak Throw 力，单位 Newton，默认 600。
 
-> 上游原文：[items/throwable-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/throwable-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/throwable-asset.html)

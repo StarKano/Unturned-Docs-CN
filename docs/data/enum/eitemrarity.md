@@ -20,4 +20,4 @@ translation:
 | `Legendary` | 4 | 传说，粉色。 |
 | `Mythical` | 5 | 神话，红色。 |
 
-> 上游原文：[data/enum/eitemrarity.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eitemrarity.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eitemrarity.html)

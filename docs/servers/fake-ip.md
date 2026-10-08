@@ -51,4 +51,4 @@ Fake IP 与 Steam 自带的 Favorites 和 History 列表并不兼容。作为替
 
 - <https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay>
 
-> 上游原文：[servers/fake-ip.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/fake-ip.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/fake-ip.html)

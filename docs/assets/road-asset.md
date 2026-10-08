@@ -74,4 +74,4 @@ Road Asset 让道路配置可以在不同关卡间复用，并开放过去无法
 
 可选的内置 Unity `PhysicMaterial` 名称，例如旧道路使用的 `Concrete_Static` 或 `Gravel_Static`。
 
-> 上游原文：[assets/road-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/road-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/road-asset.html)

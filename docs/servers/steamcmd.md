@@ -96,4 +96,4 @@ U3DS 自带的 `ExampleServer.sh` 是局域网示例。首次启动并看到 `Lo
 
 - [Hosting a Dedicated Server on Windows（YouTube）](https://www.youtube.com/watch?v=8axVrnSLlx4)
 
-> 上游原文：[servers/steamcmd.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/steamcmd.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/steamcmd.html)

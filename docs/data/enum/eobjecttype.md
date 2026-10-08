@@ -19,4 +19,4 @@ translation:
 | `NPC` | 3 | NPC Object。 |
 | `Decal` | 4 | Decal Object。 |
 
-> 上游原文：[data/enum/eobjecttype.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eobjecttype.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eobjecttype.html)

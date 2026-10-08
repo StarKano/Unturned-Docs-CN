@@ -30,4 +30,4 @@ Tag 虽然也有显示属性，但主要用途是充当多个资源共享的唯�
 
 - **`Name`** `string`：UI 显示名称。
 
-> 上游原文：[assets/tag-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/tag-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/tag-asset.html)

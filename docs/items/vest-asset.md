@@ -18,4 +18,4 @@ translation:
 
 没有独有字段。
 
-> 上游原文：[items/vest-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/vest-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/vest-asset.html)

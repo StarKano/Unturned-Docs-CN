@@ -46,4 +46,4 @@ translation:
 - <https://en.wikipedia.org/wiki/Pride_Month>
 - <https://en.wikipedia.org/wiki/Lunar_New_Year>
 
-> 上游原文：[data/enum/enpcholiday.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/enpcholiday.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/enpcholiday.html)

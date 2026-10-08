@@ -45,4 +45,4 @@ Consumable 可使用 [NPC Rewards](/npcs/rewards.html)。常见用途包括：
 
 字段前缀为 `Quest_`，例如 `Quest_Rewards 1`。
 
-> 上游原文：[items/consumeable-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/consumeable-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/consumeable-asset.html)

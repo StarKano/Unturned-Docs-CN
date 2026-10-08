@@ -21,4 +21,4 @@ Mask 由 `ItemMaskAsset` 创建，可由玩家和 Zombie 穿戴。继承 [GearAs
 - **`Earpiece`** Flag：允许使用 Walkie-Talkie 通讯监听。
 - **`FilterDegradationRateMultiplier`** `float32`：Deadzone 消耗 Gasmask Filter Quality 的速度倍率。例如 2=两倍快，0.5=一半速度。
 
-> 上游原文：[items/mask-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/mask-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/mask-asset.html)

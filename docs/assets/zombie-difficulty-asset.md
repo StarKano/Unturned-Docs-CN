@@ -57,4 +57,4 @@ Speciality_Health_Overrides
 - **`Boss_Elver_Stomper_Chance`**：Stomper Zombie Boss。
 - **`Boss_Kuwait_Chance`**：Evil Eye Zombie Boss。
 
-> 上游原文：[assets/zombie-difficulty-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/zombie-difficulty-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/zombie-difficulty-asset.html)

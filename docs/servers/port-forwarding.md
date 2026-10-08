@@ -58,4 +58,4 @@ ipconfig
 
 - <https://portforward.com/router.htm>
 
-> 上游原文：[servers/port-forwarding.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/servers/port-forwarding.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/servers/port-forwarding.html)

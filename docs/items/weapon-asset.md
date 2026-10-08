@@ -70,4 +70,4 @@ translation:
 爆炸武器通常不使用玩家/僵尸的肢体倍率，并且爆炸会忽略部分低威力 Invulnerable 限制。
 :::
 
-> 上游原文：[items/weapon-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/weapon-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/weapon-asset.html)

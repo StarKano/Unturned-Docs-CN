@@ -67,4 +67,4 @@ Structure 由 `ItemStructureAsset` 创建，可由玩家放置。部分结构件
 - <https://unturned.wiki.gg/wiki/Gameplay_config>
 - <https://unturned.wiki.gg/wiki/Blowtorch>
 
-> 上游原文：[items/structure-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/structure-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/structure-asset.html)

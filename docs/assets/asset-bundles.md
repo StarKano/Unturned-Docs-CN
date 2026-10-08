@@ -123,4 +123,4 @@ Content Bundle 过去主要用于地形、材质调色板和电台歌曲。
 
 虽然更推荐把旧资源正确迁移到 Master Bundle，但已有的 Content Bundle 可以直接复用：把 `*.content` 重命名为 `*.masterbundle`，然后按照前文的 Master Bundle 文件结构添加对应的 `MasterBundle.dat` 即可。
 
-> 上游原文：[assets/asset-bundles.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/asset-bundles.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/asset-bundles.html)

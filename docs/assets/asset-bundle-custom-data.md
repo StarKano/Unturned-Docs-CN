@@ -23,4 +23,4 @@ translation:
 4. 将 **Owner Workshop File Id** 设置为这个 Workshop 文件 ID。
 5. **（可选）** 查看日志确认 Unturned 是否正确读取了自定义数据。成功时会看到类似 `Loaded (your asset bundle name) custom data from (path)`；未找到时会看到 `Tried loading (your asset bundle name) optional custom data from (path)`。
 
-> 上游原文：[assets/asset-bundle-custom-data.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/asset-bundle-custom-data.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/asset-bundle-custom-data.html)

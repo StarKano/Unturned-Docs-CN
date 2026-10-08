@@ -42,4 +42,4 @@ translation:
 - **`Splatter_Temperature`** enum（`Acid`、`Burning`、`Warm`）：玩家站在效果中时施加的 Temperature 状态。
 - **`Splatter_Preload`** `byte`：预加载到 Effect Pool 的 Splatter 数量。
 
-> 上游原文：[assets/effect-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/effect-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/effect-asset.html)

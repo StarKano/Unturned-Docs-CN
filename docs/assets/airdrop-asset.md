@@ -15,4 +15,4 @@ translation:
 - **`Landed_Barricade`** [Asset Pointer](/data/asset-ptr.html)：落地后生成的 Barricade Storage 物品资源。生成的 Barricade Pivot 会与补给箱撞地瞬间的 Pivot 对齐。
 - **`Carepackage_Prefab`** [Master Bundle Pointer](/data/master-bundle-ptr.html)：下落过程中生成的模型。
 
-> 上游原文：[assets/airdrop-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/airdrop-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/airdrop-asset.html)

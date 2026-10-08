@@ -32,4 +32,4 @@ LOD_Size_Y -12
 LOD_Size_Z -1
 ```
 
-> 上游原文：[data/vector3.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/vector3.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/vector3.html)

@@ -34,4 +34,4 @@ GUID 不需要引号，因为 `*.dat` 把键和值作为字符串。
 "MyAssetPtr": { "GUID": "################################" }
 ```
 
-> 上游原文：[data/asset-ptr.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/asset-ptr.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/asset-ptr.html)

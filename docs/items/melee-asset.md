@@ -39,4 +39,4 @@ Weak / Strong Attack 都可授予 [Rewards](/npcs/rewards.html)：
 - `Weak_Attack_Quest_Rewards #`，字段前缀 `Weak_Attack_Quest_Reward_`。
 - `Strong_Attack_Quest_Rewards #`，字段前缀 `Strong_Attack_Quest_Reward_`。
 
-> 上游原文：[items/melee-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/melee-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/melee-asset.html)

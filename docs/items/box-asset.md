@@ -25,4 +25,4 @@ Box 由 `ItemBoxAsset` 创建，用于显示 Steam Economy Integration 的特定
 - **`Probability_Model`** enum（`Equalized`、`Original`）：控制是否显示与 Unbox Probability 相关 UI。
 - **`Contains_Bonus_Items`** `bool`：true 时增加 Bonus Item UI。
 
-> 上游原文：[items/box-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/box-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/box-asset.html)

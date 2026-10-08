@@ -93,4 +93,4 @@ Unturned 基础安装中附带多个 Unity Package，其中包含可供参考的
 
 制作自定义模型和动画需要 3D 建模工具，例如 Blender。Unturned 官方也使用 Blender，但并不强制要求只能使用它。
 
-> 上游原文：[about/getting-started.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/about/getting-started.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/about/getting-started.html)

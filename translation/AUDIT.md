@@ -1,4 +1,4 @@
-# 官方文档对照记录（2026-10-08）
+# 官方文档对照记录
 
 对照对象：[SmartlyDressedGames/Unturned-Docs `stable`](https://github.com/SmartlyDressedGames/Unturned-Docs/tree/stable)，提交 `e0e8bb4fd08847edb9173eef498e104bc5d2d4cb`。该提交与 `translation/upstream.json` 一致，官网 `/en/` 当前重定向至 `/en/stable/`。
 
@@ -19,7 +19,7 @@
 | `code-block` / `literalinclude` 示例块数量 | 无页面少于官方原文 |
 | 官方图片路径 | 无遗漏 |
 | 官方外部 URL | 无遗漏 |
-| RST 行内代码原样匹配 | 16 篇存在差异，逐项检查后属于写法转换：例如把 `*` 改写成 `×`、把 `÷` 改写成 `/`，把 `Type X` 合并为枚举说明，或省略示例路径前的 `...` |
+| RST 行内代码原样匹配 | 15 篇存在差异，逐项检查后属于写法转换：例如把 `*` 改写成 `×`、把 `÷` 改写成 `/`，把 `Type X` 合并为枚举说明，或省略示例路径前的 `...` |
 
 该脚本只检查结构锚点，**不等于逐句语义一致性证明**。尤其是长篇字段页，所有字段名都出现，也可能有说明被压缩。`translation.status: translated` 表示已有中文初译，不能作为逐段校对完成标记。
 
@@ -37,3 +37,17 @@
 - 本地开发服务可启动；抽查物品、服务器和载具页面可访问。
 - Markdown 内部 `.html` 路径扫描：0 个缺失目标。
 - `git diff --check`：无空白错误。VuePress 提示 `vuepress` / `@vuepress/bundler-vite` 安装版本为 rc.30，而主题建议 rc.31；当前构建仍成功。
+
+## 2026-10-09：官方站点来源复核
+
+以 [Unturned 官方 stable 文档](https://docs.smartlydressedgames.com/en/stable/)为页面来源，逐篇检查 `translation/status.json` 的 159 项：
+
+1. 本地页面的 `translation.source` 必须与映射中的 `.rst` 路径一致。
+2. 官方页面 `/<源路径>.html` 和官方原文 `/_sources/<源路径>.rst.txt` 必须均可访问。目录页使用 `index.html`，不使用猜测的目录 URL。
+3. 官方原文与仓库中固定的上游提交内容逐篇比较，换行差异归一化后 **159/159 相同**。
+
+验证命令：`node translation/verify_official_sources.mjs <上游检出路径>`。结果为官方页面 **159/159**、官方 RST **159/159**、本地来源元数据 **159/159**、上游文本一致 **159/159**。全部页面底部的“上游原文”现链接到已验证的官网页面，可用 `node translation/sync_official_links.mjs --check` 静态复核。
+
+针对[服务器搭建原文](https://docs.smartlydressedgames.com/en/stable/servers/server-hosting.html)重新核对并补齐步骤、命令示例、Workshop 配置示例和路径写法；地图表的 26 个名称与 ID 与上游 CSV 一致。逐篇复查 18 篇服务器正文后，服务器托管规则补齐近期变更与 FAQ；服务器浏览器筛选规则补齐完整规则示例和匹配语义；Bookmark Host 补齐历史兼容性和官方对示例插件的说明；GSLT、Server Code、OpenMod、Rocket 页面补齐遗漏的配置方式、行为或来源细节。
+
+本轮未重新运行站点构建。静态检查结果：官网页面、RST 原文及本地来源元数据均为 159/159；站内页面与图片路径断链 0 个；官方来源页脚 159/159；`git diff --check` 无空白错误。

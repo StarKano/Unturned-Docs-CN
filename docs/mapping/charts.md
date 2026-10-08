@@ -35,4 +35,4 @@ Object 也可以配置为从 `Height_Strip` 的 Water 像素 (0,0) 或 Ground �
 - **(15, 0)**：Large Object；Object 可使用。
 - **(16, 0)**：Medium Object；Object 可使用。
 
-> 上游原文：[mapping/charts.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/mapping/charts.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/mapping/charts.html)

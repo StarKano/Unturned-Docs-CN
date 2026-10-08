@@ -53,4 +53,4 @@ translation:
 - **`Name`** `string`：UI 中资源名称。
 - **`Interact`** `string`：使用 `Forage` Flag 时覆盖交互提示文字。
 
-> 上游原文：[assets/resource-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/resource-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/resource-asset.html)

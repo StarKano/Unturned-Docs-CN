@@ -31,4 +31,4 @@ Reward 是否发放由 [Conditions](/npcs/conditions.html) 决定，具体奖励
 快速测试某个 Reward List。
 :::
 
-> 上游原文：[npcs/rewards-list-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/rewards-list-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/rewards-list-asset.html)

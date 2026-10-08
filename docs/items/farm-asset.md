@@ -41,4 +41,4 @@ Farm / Plant 由 `ItemFarmAsset` 创建，是可放置、会成长并可收获�
 
 - <https://unturned.wiki.gg/wiki/Skills>
 
-> 上游原文：[items/farm-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/farm-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/farm-asset.html)

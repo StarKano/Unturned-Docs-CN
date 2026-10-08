@@ -139,4 +139,4 @@ Fork 维护者也可以自行制定服务器规则。为某个 Fork 托管服务
 
 - <https://opensource.org/>
 
-> 上游原文：[u3-sdk/faq.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/u3-sdk/faq.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/u3-sdk/faq.html)

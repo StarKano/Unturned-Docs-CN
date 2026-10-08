@@ -26,4 +26,4 @@ translation:
 
 完整标签见 [Unity Styled Text](https://docs.unity3d.com/2018.3/Documentation/Manual/StyledText.html)。
 
-> 上游原文：[data/rich-text.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/rich-text.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/rich-text.html)

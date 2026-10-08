@@ -18,4 +18,4 @@ Grower（Growth Supplement）由 `ItemGrowerAsset` 创建，可立即完成 [Far
 
 没有独有字段。
 
-> 上游原文：[items/grower-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/grower-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/grower-asset.html)

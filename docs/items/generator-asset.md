@@ -23,4 +23,4 @@ Generator 由 `ItemGeneratorAsset` 创建，是可放置电源。玩家可用 [F
 - **`Wirerange`** `float` [0,256]：供电半径（米）。
 - **`Burn`** `float`：消耗 1 单位 Fuel 需要的秒数。
 
-> 上游原文：[items/generator-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/generator-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/generator-asset.html)

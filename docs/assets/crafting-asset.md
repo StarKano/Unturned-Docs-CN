@@ -18,4 +18,4 @@ Crafting Asset 用于在 Item Asset 之外定义蓝图。这样可以更方便�
 
 使用与 Item 相同的 **`Blueprints`** 属性，但这里**只支持 V2 蓝图格式**。
 
-> 上游原文：[assets/crafting-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/crafting-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/crafting-asset.html)

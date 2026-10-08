@@ -21,4 +21,4 @@ Key 由 `ItemKeyAsset` 创建，主要用于 Steam Economy，而不是普通游�
 
 - **`Exchange_With_Target_Item`** Flag：在 UI 中加入“对另一个 Steam Economy Item 使用此 Economy Item”的元素。
 
-> 上游原文：[items/key-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/key-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/key-asset.html)

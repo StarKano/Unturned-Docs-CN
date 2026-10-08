@@ -167,4 +167,4 @@ Spawnpoint 必须位于 Navmesh。
 
 Localization Key 必须使用当前 Rewards List Prefix，例如 Interactable Object 使用 `Interactability_Reward_#`。
 
-> 上游原文：[npcs/rewards.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/rewards.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/rewards.html)

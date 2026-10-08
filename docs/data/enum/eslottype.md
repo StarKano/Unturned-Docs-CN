@@ -19,4 +19,4 @@ translation:
 | `Tertiary` | Tertiary 槽，仅 NPC 使用。 |
 | `Any` | 任意/全部 Item Slot；既可放槽位，也可 Hotkey。 |
 
-> 上游原文：[data/enum/eslottype.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/enum/eslottype.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/enum/eslottype.html)

@@ -15,4 +15,4 @@ translation:
 
 雨默认 Mask 为 `1`（`0b01`），雪为 `2`（`0b10`）。Ambience Volume 用 `3`（`0b11`）可同时允许雨雪，用 `0`（`0b00`）则两者都不允许。
 
-> 上游原文：[data/bitmask.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/data/bitmask.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/data/bitmask.html)

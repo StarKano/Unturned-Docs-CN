@@ -27,4 +27,4 @@ Quest 有两组 Reward List：
 - **`Name`** `string`：UI 中的 Quest Name。
 - **`Description`** [Rich Text](/data/rich-text.html)：UI 中 Quest Description。
 
-> 上游原文：[npcs/quest-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/npcs/quest-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/npcs/quest-asset.html)

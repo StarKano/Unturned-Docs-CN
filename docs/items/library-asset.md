@@ -22,4 +22,4 @@ Library 由 `ItemLibraryAsset` 创建，是可放置的 Experience Point Storage
 - **`Capacity`** `uint32`：最多存储多少 Experience。
 - **`Tax`** `byte`：存入时收取的百分比税率，默认 0。
 
-> 上游原文：[items/library-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/library-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/library-asset.html)

@@ -21,4 +21,4 @@ translation:
 - **`Height`**：Storage 垂直 Row 数。
 - **`Width`**：Storage 水平 Column 数。
 
-> 上游原文：[items/bag-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/bag-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/bag-asset.html)

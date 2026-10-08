@@ -57,4 +57,4 @@ translation:
 - **`Link_URL`** `string`：点击外部链接按钮时在浏览器打开的可选 URL。
 - **`Is_Loop`** `bool`：是否循环播放。循环音乐**不推荐**使用 MP3。
 
-> 上游原文：[assets/stereo-song-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/stereo-song-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/stereo-song-asset.html)

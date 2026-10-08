@@ -75,4 +75,4 @@ Default、TransparentFX、Ignore Raycast、Water、UI、Logic、Enemy、Viewmode
 - **Tire**：Wheel Collider Layer 被用作底层 Query Mask。
 - **Trap**
 
-> 上游原文：[assets/layers.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/assets/layers.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/assets/layers.html)

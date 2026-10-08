@@ -85,4 +85,4 @@ Barricade 由 `ItemBarricadeAsset` 创建，可以由玩家放置，也可以在
 - <https://unturned.wiki.gg/wiki/Blowtorch>
 - <https://unturned.wiki.gg/wiki/Small_Glass_Plate>
 
-> 上游原文：[items/barricade-asset.rst](https://github.com/SmartlyDressedGames/Unturned-Docs/blob/stable/items/barricade-asset.rst)
+> 上游原文：[Unturned 官方文档](https://docs.smartlydressedgames.com/en/stable/items/barricade-asset.html)
